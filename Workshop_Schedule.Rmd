@@ -1,0 +1,486 @@
+---
+title: "Microbial Workshop"
+output: flexdashboard::flex_dashboard
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Logistics
+=====================================  
+
+Column 1 
+--------------------------------------------------
+
+###Important Details
+
+<font size="5">Do not drink</font> untreated tap water in Bocas. There are special taps at the station that deliver clean drinking water. <font size="5">Bring a water bottle</font>.
+
+<font size="5">Cash</font>  rules in Bocas and there is only one ATM on the island. The currency in Panama is the USD. 
+
+###Climate 
+
+The climate in Bocas is mild. You rarely need long sleeves and it doesn't really get too hot. That said,  many of the labs at the station can be quite cool so you may want to pack a hoodie or something else to keep you comfortable when we are inside. Oh, and it <font size="5">rains</font>, sometime a lot. So plan accordingly or just plan on getting wet.
+
+###Health & Safety in Bocas
+
+Petty crime is the biggest safety concern in Bocas---be mindful of your belongings and you should be fine. Well that and taxis drive entirely too fast. There are many free roaming dogs around town but they are pretty mellow. Something is always under construction so mind your step when you are out and about. Otherwise Bocas is generally a  peaceful place.
+
+Column 1 
+--------------------------------------------------
+
+###In the Field
+
+We are planning to spend some time in the field exploring local sites. We will be in <font size="5">boats</font>, <font size="5">snorkeling</font>, and <font size="5">scrambling</font> around on shore (possibly in mangroves). If you are not interested in participating in these activities, please let one of the organizers know and we will arrange for an equally awesome alternative activity. To ensure your comfort and enjoyment please consider bringing the following items:
+
+* Mask and snorkel
+* Hat
+* Water bottle
+* Sunscreen
+* Crocs, dive booties, Natives, old sneaks
+* Sunglasses
+* SPF 50 rash guard or other arm/shoulder protection
+* Swim gear
+* Camera
+* Flip flops/saddles
+
+If you don't have some of these items, like a mask and snorkel, don't worry about it. We will sort you out. 
+
+Column 1
+--------------------------------------------------
+
+###Cuisine & Local Flavors
+
+Bocas and the surrounding islands are  home to many <font size="5">cacao</font> farms and chocolate makers. You can find cacao in many different forms including bars, nibs, and raw beans. Be sure to talk to **Luis	Mejia** (one of the workshop participants) about *Theobroma cacao*---he is an expert on this amazing plant.
+
+If you like spicy there is some awesome local hot sauce made with <font size="5">aji chombo</font> (*Capsicum chinense*), a fiery Panamanian pepper similar in appearance to a habanero. Typical Panamanian food in not spicy but most restaurants will have some variation of hot sauce made with these peppers that you can slather on your food. 
+
+For all intents and purposes, Panama has two national <font size="5">beers</font>---Panama and Balboa. There are also two different local spirits. Seco Herrerano, distilled from sugar cane, is often mixed with tropical fruits or milk (known as "seco con vaca"). Use at your own risk. More well known is Panama de facto national rum, Ron Abuelo, which is available in several ages. If you enjoy rum it is definitely worth a try. 
+
+Fruit and veggies
+
+
+
+
+Arrivals
+=====================================  
+
+Column 1
+--------------------------------------------------
+
+### **Wed Nov 28**
+
+**1800**  
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Benedict Yuen
+* Laetitia Wilkins
+
+### **Sat Dec 1**
+
+**0730**
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Aaron O'Dea
+
+Column 2
+--------------------------------------------------
+
+### **Sun Dec 2**
+
+**0730**
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Maggie Soggin 
+
+**1530**
+
+<font color="red"><center>**2 Vehicles**</center></font>
+
+* Tiago	Pereira
+* Raquel	Peixoto
+* David	Coil
+* Jonathan	Eisen
+
+**1800**
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Emmett Duffy
+* Allen 	Herre
+
+Column 3
+--------------------------------------------------
+
+### **Mon Dec 3**
+
+**0730**
+
+<font color="red"><center>**3 Vehicles**</center></font>
+
+* Murat	Eren
+* Lizzy	Wilbanks
+* Bob	Thacker
+* Doug	Rasher
+* Koty	Sharp
+* Luis	Mejia
+* Harilaos	Lessios
+* Rachel 	Collin
+
+**1000**
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Ross Robertson
+* Jennifer  McMillan
+* Jon Kaye
+
+**1800**
+
+<font color="red"><center>**Taxi to Dinner**</center></font>
+
+* Amy	Apprill
+
+Column 4
+--------------------------------------------------
+
+### **Tue Dec 4**
+
+**0730**
+
+<font color="red"><center>**1 Vehicle or Taxi**</center></font>
+
+* Rebecca	Vega
+
+Departures
+=====================================  
+
+Column 1
+--------------------------------------------------
+
+### **Tue Dec 4**
+
+**0740**  
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Harilaos	Lessios
+
+### **Wed Dec 5**
+
+**1010**  
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Rachel 	Collin
+
+### **Thur Dec 6**
+
+**0740**  
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Ross	Robertson
+
+Column 1
+--------------------------------------------------
+
+### **Fri Dec 7**
+
+**0740**  
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Emmett	Duffy
+
+**1540**
+
+<font color="red"><center>**3 Vehicles**</center></font>
+
+* Murat	Eren
+* Bob	Thacker
+* Doug	Rasher
+* Koty	Sharp
+* Rebecca	Vega
+* Amy	Apprill
+* Jennifer 	McMillan
+* Jon 	Kaye
+
+Column 1
+--------------------------------------------------
+
+### **Sat Dec 8**
+
+**0740**  
+
+<font color="red"><center>**3 Vehicles**</center></font>
+
+* Lizzy	Wilbanks
+* Raquel	Peixoto
+* David	Coil
+* Jonathan	Eisen
+* Tiago	Pereira
+* Aaron	O'Dea
+* Allen 	Herre
+* Luis	Mejia
+
+**1010**
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Maggie	Soggin 
+
+Column 1
+--------------------------------------------------
+
+### **Sun Dec 9**
+
+**1540**  
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Benedict 	Yuen
+
+
+### **Wed Dec 12**
+
+**0740**  
+
+<font color="red"><center>**1 Vehicle**</center></font>
+
+* Laetitia	Wilkins
+* Matt Leray
+
+### Never leaving
+
+* Jarrod
+
+Room Assignments
+=====================================  
+
+Column 1
+--------------------------------------------------
+
+### **Research Dorm**
+####Room #1 
+* Lizzy Wilbanks & Maggie Soggin
+
+####Room #2 
+* Koty Sharp & Jenny McMillan
+
+####Room #3 
+* Allen Herre & Tiago Pereira
+
+####Room #5 
+* Amy Apprill & Rebecca Vega
+
+####Room #6 
+* Bob Thaker & Luis Mejia
+
+####Room #7 
+* Laetitia Wilkins & Raquel Peixoto
+
+####Room #8
+* Murat Eran & Doug Rasher
+
+Column 1
+--------------------------------------------------
+ 
+### **Student Dorm**
+
+####Room #1
+
+* Matt Leray & Aaron O'Dea & Benedict Jinghao Yuen  
+
+*Aaron & Benedict move to Hoch Room #2 when Rachel leaves on Wed Dec 5. Matt gets to stay in student dorm.*
+
+####Room #2
+
+* Haris Lessios & Ross Robertson & David Coil
+
+Column 1
+--------------------------------------------------
+ 
+### **Cofrin House**
+
+####Room #1
+* Jon Kaye
+
+####Room #2
+* Jonathan Eisen 
+
+Column 1
+--------------------------------------------------
+ 
+### **Hoch House**
+
+####Room #1
+* William Wcislo & Emmett Duffy
+
+####Room #2
+* Rachel Collin
+
+
+Monday
+=====================================  
+
+Column 1
+--------------------------------------------------
+
+### **Shakedown**
+
+####**Overview**
+
+####**Schedule**
+
+####0700-0830 Breakfast 
+
+####0900 
+* Station Overview
+
+
+* Laetitia Wilkins
+* Matt Leray
+* Jarrod 
+
+* Emmett Duffy
+* Allen 	Herre
+* Aaron O'Dea
+* Jonathan Eisen
+
+
+* Haris Lessios
+* Rachel 	Collin Biodiversity of Bocas and Taxonomy Training.
+
+
+####1000-1030 Break
+
+
+####1200--1330 
+Lunch
+
+
+
+* Ross Robertson environmental and biotic differences across the central American Isthmus, and a short introduction to Sea Chubs
+* Jon Kaye
+
+####1430-1500 Break
+
+####1500--1630 Lightning talks
+
+ 5 minutes/1-2 slides/hold questions until the end.
+
+1. Benedict Yuen
+2. Lizzy	Wilbanks
+3. Bob	Thacker
+4. Maggie Soggin
+5. Koty Sharp
+6. Doug	 Rasher
+7. Tiago	Pereira
+8. Raquel	Peixoto
+9. Luis Mejia
+10. Meren
+11. David	Coil
+
+
+
+
+####1700- Happy Hour & Dinner in Town
+
+We will all take a busito to town. Jarrod will get Amy from the Airport at 1800. 
+
+
+
+
+
+
+Tuesday
+=====================================  
+
+Column 2
+--------------------------------------------------
+
+### **Topic 1: Defining & Sampling a Microbiome**
+
+####**Overview**
+
+In the literature, core microbiomes are defined as assemblages of microbial taxa that are consistently found across individuals of the same species. They form intimate and specialized relationships with their host. In some cases, they are believed to allow their host to use a wider range of habitats (Hernandez-Agreda et al. 2016).
+ 
+Discussion: Are some microbial taxa consistently found across hosts of a community? Are they functionally important or opportunistic taxa? Can some microbes be considered foundation species (i.e., they play an important functional role for many marine hosts)? How to characterize the core microbiome of all hosts within a community (i.e., methodological considerations for comparative approaches)? How do marine hosts acquire this core community? How to account for environmental (oceanographic) factors impacting this core or masking the detection of the core community?
+
+####**Schedule**
+
+####0700-0830 Breakfast
+
+####0900 
+
+
+####1800- Dinner
+
+Wednesday
+=====================================  
+
+Wednesday
+--------------------------------------------------
+
+### **Topic 2: From Defining Patterns to Predicting Drivers of Diversity**
+
+####**Overview**
+
+
+
+The magnitude and frequency of environmental stressors are impacting the dynamics of host microbe interactions. The breakdown of mutualistic relationships can cascade through entire ecosystems with devastating effects on biodiversity and ecological services. Emerging evidence suggests that a set of environmental conditions must be met to initiate the switch from beneficial to detrimental interactions. For example, temperature anomalies beyond some number of days lead to the exclusion of zooxanthellae by host corals. In the case of corals, a well-studied system, symbionts consume too much sugar and get expelled from the host when temperature rises. There is a fine line between mutualism and parasitism.
+Existing studies of microbial communities on marine hosts highlight in most cases: 1) a great diversity of microbial partners (i.e., one host - one microbe such as interactions highlight the squid-vibio model are not the norm); 2) some hosts have much more diverse microbiomes than others (e.g., within sponges and corals). The significant of these large differences in diversity is not well understood but microbial diversity (both alpha and beta) might have an import role in host fitness and stability in changing environmental conditions.
+
+Discussion: How to identify the tipping point from symbiosis to dysbiosis in host-associated microbiomes (beyond corals-zooxanthellae)? How to differentiate microbial imbalance from natural variations in microbiomes (e.g., driven by seasonality, changes in diet and life history events)? What is a healthy microbiome? Highlight the importance of characterizing long-term temporal changes in host-associated microbiomes. We can also discuss the importance of building models of host-microbe interactions, like model of ecosystem phase shifts. What needs to be known about the system to build these models? What experiments should be conducted to identify tipping points and on what model systems?
+Is a higher richness of microbes beneficial to a host? Do diverse associations promote host fitness and stable holobionts in changing environmental conditions? Borrow concepts of literature on biodiversity-ecosystem functions for metazoans: How is the biodiversity within an ecosystem related to the ecosystem's functions? For microbes, it would translate into: How is the biodiversity of host-associated microbes related to the fitness of a host?
+
+####**Schedule**
+
+####0700-0830 Breakfast
+
+####0900 
+
+####1800- Dinner
+
+Thursday
+=====================================  
+
+Column 4
+--------------------------------------------------
+
+### **Topic 3: From Predicting Patterns to Conserving Diversity**
+
+####**Overview**
+
+There is growing concern about the resilience of marine ecosystems. For example, corals, the foundation species of coral reefs, may not be able to acclimate or adapt to ongoing environmental changes. This has stimulated debates about how methods of assisted evolution could be used to help marine ecosystems to retain ecosystem services.
+ 
+Discussion: The inoculation of bacterial communities or strains that can promote the resistance of hosts to stress. Which microbial symbionts influence the host phenotype/fitness (e.g., core microbes, specific strains absent in wild populations?)? At what scale should these measures be taken? And what are the precautions to be taken?
+
+####**Schedule**
+
+####0700-0830 Breakfast
+
+####0900 
+
+####1800- Dinner
+
+Friday
+=====================================  
+
+Column 5
+--------------------------------------------------
+
+### **Synthesis**
+
+####**Overview**
+
+####**Schedule**
+
+####0700-0830 Breakfast
+
+####0900 
