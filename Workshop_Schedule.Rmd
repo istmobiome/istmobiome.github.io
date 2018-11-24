@@ -39,7 +39,7 @@ bocas <- knitr::include_graphics("Bocas_Map.svg")
 bocas
 ```
 
-#####Venue
+###Venue
 The workshop will take place at the Bocas del Toro field station, Smithsonian Tropical Research Institute, Republic of Panama. Bocas del Toro is an archipelago of six main islands and hundreds of mangrove islands of varying size. Dominant shallow water benthic habitats include the red mangrove (*Rhizophora mangle*), seagrass (mainly *Thalassia testudinum*), and coral (e.g., *Porites* spp. &  *Agaricia* spp.). The station is equipped with eight field boats, two field trucks, a full dive facility, numerous lab spaces, microscopy equipment, a seawater facility, and experimental tanks. There are two houses, eight research dorms, a student dorm, and a common kitchen/dinning hall. In addition to primary research activities that encompass both marine and terrestrial systmes, the station hosts  undergraduate and graduate courses as well as taxonomy workshops. 
 
 Transportation, accommodation, and meals will be provided to all participants. Any questions or inquiries about the logistics can be addressed to Fabiola Jenkins (JenkinsF@si.edu) or Jarrod Scott (scottjj@si.edu). 
@@ -379,6 +379,14 @@ General discussion How do we progress from surveying the microbiome to modeling 
 
 
 ####1800- Dinner
+ 
+ After dinner social mixing, relaxing, resting, individual time.
+
+####19:30
+
+For those interested Laetitia will organize a voluntary session on modeling the null model of microbial colonization of a host that night.
+
+We need a theoretical framework that simulates how a Null hypothesis would look like. In the case of microbiomes this is a distribution of microorganisms (in a simple case just 16S reads) on hosts that does not follow any form of coevolution with the host. Just random assemblages that follow rules of colonization, migration, drift and mutation.
 
 Column 4
 --------------------------------------------------
