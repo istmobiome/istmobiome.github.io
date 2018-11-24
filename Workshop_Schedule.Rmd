@@ -33,7 +33,7 @@ The result of these discussions will be summarized into a manuscript that will b
 Column 1 
 --------------------------------------------------
 
-```{r insert_itol, out.width = "90%"}
+```{r insert_itol, out.width = "90%", fig.align = "center"}
 # This is to include a static image
 bocas <- knitr::include_graphics("Bocas_Map.svg")
 bocas
