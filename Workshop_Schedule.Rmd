@@ -6,6 +6,8 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(knitr)
+library(kableExtra)
 ```
 
 Introduction
@@ -78,6 +80,8 @@ Column 1
 
 ###Stuff to Bring
 
+####In the field
+
 We are planning to spend some time in the field exploring local sites. We will be in <font size="5">boats</font>, <font size="5">snorkeling</font>, and <font size="5">scrambling</font> around on shore (possibly in mangroves). If you are not interested in participating in these activities, please let one of the organizers know and we will arrange for an equally awesome alternative activity. To ensure your comfort and enjoyment please consider bringing the following items:
 
 * Mask and snorkel
@@ -91,11 +95,11 @@ We are planning to spend some time in the field exploring local sites. We will b
 * Camera
 * Flip flops/saddles
 
-If you don't have some of these items, like a mask and snorkel, don't worry about it. We will sort you out. 
+**If you don't have some of these items**, like a mask and snorkel, don't worry about it. We will sort you out---just let us know what you need ahead of time. 
 
 ####Other items
 
-Each dorm room has lockers for your personal effects. Please bring a <font size="5">Pad lock</font> if you would like to use a locker.
+Each dorm room has lockers for your personal effects. Please bring a <font size="4">Pad lock</font> if you would like to use a locker.
 
 Column 1
 --------------------------------------------------
@@ -121,7 +125,7 @@ Column 1
 ```{r attendee_table}
 
 attend <- read.csv("attendees.txt", header = TRUE, sep = ",", check.names = FALSE)
-knitr::kable(attend)
+knitr::kable(attend) %>% kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
 
 
