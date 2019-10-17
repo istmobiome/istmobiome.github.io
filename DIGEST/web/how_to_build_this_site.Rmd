@@ -15,7 +15,16 @@ clone the repo `git clone https://github.com/istmobiome/istmobiome.github.io`.
 check the status `git status` and make sure it is clear.
 build site 
 
-`nano .gitignore`
+make a gitignore file (see below) to avoid uploading all the useless crap `nano .gitignore`
+
+run `git status` to see whats what. 
+run `git pull` to make sure everything is up-to-date.
+then run `git add . --dry-run` to see what will be added. DO NOT EVER run `git add --all` before checking that you are happy with this...
+
+`git add --all` to stage
+`git commit -a  -m "initial DIGEST website commit"`
+`git push`
+
 
 
 

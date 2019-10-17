@@ -39,6 +39,7 @@ DATA/
 
 # DIGEST web files
 web.Rproj
+*.Rmd
 
 # knitr and R markdown default cache directories
 *_cache/
