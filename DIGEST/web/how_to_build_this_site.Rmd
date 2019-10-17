@@ -1,3 +1,31 @@
+---
+title: "How I made this site"
+---
+
+ADD CONTENT HERE
+
+
+create `.gitignore` file
+if you type `git status` and its a mess do this first
+
+
+### Git
+
+clone the repo `git clone https://github.com/istmobiome/istmobiome.github.io`.
+check the status `git status` and make sure it is clear.
+build site 
+
+`nano .gitignore`
+
+
+
+
+in Rstudio
+
+`rmarkdown::render_site()`
+
+
+```
 ## General files to ignore ##
 #############################
 # History files
@@ -47,5 +75,4 @@ web.Rproj
 
 # Files from Website rendering in _site/
 site_libs/
-
-
+```
