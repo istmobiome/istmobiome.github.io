@@ -1,0 +1,64 @@
+## General files to ignore ##
+#############################
+# History files
+.Rhistory
+.Rapp.history
+.DS_Store
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+.Rproj.user
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build or archives
+*.tar.gz
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+
+
+# Data for processing scripts
+DIGEST/web/DATA/
+DIGEST/web/*_read_changes.txt
+
+
+# DIGEST web files
+web.Rproj
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+*_files/
+
+# Files from Website rendering in _site/
+/DATA/
+*_read_changes.txt
+*_files/
+/site_libs/
+
+
