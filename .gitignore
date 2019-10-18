@@ -46,7 +46,8 @@ web.Rproj
 /cache/
 *_files/
 /_site/
-
+/web/
+/DIGEST/
 # Files from Website rendering in _site/
 site_libs/
 
