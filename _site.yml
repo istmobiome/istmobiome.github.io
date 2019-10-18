@@ -1,5 +1,4 @@
 name: "DIGEST"
-baseurl: "https://istmobiome.github.io/"
 output_dir: '.'
 navbar:
   title: "DIGEST"
