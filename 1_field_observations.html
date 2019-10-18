@@ -535,7 +535,7 @@ nmds &lt;- metaMDS(all_traits_std, distance = &quot;bray&quot;, k = 3, trymax = 
                    NMDS2 = nmds$points[, 2],
                    MDS3 = nmds$points[, 3])
 stressplot(nmds)</code></pre>
-<p><img src="1_field_observations_files/figure-html/diet_NMDS_mods-1.png" width="672" /></p>
+<p><img src="figure-html/diet_NMDS_mods-1.png" width="672" /></p>
 <p>Finally, we <strong>generate the environmental vectors</strong> (correlations of variables with ordination axes).</p>
 <pre class="r"><code>set.seed(1)
 vec_sp &lt;- envfit(nmds$points, all_traits[, 3:18],
@@ -590,7 +590,7 @@ spp_scrs_algae &lt;- subset(spp_scrs_sub,
 fig_1 &lt;- fig_1 + coord_fixed()
 fig_1</code></pre>
 <div class="figure" style="text-align: center">
-<img src="1_field_observations_files/figure-html/mean_bite_figure-1.png" alt="Figure 1: Bray curtis distance on all traits; stress = 0.04" width="90%" />
+<img src="figure-html/mean_bite_figure-1.png" alt="Figure 1: Bray curtis distance on all traits; stress = 0.04" width="90%" />
 <p class="caption">
 Figure 1: Bray curtis distance on all traits; stress = 0.04
 </p>

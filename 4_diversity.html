@@ -655,7 +655,7 @@ fig2A &lt;- fig2A + theme(axis.line = element_line(colour = &quot;black&quot;),
 
 fig2A</code></pre>
 <div class="figure" style="text-align: center">
-<img src="4_diversity_files/figure-html/plot_bar_fig2A-1.png" alt="Figure 2A" width="672" />
+<img src="figure-html/plot_bar_fig2A-1.png" alt="Figure 2A" width="672" />
 <p class="caption">
 Figure 2A
 </p>
@@ -897,7 +897,7 @@ fig2B &lt;- fig2B + scale_colour_manual(values = samp_pal) +
 #fig2B &lt;- fig2B + theme_bw() + geom_point(size = 2.5, aes(color = Sp)) + 
 fig2B</code></pre>
 <div class="figure" style="text-align: center">
-<img src="4_diversity_files/figure-html/alpha_div_fig_2B-1.png" alt="Figure 2B" width="672" />
+<img src="figure-html/alpha_div_fig_2B-1.png" alt="Figure 2B" width="672" />
 <p class="caption">
 Figure 2B
 </p>
@@ -959,7 +959,7 @@ shan_by_weight &lt;- ggscatter(host_summary, x = &quot;weight&quot;, y = &quot;S
           color = &quot;host_genus&quot;, palette = samp_pal, legend = &quot;top&quot;)
 
 grid.arrange(shan_by_length, shan_by_weight, ncol = 2)</code></pre>
-<p><img src="4_diversity_files/figure-html/run_correlations-1.png" width="672" /></p>
+<p><img src="figure-html/run_correlations-1.png" width="672" /></p>
 <pre class="r"><code>#ggscatter(host_summary, x = &quot;total_gut_length&quot;, y = alphametric, 
 #          add = &quot;reg.line&quot;, conf.int = FALSE, 
 #          cor.coef = TRUE, cor.method = &quot;spearman&quot;,
@@ -988,7 +988,7 @@ grid.arrange(shan_by_length, shan_by_weight, ncol = 2)</code></pre>
 ord.nmds.jsd_slv &lt;- ordinate(ps_slv_work_filt, method = &quot;NMDS&quot;, 
                              distance = &quot;jsd&quot;)
 stressplot(ord.nmds.jsd_slv)</code></pre>
-<p><img src="4_diversity_files/figure-html/run_nmds-1.png" width="672" /></p>
+<p><img src="figure-html/run_nmds-1.png" width="672" /></p>
 <pre><code>## 
 ## Call:
 ## metaMDS(comm = ps.dist) 
@@ -1029,7 +1029,7 @@ fig2C &lt;- fig2C + coord_fixed()
 fig2C &lt;- fig2C  + stat_ellipse(type = &quot;t&quot;) + theme_bw()
 fig2C</code></pre>
 <div class="figure" style="text-align: center">
-<img src="4_diversity_files/figure-html/beta_div_fig_2C-1.png" alt="Figure 2C" width="672" />
+<img src="figure-html/beta_div_fig_2C-1.png" alt="Figure 2C" width="672" />
 <p class="caption">
 Figure 2C
 </p>

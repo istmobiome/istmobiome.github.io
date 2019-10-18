@@ -639,28 +639,28 @@ fnRs_Z3 &lt;-file.path(path_Z3, fnRs_Z3)</code></pre>
 <pre class="r"><code>plotQualityProfile(fnFs_X1[9:11])</code></pre>
 <pre><code>## Scale for &#39;y&#39; is already present. Adding another scale for &#39;y&#39;, which
 ## will replace the existing scale.</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_quality_scores_forward-1.png" width="672" /></p>
+<p><img src="figure-html/plot_quality_scores_forward-1.png" width="672" /></p>
 <pre class="r"><code>plotQualityProfile(fnFs_Y2[9:11])</code></pre>
 <pre><code>## Scale for &#39;y&#39; is already present. Adding another scale for &#39;y&#39;, which
 ## will replace the existing scale.</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_quality_scores_forward-2.png" width="672" /></p>
+<p><img src="figure-html/plot_quality_scores_forward-2.png" width="672" /></p>
 <pre class="r"><code>plotQualityProfile(fnFs_Z3[2:4])</code></pre>
 <pre><code>## Scale for &#39;y&#39; is already present. Adding another scale for &#39;y&#39;, which
 ## will replace the existing scale.</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_quality_scores_forward-3.png" width="672" /></p>
+<p><img src="figure-html/plot_quality_scores_forward-3.png" width="672" /></p>
 <p><strong>Reverse</strong></p>
 <pre class="r"><code>plotQualityProfile(fnRs_X1[9:11])</code></pre>
 <pre><code>## Scale for &#39;y&#39; is already present. Adding another scale for &#39;y&#39;, which
 ## will replace the existing scale.</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_quality_scores_reverse-1.png" width="672" /></p>
+<p><img src="figure-html/plot_quality_scores_reverse-1.png" width="672" /></p>
 <pre class="r"><code>plotQualityProfile(fnRs_Y2[9:11])</code></pre>
 <pre><code>## Scale for &#39;y&#39; is already present. Adding another scale for &#39;y&#39;, which
 ## will replace the existing scale.</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_quality_scores_reverse-2.png" width="672" /></p>
+<p><img src="figure-html/plot_quality_scores_reverse-2.png" width="672" /></p>
 <pre class="r"><code>plotQualityProfile(fnRs_Z3[2:4])</code></pre>
 <pre><code>## Scale for &#39;y&#39; is already present. Adding another scale for &#39;y&#39;, which
 ## will replace the existing scale.</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_quality_scores_reverse-3.png" width="672" /></p>
+<p><img src="figure-html/plot_quality_scores_reverse-3.png" width="672" /></p>
 <p>The reverse reads are so so but the forward reads look pretty good. We will deal with the low quality of reverse reads in subsequent steps.</p>
 </div>
 <div id="filtering" class="section level3">
@@ -739,11 +739,11 @@ filtRs_Z3 &lt;- file.path(filt_path_Z3, paste0(sample.names_Z3, &quot;_R_filt.fa
 <div id="plot-error" class="section level3">
 <h3>Plot error</h3>
 <pre class="r"><code>plotErrors(errR_X1, nominalQ=TRUE)</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_error-1.png" width="672" /></p>
+<p><img src="figure-html/plot_error-1.png" width="672" /></p>
 <pre class="r"><code>plotErrors(errR_Y2, nominalQ=TRUE)</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_error-2.png" width="672" /></p>
+<p><img src="figure-html/plot_error-2.png" width="672" /></p>
 <pre class="r"><code>plotErrors(errR_Z3, nominalQ=TRUE)</code></pre>
-<p><img src="2_dada2_files/figure-html/plot_error-3.png" width="672" /></p>
+<p><img src="figure-html/plot_error-3.png" width="672" /></p>
 </div>
 <div id="dereplicate-reads" class="section level3">
 <h3>Dereplicate reads</h3>

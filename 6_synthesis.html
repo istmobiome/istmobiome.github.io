@@ -799,7 +799,7 @@ ASV_bar &lt;- ASV_bar +
         panel.grid.minor = element_blank(), 
         panel.border = element_rect(colour = &quot;black&quot;, fill = NA, size = 1))
 ASV_bar</code></pre>
-<p><img src="6_synthesis_files/figure-html/da_asv_bar_chart-1.png" width="672" /></p>
+<p><img src="figure-html/da_asv_bar_chart-1.png" width="672" /></p>
 <p>Code for heatmap</p>
 <pre class="r"><code># Heatmap
 library(ComplexHeatmap)
@@ -887,7 +887,7 @@ invisible(dev.off())
 heatmap3(fig4_heatmap2, cexRow = 0.5, cexCol = 1, 
          margins = c(3, 13), RowSideColors = heatColors, scale = &quot;row&quot;, 
          Colv = NA, Rowv = NA, revC = TRUE, balanceColor = FALSE, col = col)</code></pre>
-<p><img src="6_synthesis_files/figure-html/heatmap_alt_setup-1.png" width="672" /></p>
+<p><img src="figure-html/heatmap_alt_setup-1.png" width="672" /></p>
 <p>Combine the two charts.</p>
 <p>Either do outside R or figure out a way to ‘bolb’ the heatmap. <code>grid::grid.grab</code> seemed promising.</p>
 <hr />
@@ -927,7 +927,7 @@ tree.p$tip.label[3] &lt;- &quot;Scarus_taeniopterus&quot;
 tree.p$tip.label[4] &lt;- &quot;Acanthurus_tractus&quot;
 tree.p$tip.label[5] &lt;- &quot;Acanthurus_coeruleus&quot;
 plot(tree.p)</code></pre>
-<p><img src="6_synthesis_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
 <hr />
 <p>We then transformed the tree into a distance matrix and generated a dendrogram.</p>
 <pre class="r"><code>#Transform tree into a distance matrix
@@ -942,7 +942,7 @@ cluster_phylo &lt;- hclust(T, method = &quot;ward.D&quot;)
 plot(cluster_phylo, main = &quot;Phylogenetic clustering&quot;, 
      xlab = &quot;Host species&quot;, ylab = &quot;Distance&quot;, 
      sub = &quot;hellinger/bray-curtis/ward&quot;)</code></pre>
-<p><img src="6_synthesis_files/figure-html/mantel_test_b-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="figure-html/mantel_test_b-1.png" width="672" style="display: block; margin: auto;" /></p>
 <hr />
 <p>Next we grab the ecological data and standardize the variables so that they have similar weights.</p>
 <p>First, rescale quantitative traits to be in the range 0 to 1 and then devide by the number of diet categories to have similar influence as the diet variables. Then rescale all ‘non diet’ traits to have similar influence to the diet traits by dividing by the number of diet categories divided by the number of categories for each substrate characteristic. Now combine into a single data frame for analysis get averages for each species.</p>
@@ -979,7 +979,7 @@ plot(cluster_traits,
      labels = Fish_species, main = &quot;Ecological traits&quot;, 
      xlab = &quot;Host species&quot;, ylab = &quot;Distance&quot;, 
      sub = &quot;hellinger/bray-curtis/ward&quot;)</code></pre>
-<p><img src="6_synthesis_files/figure-html/mantel_test_d-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="figure-html/mantel_test_d-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>So, is ecological data correlated with phylogeny?</p>
 <pre class="r"><code># Is ecological data correlated with phylogeny
 mantel(traits_dist, T, method = &quot;pearson&quot;, permutations = 9999)</code></pre>
@@ -1024,7 +1024,7 @@ Gut_dist_host &lt;- vegdist(Gut_contents, method = &quot;bray&quot;)
 cluster_gut_host &lt;- hclust(Gut_dist_host, method = &quot;ward.D&quot;)    
 plot(cluster_gut_host, labels = Fish_species, main = &quot;Host-associated ASVs&quot;, 
      xlab = &quot;Host species&quot;, ylab = &quot;Distance&quot;, sub = &quot;hellinger/bray-curtis/ward&quot;)</code></pre>
-<p><img src="6_synthesis_files/figure-html/mantel_test_e-1.png" width="672" /></p>
+<p><img src="figure-html/mantel_test_e-1.png" width="672" /></p>
 <p>So is the distance matrix (based on host associated ASVs) correlated with ecological data or phylogeny?</p>
 <pre class="r"><code>mantel(Gut_dist_host, T, method = &quot;pearson&quot;, permutations = 9999)</code></pre>
 <pre><code>## 
@@ -1078,7 +1078,7 @@ plot(cluster_gut_env, labels = Fish_species,
      main = &quot;Environment-associated ASVs&quot;, 
      xlab = &quot;Host species&quot;, ylab = &quot;Distance&quot;, 
      sub = &quot;hellinger/bray-curtis/ward&quot;)</code></pre>
-<p><img src="6_synthesis_files/figure-html/mantel_test_h-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p><img src="figure-html/mantel_test_h-1.png" width="672" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>mantel(Gut_dist_env, T, 
        method = &quot;pearson&quot;, permutations = 9999
        )</code></pre>
