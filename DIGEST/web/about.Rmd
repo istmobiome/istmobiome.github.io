@@ -1,5 +1,0 @@
----
-title: "People"
----
-
-Your face and (short)bio goes here...
