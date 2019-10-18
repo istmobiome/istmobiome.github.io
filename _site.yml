@@ -9,7 +9,6 @@ navbar:
     - text: "Intro"
       icon: fa-info
       href: 0_pw_intro.html
-  center:    
     - text: "Workflow"
       icon: fa-wrench
       menu:
