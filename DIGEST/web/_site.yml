@@ -1,4 +1,5 @@
 name: "DIGEST"
+baseurl: "https://istmobiome.github.io/DIGEST/"
 navbar:
   title: "DIGEST"
   type: inverse

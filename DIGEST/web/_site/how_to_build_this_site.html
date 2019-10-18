@@ -451,7 +451,10 @@ div.tocify {
 <div id="git" class="section level3">
 <h3>Git</h3>
 <p>clone the repo <code>git clone https://github.com/istmobiome/istmobiome.github.io</code>. check the status <code>git status</code> and make sure it is clear. build site</p>
-<p><code>nano .gitignore</code></p>
+<p>make a gitignore file (see below) to avoid uploading all the useless crap <code>nano .gitignore</code></p>
+<p>run <code>git status</code> to see whats what. run <code>git pull</code> to make sure everything is up-to-date. then run <code>git add . --dry-run</code> to see what will be added. DO NOT EVER run <code>git add --all</code> before checking that you are happy with this…</p>
+<p><code>git add --all</code> to stage <code>git commit -a  -m &quot;initial DIGEST website commit&quot;</code> <code>git push</code></p>
+<p>to remove remotely but keep locally <code>git rm --cache DIGEST/web/*.Rmd</code> <code>git commit -a  -m &quot;remove .Rmd files&quot;</code> <code>git push</code></p>
 <p>in Rstudio</p>
 <p><code>rmarkdown::render_site()</code></p>
 <pre><code>## General files to ignore ##
