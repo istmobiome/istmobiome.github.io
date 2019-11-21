@@ -1,0 +1,12 @@
+name: "my-website"
+output_dir: "../_site"
+base_url: "https://istmobiome.github.io/"
+include: [_site.yml]
+exclude: [build]
+navbar:
+  title: "My Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
