@@ -366,15 +366,50 @@ If you have problems with any of these step, we will try to help. But please kno
 Resources 1
 --------------------------------------------------
 
-### <font size="5">Getting Help</font>
+### <font size="5">Tips & Tricks</font>
+
+#### Getting Help
 
 When you need help the web is your friend. [Stackoverflow](https://stackoverflow.com/) is one of the best resources. If you have a problem, chances are pretty good it has been addressed on Stackoverflow. To learn more about a specific R package you can look at the help pages (each package should have one). In the R terminal or the `Console` window of RStudio type `?packageName` to see the help page. For example, try `?rmarkdown` to see the R markdown help menu.
 
 If you get stuck on a problem or want some advice on how to proceed you can always ask  one of the instructors or your classmates. Just make sure you have put in the legwork and have given the problem some thought. 
 
+#### Useful Code & other Tidbits
+
+We will use this space to add solutions that we come up with along the way. When you have something to contribute please provide a brief explaination of the problem and solution.
+
+* <font size="4">Render often</font> and <font size="4">run code chunks</font> as you write them. This will make it so much more straightforward to troubleshoot bugs in your code.
+
 Resources 2
 --------------------------------------------------
 
-### References & Resources
+### <font size="5">References & Resources</font>
 
-COMING SOON.
+We will use this space to add use reference and resources  that we come up with along the way. When you have something to contribute please provide a brief explaination of the resource.
+
+#### RStudio
+
+* Link to download RStudio. https://rstudio.com/products/rstudio/download/
+* Various RStudio cheatsheats. Available for download as pdfs.  https://rstudio.com/resources/cheatsheets/ 
+* `knitr` cheatsheet. https://cran.r-project.org/web/packages/knitr/vignettes/knitr-refcard.pdf 
+
+
+#### R Markdown
+
+* R Markdown Quick Tour https://rmarkdown.rstudio.com/authoring_quick_tour.html
+* A great intro to R Markdown. https://rmarkdown.rstudio.com/lesson-1.html 
+* The Definitive R Markdown Guide. https://bookdown.org/yihui/rmarkdown/
+* R Markdown formats. HTML is just the tip of the iceberg. https://rmarkdown.rstudio.com/formats.html
+
+
+
+#### Next-level web resources
+
+* blogdown: Creating more sophisticated Websites with R Markdown https://bookdown.org/yihui/blogdown/
+* Interneting Is Hard. An awesome free course on HTML and CSS for more advanced customization of your site. https://internetingishard.com/html-and-css/
+
+#### General resources
+
+* Freely available HTML, PDF, ePub, and Kindle books about R topics writen in the R Markdown package `bookdown` https://bookdown.org/
+
+
