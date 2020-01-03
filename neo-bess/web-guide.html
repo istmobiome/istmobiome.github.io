@@ -2583,7 +2583,10 @@ window.FlexDashboardComponents.push({
 <div id="dashboard-container">
 
 <style>
-div.blue { background-color:#FBDFB4; border-radius: 5px; padding: 20px;}
+div.note { background-color:#FBDFB4; border-radius: 10px; padding: 20px; margin: 0px 3px 20px}
+</style>
+<style>
+div.warning { background-color:#eeac9d; border-radius: 8px; padding: 10px; margin: 0px 3px 10px}
 </style>
 <div id="introduction" class="section level1">
 <h1>1. Introduction</h1>
@@ -2598,9 +2601,9 @@ Smithsonian Tropical Research Institute<br />
 Panama</p>
 <p>Welcome to NEO-BESS Panama 2020. As part of the course this year, you will each create a stand-alone HTML webpage using open source platforms. Your page will contain a record of the science you conducted during the course, including interactive tables and figures. The goal is for each of you to document your work and package it all in an HTML page that will be published on-line.</p>
 <p>First off, my name is Jarrod Scott. I am a postdoc at STRI and one of the course instructors. I will be the person in charge of the web project portion of the course. What that means first and foremost is that when you want to yell at someone, I am your guy. I am not a web developer or a coder, I am a biologist like you. I am always looking for better ways to organize, analyze, and communicate my science. I recently started using these tools to make web-based science products and my goal is to get you excited about these tools and help you find ways to use them in your own work.</p>
-<blockquote>
-<p>With a little practice the tools you learn in this course can be used to create a range of document types, from a single .html or .pdf file, to multi-page web sites, to books, and even your <strong>thesis or dissertation</strong>.</p>
-</blockquote>
+<div class="note">
+<p><font size="3">With a little practice the tools you learn in this course can be used to create a range of document types, from a single .html or .pdf file, to multi-page web sites, to books, and even your <strong>thesis or dissertation</strong>. </font></p>
+</div>
 <p>Some of you may have far more experience with these tools than I do. That’s great–you can help me and help your classmates. If you think something I say doesn’t make sense, please say something. I would rather do something the right way than be right about the way I am doing something.</p>
 <p>This guidebook will serve as a resource for you as you create your webpage project. As we go through the course, this page will be continually updated with new tips and tricks, useful resources, project goals, etc. You will all have the opportunity to add stuff to this page so that other students in the course can benefit from what you learn. For now though we will keep it simple and just focus on some bare bones prep work. But please check back here periodically for updates. We will try to make it obvious when new material is added.</p>
 </div>
@@ -2654,7 +2657,9 @@ Panama</p>
 <div id="why-are-we-using-r-rstudio-and-r-markdown" class="section level3">
 <h3><font size="5">Why are we using R, RStudio, and R Markdown?</font></h3>
 <p>You all know there are many ways to make a website—Squarespace, Wordpress, Wix, and the list goes on. But none of these platforms offer the flexibility, accessibly, usability, and reproducibily like the combination of tools we will use. As with everything there are limitations, but I feel the benefits outweigh the drawbacks.</p>
-<p>Please note. This is not an R course. At least one of us (me) is not an expert in R and teaching R is beyond the scope of the course. However, building a website through the R environment is a great point of entry to this amazing suite of resources this platform offers.</p>
+<div class="warning">
+<p><font size="3">Please note. This is not an R course. At least one of us (me) is not an expert in R and teaching R is beyond the scope of the course. However, building a website through the R environment is a great point of entry to the amazing suite of resources this platform offers. </font></p>
+</div>
 <div id="r" class="section level4">
 <h4>R</h4>
 <p>R is both a software language and an environment for statistical computing and graphics. At some point, you will all need to need to embrace a programming environment to analyze your data and summarize your findings in figures, tables, etc. R is certainly not the only way to do this; however coupled with the ability to package everything in a website, I believe this environment offers a valuable suite of tools for your scientific needs. The benefits of R are that <strong>a</strong>) it is free and open source, <strong>b</strong>) its capabilities are extended through user-created packages, <strong>c</strong>) it has a huge community of users (which means it is well supported), <strong>d</strong>) it is powerful and flexible.</p>
@@ -2779,11 +2784,9 @@ Embedding hyperlinks is also easy. Just wrap the display text in square brakets 
 <h3><font size="5">Example R Markdown Code</font></h3>
 <p>Awesome. This really just scratches the surface of Markdown but hopefully you can see that with just a little knowledge of the syntax you can create nicely formatted HTML text.</p>
 <p>Now that we know a little about Markdown lets add the R part. This is where the true power of this whole concept comes into view. R Markdown is a an R package—a set of tools that are deeply embedded in RStudio. R Markdown facilitates the construction of documents that combine text (written in Markdown), R code, and the output from the execution of that code.</p>
-<p><br /></p>
-<div class="blue">
+<div class="note">
 <p><font size="3">R Markdown integrates the concepts of <a href="https://en.wikipedia.org/wiki/Literate_programming">literate programming</a> and <a href="https://en.wikipedia.org/wiki/Reproducibility">reproducible research</a>, which, in addition to explaining or documenting itself, also allows others (including an original investigator) to reproduce a data analysis or other research result. </font></p>
 </div>
-<p><br /></p>
 <p>Lets see how this is done. We can use a built-in R package to demonstrate some functionality. Usually you run R code in a special internal environment called a <em>code chunk</em>. The formatting of the chuck tells RStudio that this is R code and that it needs to be run as code and not only rendered as HTML (we will go over this in detail later). Within a code chunk lines beginning with a hash tag (#) are comments for annotation purposes and will not be analyzed.</p>
 <div id="an-r-code-chunk-written-in-r-markdown" class="section level4">
 <h4>An R code chunk written in R Markdown</h4>
@@ -2840,7 +2843,10 @@ qplot(speed, dist, data=cars) + geom_smooth()
 <h2>Installing Software 1</h2>
 <div id="install-r" class="section level3">
 <h3><font size="5">Install R</font></h3>
-<p><strong>You must install R before anything else</strong></p>
+<p><br /></p>
+<div class="warning">
+<p><font size="3">You must install R before anything else. </font></p>
+</div>
 <ol style="list-style-type: decimal">
 <li>Go to <a href="https://www.r-project.org/" class="uri">https://www.r-project.org/</a></li>
 <li>At the top of the page under Getting Started click on the <a href="http://cran.r-project.org/mirrors.html">download R</a> link.</li>
@@ -2856,7 +2862,10 @@ qplot(speed, dist, data=cars) + geom_smooth()
 <h2>Installing Software 2</h2>
 <div id="install-rstudio" class="section level3">
 <h3><font size="5">Install RStudio</font></h3>
-<p><strong>You must install R before RStudio</strong></p>
+<p><br /></p>
+<div class="warning">
+<p><font size="3">You must install R before RStudio. </font></p>
+</div>
 <ol style="list-style-type: decimal">
 <li>Go to <a href="https://rstudio.com/" class="uri">https://rstudio.com/</a> and hit <a href="https://rstudio.com/products/rstudio/download/">Download</a>.</li>
 <li>Scroll down and hit the <strong>Download</strong> button under RStudio Desktop Free.</li>
@@ -2868,8 +2877,11 @@ qplot(speed, dist, data=cars) + geom_smooth()
 <h2>Installing Software 3</h2>
 <div id="installing-r-packages" class="section level3">
 <h3><font size="5">Installing R Packages</font></h3>
+<p><br /></p>
+<div class="warning">
+<p><font size="3">I use R instead of RStudio to install all my packages. I have found this prevents any conflicts with installation location. I suggest you do the same. </font></p>
+</div>
 <p>R packages can be found in several places including GitHub and The Comprehensive R Archive Network, or CRAN. On CRAN alone there are over 15,000 <a href="https://cran.r-project.org/web/packages/available_packages_by_name.html">packages</a> available. You will need a few packages to get going with you web project and you will likely install several more as the need arises.</p>
-<p>I use R instead of RStudio to install all my packages. I have found this prevents any conflicts with installation location. I suggest you do the same.</p>
 <p>I have no idea what comes prepackaged with R. So before you install any packages run the <code>library(PACKAGE_NAME)</code> command first. if you do not get an error that means the package is already installed. Here is a list to start with:</p>
 <ul>
 <li><p><code>library(rmarkdown)</code> if you see <code>Error in library(rmarkdown) : there is no package called ‘rmarkdown’</code> then run <code>install.packages('rmarkdown')</code>. Depending on your R install, you may have to wrap the package name in single or double quotes when installing. Just play around with it.</p></li>
