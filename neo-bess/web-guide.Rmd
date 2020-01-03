@@ -80,7 +80,7 @@ It is worth noting that this guidebook was written using many of the tools you w
 Rationale 1 
 --------------------------------------------------
 
-### <font size="5">Why do I have to make a webpage?</font>
+### <font size="5">Why should I  make a webpage?</font>
 
 
 #### <font size="5">Accessibility</font>
@@ -98,7 +98,7 @@ Building on the ideas of Information Inclusivity, it is fair to say that an impo
 Rationale 2 
 --------------------------------------------------
 
-### <font size="5">Why are we using R, RStudio, and R Markdown?</font>
+### <font size="5">Why should I use R, RStudio, and R Markdown?</font>
 
 You all know there are many ways to make a website---Squarespace, Wordpress, Wix, and the list goes on. But none of these platforms offer the flexibility, accessibly, usability, and reproducibily like the combination of tools we will use. As with everything there are limitations, but I feel the benefits outweigh the drawbacks. 
 
