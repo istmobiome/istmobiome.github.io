@@ -167,6 +167,11 @@ class: inverse, center, middle
 ]
 
 ---
+name: genome_book
+class: inverse, center, middle
+![tag1](img/tag1.png)
+
+---
 name: chaos
 background-color: #FFFFFF
 class: middle, split-four 
