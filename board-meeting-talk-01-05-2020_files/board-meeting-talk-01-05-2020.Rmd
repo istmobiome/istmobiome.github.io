@@ -40,7 +40,7 @@ font-color: white
 background-size: contain
 background-position: center
 
-# Rethinking Life
+# Rethinking the Diversity of Life
 
 <!-- <img src="https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png" alt="Sharingan" width="180" />-->
 
@@ -332,7 +332,7 @@ font-color: white
 background-size: contain
 background-position: center
 
-# Rethinking Panama
+# Rethinking the Diversity of Panama
 
 
 
