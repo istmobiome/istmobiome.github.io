@@ -44,9 +44,9 @@ background-position: center
 
 <!-- <img src="https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png" alt="Sharingan" width="180" />-->
 
-### .fancy[A tour of]
+### .fancy[A conceptual tour of the microbial world]
 
-a visual exhibit by Jarrod J Scott | STRI | Panama | 2020-01-05
+by Jarrod J Scott | STRI | Panama | 2020-01-05
 
 <!-- this ends up being the title slide since seal = FALSE-->
 
