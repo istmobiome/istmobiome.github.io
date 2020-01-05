@@ -11,6 +11,13 @@
   font-size: 160%;
 }
 
+.microbe-big-dk {
+  color: var(--color-black);
+  font-size: 125%;
+  font-weight: 400;
+  font-family: 'Lato'
+}
+
 .microbe-lt {
   color: var(--color-white);
   font-size: 100%;

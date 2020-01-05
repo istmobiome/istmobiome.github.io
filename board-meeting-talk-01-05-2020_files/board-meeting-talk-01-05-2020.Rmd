@@ -156,6 +156,17 @@ class: middle
 ]
 
 ---
+name: library
+class: inverse, center, middle
+
+### An Ecosystem is a Library of Genomes
+
+.microbe-lt[and we want to read all the books]
+
+![library](img/library.jpg)
+]
+
+---
 name: chaos
 background-color: #FFFFFF
 class: middle, split-four 
@@ -191,7 +202,7 @@ class: middle
 
 ### From there to here...
 
-.microbe-dk[Metagenomics as a tool to explore  hidden microbial dimensions]
+.microbe-big-dk[Metagenomics as a tool to explore  hidden microbial dimensions across the Isthmus of Panama]
 
 ```{r echo = FALSE, out.width = '100%', out.height = "25%"}
 # Create a graph as a left-to-right path
@@ -230,8 +241,8 @@ graph <-
     n = 6, 
     type = "step",
     label = c(
-      "1. Collect\\n Samples", "2. Filter\\n Samples", "3. Extract\\n DNA",
-      "4. Sequence\\n DNA", "5. Assemble\\n DNA", "6. Rebuild\\n Genomes"),
+      "1. Collect\\n Samples", "2. Filter\\n Samples", "3. Extract\\n the DNA",
+      "4. Read\\n the DNA", "5. Assemble\\n the DNA", "6. Rebuild\\n Genomes"),
     node_aes = node_aes(  # set node aesthetics
       shape = c("circle", "circle", "circle", "circle", "circle", "circle"),
       width = c(1, 1, 1, 1, 1, 1),
@@ -287,21 +298,10 @@ class: inverse, center, middle
 ]
 
 ---
-name: library
-class: inverse, center, middle
-
-### An Ecosystem is a Library of Genomes
-
-.microbe-lt[and we want to read all the books]
-
-![library](img/library.jpg)
-]
-
----
 name: shred
 class: inverse, center, middle
 
-### N<sup>o</sup>3 Extract & N<sup>o</sup>4  Sequence DNA 
+### N<sup>o</sup>3 Extract & N<sup>o</sup>4  Read the DNA 
 
 .pull-left[
 ![filter1](img/library.jpg)
@@ -318,7 +318,7 @@ class: inverse, center, middle
 name: dag
 class: center, middle
 
-### N<sup>o</sup>5 Assemble DNA & N<sup>o</sup>6  Rebuild Genomes
+### N<sup>o</sup>5 Assemble the DNA & N<sup>o</sup>6  Rebuild Genomes
 
 ![dag](img/dag.png)
 
