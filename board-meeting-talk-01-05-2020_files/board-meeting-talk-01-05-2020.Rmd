@@ -44,7 +44,7 @@ background-position: center
 
 <!-- <img src="https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png" alt="Sharingan" width="180" />-->
 
-### .fancy[How we (try to)  understand<br/> Connectivity & Diversity in the microbial world ]
+### .fancy[A tour of]
 
 a visual exhibit by Jarrod J Scott | STRI | Panama | 2020-01-05
 
@@ -56,7 +56,7 @@ class: left, top
 background-image: url(img/land.jpg)
 <!-- background-size: cover-->
 
-### A little about me
+### A little about your tour guide
 
 ---
 
@@ -68,7 +68,7 @@ class: center, middle
 
 ## Magnitude of Diversity
 
-## Variety of Forms
+## Uniformity of Forms
 
 ### /ʃaː.'riŋ.ɡan/
 
@@ -90,21 +90,12 @@ class: left, right
 ![an image](img/rock_art.png)
 ]
 
---
-
 .pull-right[
 .microbe-dk[Deep-sea Hydrothermal Vent (Mariana Back Arc)]
 
 ![an image](img/mariana.jpg)
 ]
 
----
-name: ironoxidizer
-.center[
-.microbe-dk[Iron-oxidizing bacteria]
-
-![an image](img/iron.png)
-]
 
 ---
 
@@ -117,17 +108,12 @@ class: inverse, center, middle
 
 name: magnitude
 class: middle
-
-.pull-left[
-![tree](img/life_tree.jpg)
-.microbe-dk[Current Tree of Life]
-]
+background-image: url(img/life_tree.jpg)
+background-size: contain
+background-position: center
 
 
-.pull-right[
-![ship](img/ship.jpg)
-.microbe-dk[Current understanding of that Diversity]
-]
+
 
 ---
 name: mag-intro
@@ -171,35 +157,6 @@ name: genome_book
 class: inverse, center, middle
 ![tag1](img/tag1.png)
 
----
-name: chaos
-background-color: #FFFFFF
-class: middle, split-four 
-
-.column[
-<img src="img/otu_EBB1.png">
-Loihi Seamount
-<img src="img/otu9_SV108.png">
-Mariana Back Arc Basin
-]
-
-.column[
-<img src="img/otu11_M34.png">
-Loihi Seamount
-<img src="img/otu9_TAG1.png">
-Mid-Atlantic Ridge
-]
-
-
-.microbe-dk[Chaos Game <br/> Maps]
-
----
-name: mag-intro
-class: inverse, center, middle
-
-### Emergent Self-Organizing Map
-
-![esom](img/esom.jpg)
 
 ---
 name: workflow
@@ -270,7 +227,7 @@ graph %>% render_graph()
 name: collecting
 class: inverse, center, middle
 
-### N<sup>o</sup>1 Collect samples
+### N<sup><u>o</u></sup>1 Collect samples
 
 .pull-left[
 .microbe-lt[Coral Reef Habitat]
@@ -288,7 +245,7 @@ class: inverse, center, middle
 name: filtering
 class: inverse, center, middle
 
-### N<sup>o</sup>2 Filter samples
+### N<sup><u>o</u></sup>2 Filter samples
 
 .pull-left[
 .microbe-lt[Pour]
@@ -306,7 +263,7 @@ class: inverse, center, middle
 name: shred
 class: inverse, center, middle
 
-### N<sup>o</sup>3 Extract & N<sup>o</sup>4  Read the DNA 
+### N<sup><u>o</u></sup>3 Extract & N<sup><u>o</u></sup>4  Read the DNA 
 
 .pull-left[
 ![filter1](img/library.jpg)
@@ -323,7 +280,7 @@ class: inverse, center, middle
 name: dag
 class: center, middle
 
-### N<sup>o</sup>5 Assemble the DNA & N<sup>o</sup>6  Rebuild Genomes
+### N<sup><u>o</u></sup>5 Assemble the DNA & N<sup><u>o</u></sup>6  Rebuild Genomes
 
 ![dag](img/dag.png)
 
@@ -339,5 +296,33 @@ background-position: center
 
 # Rethinking the Diversity of Panama
 
+---
+name: chaos
+background-color: #FFFFFF
+class: middle, split-four 
 
+.column[
+<img src="img/otu_EBB1.png">
+Loihi Seamount
+<img src="img/otu9_SV108.png">
+Mariana Back Arc Basin
+]
+
+.column[
+<img src="img/otu11_M34.png">
+Loihi Seamount
+<img src="img/otu9_TAG1.png">
+Mid-Atlantic Ridge
+]
+
+
+.microbe-dk[Chaos Game <br/> Maps]
+
+---
+name: mag-intro
+class: inverse, center, middle
+
+### Emergent Self-Organizing Map
+
+![esom](img/esom.jpg)
 
