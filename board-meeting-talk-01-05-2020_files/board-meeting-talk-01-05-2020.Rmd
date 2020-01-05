@@ -40,13 +40,13 @@ font-color: white
 background-size: contain
 background-position: center
 
-# Rethinking Diversity
+# Rethinking Life
 
 <!-- <img src="https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png" alt="Sharingan" width="180" />-->
 
-### .fancy[How we (try to)  untangle the vastness of the microbial world </br> with DNA sequencing & high powered computing]
+### .fancy[How we (try to)  understand<br/> Connectivity & Diversity in the microbial world ]
 
-Jarrod J Scott | STRI | Panama | 2020-01-05
+a visual exhibit by Jarrod J Scott | STRI | Panama | 2020-01-05
 
 <!-- this ends up being the title slide since seal = FALSE-->
 
@@ -56,18 +56,62 @@ class: left, top
 background-image: url(img/land.jpg)
 <!-- background-size: cover-->
 
+### A little about me
+
 ---
 
 name: background
 class: center, middle
 
+
+## Connectivity of Systems 
+
 ## Magnitude of Diversity
 
 ## Variety of Forms
 
+### /ʃaː.'riŋ.ɡan/
+
+---
+name: connect-intro
+class: inverse, center, middle
+
 ## Connectivity of Systems 
 
-### /ʃaː.'riŋ.ɡan/
+
+---
+name: iron
+class: left, right
+
+
+.pull-left[
+.microbe-dk[Ancient Rock Art  (British Columbia)]
+
+![an image](img/rock_art.png)
+]
+
+--
+
+.pull-right[
+.microbe-dk[Deep-sea Hydrothermal Vent (Mariana Back Arc)]
+
+![an image](img/mariana.jpg)
+]
+
+---
+name: ironoxidizer
+.center[
+.microbe-dk[Iron-oxidizing bacteria]
+
+![an image](img/iron.png)
+]
+
+---
+
+name: mag-intro
+class: inverse, center, middle
+
+## Magnitude of Diversity
 
 ---
 
@@ -84,6 +128,13 @@ class: middle
 ![ship](img/ship.jpg)
 .microbe-dk[Current understanding of that Diversity]
 ]
+
+---
+name: mag-intro
+class: inverse, center, middle
+
+## Variety of Forms
+
 
 ---
 name: forms
@@ -127,37 +178,20 @@ Mid-Atlantic Ridge
 .microbe-dk[Chaos Game <br/> Maps]
 
 ---
-name: iron
-class: left, right
+name: mag-intro
+class: inverse, center, middle
 
+### Emergent Self-Organizing Map
 
-.pull-left[
-.microbe-dk[Ancient Rock Art  (British Columbia)]
-
-![an image](img/rock_art.png)
-]
-
---
-
-.pull-right[
-.microbe-dk[Deep-sea Hydrothermal Vent (Mariana Back Arc)]
-
-![an image](img/mariana.jpg)
-]
-
----
-name: ironoxidizer
-.center[
-.microbe-dk[Iron-oxidizing bacteria]
-
-![an image](img/iron.png)
-]
+![esom](img/esom.jpg)
 
 ---
 name: workflow
 class: middle
 
-### From here to there...
+### From there to here...
+
+.microbe-dk[Metagenomics as a tool to explore  hidden microbial dimensions]
 
 ```{r echo = FALSE, out.width = '100%', out.height = "25%"}
 # Create a graph as a left-to-right path
@@ -234,7 +268,6 @@ class: inverse, center, middle
 ![baot](img/boat.jpg)
 ]
 
-
 ---
 name: filtering
 class: inverse, center, middle
@@ -252,6 +285,54 @@ class: inverse, center, middle
 
 ![filter1](img/drilling.jpg)
 ]
+
+---
+name: library
+class: inverse, center, middle
+
+### An Ecosystem is a Library of Genomes
+
+.microbe-lt[and we want to read all the books]
+
+![library](img/library.jpg)
+]
+
+---
+name: shred
+class: inverse, center, middle
+
+### N<sup>o</sup>3 Extract & N<sup>o</sup>4  Sequence DNA 
+
+.pull-left[
+![filter1](img/library.jpg)
+]
+
+
+.pull-left[
+![paper](img/paper_pile.jpg)
+]
+
+
+
+---
+name: dag
+class: center, middle
+
+### N<sup>o</sup>5 Assemble DNA & N<sup>o</sup>6  Rebuild Genomes
+
+![dag](img/dag.png)
+
+
+---
+name: end
+class: center, middle, inverse
+background-color: #1F4E74
+background-image: url(img/panama_dna_50.png)
+font-color: white
+background-size: contain
+background-position: center
+
+# Rethinking Panama
 
 
 
