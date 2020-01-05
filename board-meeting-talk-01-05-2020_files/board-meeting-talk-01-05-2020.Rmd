@@ -1,0 +1,257 @@
+---
+title: "Rethinking Diversity"
+subtitle: "Meet xaringan"
+author: "Jarrod J Scott"
+date: "2020/01/05"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/sfah.css", "css/fonts.css", "css/ninjutsu.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      beforeInit: "https://platform.twitter.com/widgets.js"
+    seal: false 
+    #includes:
+      #in_header: header.html
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+# options(knitr.table.format = "html")
+library(tidyverse)
+#library(babynames)
+#library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+library(DiagrammeR)
+```
+
+layout: true
+
+---
+name: xaringan-title
+class: center, bottom, inverse
+background-color: #1F4E74
+background-image: url(img/panama_dna_50.png)
+font-color: white
+background-size: contain
+background-position: center
+
+# Rethinking Diversity
+
+<!-- <img src="https://user-images.githubusercontent.com/163582/45438104-ea200600-b67b-11e8-80fa-d9f2a99a03b0.png" alt="Sharingan" width="180" />-->
+
+### .fancy[How we (try to)  untangle the vastness of the microbial world </br> with DNA sequencing & high powered computing]
+
+Jarrod J Scott | STRI | Panama | 2020-01-05
+
+<!-- this ends up being the title slide since seal = FALSE-->
+
+---
+name: background
+class: left, top
+background-image: url(img/land.jpg)
+<!-- background-size: cover-->
+
+---
+
+name: background
+class: center, middle
+
+## Magnitude of Diversity
+
+## Variety of Forms
+
+## Connectivity of Systems 
+
+### /ʃaː.'riŋ.ɡan/
+
+---
+
+name: magnitude
+class: middle
+
+.pull-left[
+![tree](img/life_tree.jpg)
+.microbe-dk[Current Tree of Life]
+]
+
+
+.pull-right[
+![ship](img/ship.jpg)
+.microbe-dk[Current understanding of that Diversity]
+]
+
+---
+name: forms
+background-color: #000000
+class: middle
+
+.pull-left[
+.microbe-lt[Abundant & Familiar Forms]
+
+![macro](img/forms.jpeg)
+]
+
+--
+
+.pull-right[
+.microbe-lt[Limited & Uninformative Forms]
+
+![macro](img/mforms.jpeg)
+]
+
+---
+name: chaos
+background-color: #FFFFFF
+class: middle, split-four 
+
+.column[
+<img src="img/otu_EBB1.png">
+Loihi Seamount
+<img src="img/otu9_SV108.png">
+Mariana Back Arc Basin
+]
+
+.column[
+<img src="img/otu11_M34.png">
+Loihi Seamount
+<img src="img/otu9_TAG1.png">
+Mid-Atlantic Ridge
+]
+
+
+.microbe-dk[Chaos Game <br/> Maps]
+
+---
+name: iron
+class: left, right
+
+
+.pull-left[
+.microbe-dk[Ancient Rock Art  (British Columbia)]
+
+![an image](img/rock_art.png)
+]
+
+--
+
+.pull-right[
+.microbe-dk[Deep-sea Hydrothermal Vent (Mariana Back Arc)]
+
+![an image](img/mariana.jpg)
+]
+
+---
+name: ironoxidizer
+.center[
+.microbe-dk[Iron-oxidizing bacteria]
+
+![an image](img/iron.png)
+]
+
+---
+name: workflow
+class: middle
+
+### From here to there...
+
+```{r echo = FALSE, out.width = '100%', out.height = "25%"}
+# Create a graph as a left-to-right path
+graph <-
+  create_graph() %>%
+  add_path(
+    n = 3, 
+    type = "step",
+    label = c(
+      "Field", "Lab", "Computer"),
+    node_aes = node_aes(  # set node aesthetics
+      shape = c("rectangle", "rectangle", "rectangle"),
+      width = c(1.2, 1.2, 1.2),
+      color = "#3C3C3C",
+      fontcolor = "black",
+      fillcolor = c("#61acf0", "#E69F00",  "#CC79A7"),
+      fontname = "Lato"
+    ),
+    edge_aes = edge_aes(  # set edge aesthetics
+      color = "#3C3C3C"
+    )
+  ) %>%
+  add_global_graph_attrs(attr = "layout", value = "dot", attr_type = "graph") %>%
+  add_global_graph_attrs(attr = "rankdir", value = "LR", attr_type = "graph")
+# View the graph in the Viewer
+graph %>% render_graph()
+```
+
+
+
+```{r echo = FALSE, out.width = '100%', out.height = "25%"}
+# Create a graph as a left-to-right path
+graph <-
+  create_graph() %>%
+  add_path(
+    n = 6, 
+    type = "step",
+    label = c(
+      "1. Collect\\n Samples", "2. Filter\\n Samples", "3. Extract\\n DNA",
+      "4. Sequence\\n DNA", "5. Assemble\\n DNA", "6. Rebuild\\n Genomes"),
+    node_aes = node_aes(  # set node aesthetics
+      shape = c("circle", "circle", "circle", "circle", "circle", "circle"),
+      width = c(1, 1, 1, 1, 1, 1),
+      color = "#3C3C3C",
+      fontcolor = "black",
+      fillcolor = c("#61acf0", "#61acf0", "#E69F00", "#E69F00", "#CC79A7", "#CC79A7"),
+      fontname = "Lato"
+    ),
+    edge_aes = edge_aes(  # set edge aesthetics
+      color = "#3C3C3C"
+    )
+  ) %>%
+  add_global_graph_attrs(attr = "layout", value = "dot", attr_type = "graph") %>%
+  add_global_graph_attrs(attr = "rankdir", value = "LR", attr_type = "graph")
+# View the graph in the Viewer
+graph %>% render_graph()
+```
+
+---
+name: collecting
+class: inverse, center, middle
+
+### N<sup>o</sup>1 Collect samples
+
+.pull-left[
+.microbe-lt[Coral Reef Habitat]
+
+![matt](img/matt.jpg)
+]
+
+.pull-right[
+.microbe-lt[Mangrove Habitat]
+
+![baot](img/boat.jpg)
+]
+
+
+---
+name: filtering
+class: inverse, center, middle
+
+### N<sup>o</sup>2 Filter samples
+
+.pull-left[
+.microbe-lt[Pour]
+
+![filter1](img/filtering1.jpg)
+]
+
+.pull-right[
+.microbe-lt[...and Drill]
+
+![filter1](img/drilling.jpg)
+]
+
+
+
