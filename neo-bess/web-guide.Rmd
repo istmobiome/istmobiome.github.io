@@ -59,9 +59,9 @@ We will  primarily  use [R Markdown](https://rmarkdown.rstudio.com/) to write th
 
 It is worth noting that this guidebook was written using many of the tools you will use in your web project.
 
-<br/>
-
-> Please complete the following before arriving in Panama. See the subsequent document for more details.
+<div class = "note">
+<font size="3">Please complete the following before arriving in Panama. See the subsequent document for more details.</font>
+</div>
 
 1) Read this document. It is best to go in order, at least the first time.
 2) Familiarize yourself with R Markdown. Go through [this material](https://rmarkdown.rstudio.com/lesson-1.html) from RStudio first  and then look at *Yihui Xie's* [book on R Markdown](https://bookdown.org/yihui/rmarkdown/). You can download this book as a [pdf](https://bookdown.org/yihui/rmarkdown/rmarkdown.pdf) in case you want to read it on the plane.
