@@ -98,7 +98,7 @@ Building on the ideas of Information Inclusivity, it is fair to say that an impo
 Rationale 2 
 --------------------------------------------------
 
-### <font size="5">Why should I use R, RStudio, and R Markdown?</font>
+### <font size="5">Why should I use R, RStudio, & R Markdown?</font>
 
 You all know there are many ways to make a website---Squarespace, Wordpress, Wix, and the list goes on. But none of these platforms offer the flexibility, accessibly, usability, and reproducibily like the combination of tools we will use. As with everything there are limitations, but I feel the benefits outweigh the drawbacks. 
 
@@ -108,18 +108,18 @@ You all know there are many ways to make a website---Squarespace, Wordpress, Wix
 </font>
 </div>
 
-
 #### R
 
-R is both a software language and an environment for statistical computing and graphics. At some point, you will all need to need to embrace a programming environment to analyze your data  and  summarize your findings in figures, tables, etc. R is certainly not the only way to do this; however coupled with the ability to package everything in a website, I believe this environment offers a valuable suite of tools for your scientific needs. The benefits of R are that  **a**) it is free and open source, **b**) its  capabilities are extended through user-created packages, **c**) it has a huge community of users (which means it is well supported), **d**) it is powerful and flexible.
+R is both a software language and an environment for statistical computing and graphics. At some point, you will all need to need to embrace a programming environment to analyze your data  and  summarize your findings using figures, tables, etc. R is certainly not the only way to do this; however coupled with the ability to package everything in a website, I believe this environment offers a valuable suite of tools for your scientific needs. The benefits of R include;  **a**) it is free and open source, **b**) its  capabilities are extended through user-created packages, **c**) it has a huge community of users (which means it is well supported), **d**) it is powerful and flexible.
 
 #### RStudio
 
 RStudio is an integrated development environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)) for R language. Take a moment to familiarize yourself with the idea of an IDE but basically RStudio provides a holistic environment to utilize the full potential of R, including creating websites and interactive  data products. 
 
+
 #### R Markdown
 
-This is really the bread and butter of what we will be doing.  R Markdown is a file format for making dynamic documents with R. R Markdown combines the syntax of Markdown with the language and an environment of R. R Markdown documents are written in [Markdown](https://en.wikipedia.org/wiki/Markdown)---a “lightweight” markup language (like HTML), that uses a relatively simple syntax to facilitate the *transformation* of human-readible text files into .html or .pdf documents. What this means is that rather than writing HTML and CSS code to make a website, you  write your content in Markdown, which is then translated (by RStudio in this case) to web content. R code is embedded within code chunks that RStudio can idetify as code. RStudio/R then runs the code and renders the output within the HTML file. 
+R Markdown is really the bread and butter of what we will be doing.  R Markdown is a file format for making dynamic documents with R. R Markdown combines the syntax of Markdown with the language and an environment of R. R Markdown documents are written in [Markdown](https://en.wikipedia.org/wiki/Markdown)---a “lightweight” markup language (like HTML), that uses a relatively simple syntax to facilitate the *transformation* of human-readible text files into .html or .pdf documents. What this means is that rather than writing HTML and CSS code to make a website, you  write your content in Markdown, which is then translated (by RStudio in this case) to web content. R code is embedded within code chunks that RStudio can idetify as code. RStudio/R then runs the code and renders the output within the HTML file. 
 
 Before we get to the R part we first need to take a look at the Markdown component.
 
