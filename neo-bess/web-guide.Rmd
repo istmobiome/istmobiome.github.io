@@ -1,11 +1,13 @@
 ---
-title: "Guidebook"
+title: "WebPage Guidebook"
 output: 
   flexdashboard::flex_dashboard:
     navbar:
      - { icon: "fa-github", href: "https://github.com/istmobiome/istmobiome.github.io/tree/master/neo-bess", align: right }
-    theme: cerulean
+    theme: spacelab
     vertical_layout: fill
+# nice themes: spacelab yeti cerulean
+# available themes: default, cosmo, bootstrap, cerulean, journal, flatly, readable, spacelab, united, lumen, paper, sandstone, simplex, yeti
 ---
 
 ```{r setup, include=FALSE}
@@ -24,15 +26,13 @@ div.warning { background-color:#eeac9d; border-radius: 8px; padding: 10px; margi
 
 
 
-1. Introduction
+1. Introduction {data-navmenu="Preparation"}
 =====================================  
 
 Introduction 1 
 --------------------------------------------------
 
-### <font size="5">Guidebook for Webpage Project</font> 
-
-#### Overview 
+### <font size="5">Overview</font> 
 
 January 13--31 2020  
 Smithsonian Tropical Research Institute  
@@ -74,7 +74,7 @@ It is worth noting that this guidebook was written using many of the tools you w
 > **A note** on the format and use of this site. This site was constructed using [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/). Each page typically has two or more panels and each panel is like its own page. The information is organized left to right. Depending on your screen size, you may need to scroll individual panels to see the full content. 
 
 
-2. Rationale
+2. Rationale {data-navmenu="Preparation"}
 =====================================  
 
 <font size="4">OK lets justify some of what we will be doing right off the bat.</font>
@@ -122,7 +122,7 @@ R Markdown is really the bread and butter of what we will be doing.  R Markdown 
 
 > Before we get to the R part we first need to take a look at the Markdown component. Go to Part 3 to see some example of Markdown text. 
 
-3. Markdown
+3. Markdown {data-navmenu="Preparation"}
 =====================================  
 
 Markdown 1 
@@ -222,7 +222,7 @@ Embedding hyperlinks is also easy. Just wrap the display text in square brakets 
 
 
 
-4. R Markdown
+4. R Markdown {data-navmenu="Preparation"}
 =====================================  
 
 R Markdown 1 
@@ -288,7 +288,7 @@ qplot(speed, dist, data=cars) + geom_smooth()
 ````
 
 
-5. Installing Software
+5. Installing Software {data-navmenu="Preparation"}
 =====================================  
 
 Installing Software 1 
@@ -359,7 +359,7 @@ Here is a list to start with:
 If you have problems with any of these step, we will try to help. But please know that at least one of us (me) knows nothing about Windows operating systems. We will be in a computationally remote area so please try to take care of any major issues before arriving :)
 
 
-6. Resources
+Resources
 =====================================  
 
 Resources 1
