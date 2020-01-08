@@ -2,6 +2,8 @@
 title: "Guidebook"
 output: 
   flexdashboard::flex_dashboard:
+    navbar:
+     - { icon: "fa-github", href: "https://github.com/istmobiome/istmobiome.github.io/tree/master/neo-bess", align: right }
     theme: cerulean
     vertical_layout: fill
 ---
