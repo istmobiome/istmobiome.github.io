@@ -71,7 +71,7 @@ It is worth noting that this guidebook was written using many of the tools you w
 4) Look at this website for inspiration https://rmarkdown.rstudio.com/ especially the Gallery section.
 5) In your favorite search engine query this search term `R Markdown Cheatsheet`. Download some of the pdfs. These are invaluable.
 
-**A note** on the format and use of this site. This site was constructed using [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/). Each page typically has two or more panels and each panel in like its own page. So depending on your screen size, you may need to scroll individual panels to see the full content. 
+> **A note** on the format and use of this site. This site was constructed using [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/). Each page typically has two or more panels and each panel is like its own page. The information is organized left to right. Depending on your screen size, you may need to scroll individual panels to see the full content. 
 
 
 2. Rationale
