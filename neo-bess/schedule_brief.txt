@@ -1,0 +1,31 @@
+Date	Day	Location	Component	Activity	Support Team
+Thurday 9 Jan	1	McGill	Environmental Policy (Check ENVR Syllabus)	Preliminary readings and discussion	Gordon Hickey
+Friday 10 Jan	2	McGill	Environmental Policy (Check ENVR Syllabus)	Preliminary readings and discussion	Gordon Hickey
+Saturday 11 Jan	3	Free day	Reading and Writing day		
+Sunday 12 Jan	4	Gamboa	Accommodation at schoolhouse	Acomodation	Carlos Arias, Janeene Touchton
+Monday 13 Jan	5	Gamboa	Geological and biotic history of Panama	Introduction to the neotropics	Jose Ramon Peruena, Matthew Larsen , Owen McMillan
+Tuesday 14 Jan	6	Gamboa/BCI	Tropical Ecology I	Forest diversity-Students projects I	Andy Jones Janeene Touchton, Erin Spear, Dumas Galves
+Wednesday 15 Jan	7	BCI	Tropical Ecology I	Forest diversity-Students projects I	Andy Jones Janeene Touchton, Erin Spear, Dumas Galves
+Thursday 16 Jan	8	BCI	Tropical Ecology I	Forest diversity-Students projects I	Andy Jones Janeene Touchton, Erin Spear, Dumas Galves
+Friday 17 Jan	9	Free day/return to Gamboa	Reading and Writing day		
+Saturday 18 Jan	10	Gamboa	Tropical Diversity and Adaptation	Insect diversity- Students Project II	Jose Loaiza/ Kelly Bennett/Ummat
+Sunday 19 Jan	11	Gamboa	Tropical Diversity and Adaptation	Insect diversity- Students Project II	Jose Loaiza/ Kelly Bennett/Ummat
+Monday 20 Jan	12	Sherman Crane	Plant Physiology	Plant adaptation	Martjin Slot, Carlos Arias, Janeene Touchton
+Tuesday 21 Jan	13	Gamboa	Tropical Diversity and Adaptation	Heliconius and CRISPR	Chris Kosak/Carolina Concha
+Wednesday 22 Jan	14	Agua Salud	Forest Ecology and Conservation	Agua Salud Project	Jeff Hall/Adriana Tapia/Katherine Sinacore
+Thursday 23 Jan	15	Gamboa	Tropical Diversity and Adaptation	Vertebrate diversity-Students Project III	Michael Logan or Michael Postdoc /Carlos Arias
+Friday 24 Jan	16	Gamboa	Tropical Diversity and Adaptation	Vertebrate diversity-Students Project III	Michael Logan or Michael Postdoc /Carlos Arias
+Saturday 25 Jan	17	Gamboa	Tropical Diversity and Adaptation	Vertebrate diversity-Birding	Janeene Touchton
+Sunday 26 Jan	18	Fee day	Reading and Writing day		
+Monday 27 Jan	19	Travel to Coiba			
+Tuesday 28 Jan	20	Coiba	Marine Ecology and Conservation	Marine diversity- Student project  V	Matt Leray/Davey Klein
+Wednesday 29 Jan	21	Coiba	Marine Ecology and Conservation	Marine diversity- Student project  V	Matt Leray/Davey Klein
+Thursday 30 Jan	22	Coiba	Marine Ecology and Conservation	Marine diversity- Student project  V	Matt Leray/Davey Klein
+Friday 31 Jan	23	Travel back			
+Saturday 1-Feb	24	Free day	Reading and Writing day		
+Sunday 2-Feb	25	Free day	Reading and Writing day		
+Monday 3-Feb	26	Gamboa	Environmental Policy	Discussion	Gordon Hickey
+Tuesday 4-Feb	27	Gamboa	Environmental Policy	Discussion	Gordon Hickey
+wednesday 5-Feb	28	Gamboa	Environmental Policy	Discussion	Gordon Hickey
+Thurday 6-Feb	29	Gamboa	Environmental Policy	Discussion	Gordon Hickey
+Friday 7-Feb	30	Gamboa/course ends	Environmental Policy	Discussion	Gordon Hickey

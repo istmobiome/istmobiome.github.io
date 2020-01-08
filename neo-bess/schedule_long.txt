@@ -1,0 +1,216 @@
+Date	Time	Topic	Support Team
+Sun, Jan 12	8:00 AM- 6:00 PM	Airport pick-ups	Carlos Arias
+	18:00 PM	Dinner at Gamboa schoolhouse	
+		Prepare small bag for trip to BCI (4 days/3 nights). Field clothes.	
+			
+Mon, Jan 13	Gamboa	Introduction to the Course	Owen McMillan, Carlos Arias, Janeene Touchton
+	7:00 AM	Breakfast	
+	8:00 AM	Introduction to STRI	Matt Larsen
+	9:00 AM	Intro to Geolgical history of the Isthmus of Panama	Camila Martinez
+	11:00 AM	Intro to BCI	Joe Wright
+	12:00 PM	Lunch	
+	2:00 PM	Safety and Security talk	 Jose Ramon Perurena
+	3:00-5:00 PM	Introduction to course	Owen McMillan, Carlos Arias, Janeene Touchton
+	6:00 PM	Dinner	
+	7:30 PM	Project Curation with R-I	Jarrod Scott
+			
+Tues, Jan 14	Gamboa	Forest Ecology primer	Andy Jones, Owen McMillan, Carlos Arias, Janeene Touchton
+	7:00 AM	Breakfast	
+	8:00 AM	Short Research Talks	Jannene Touchton, Andy Jones, Erin Spear, Dumas Galves
+	9:00 AM		
+	11:30 AM	Lunch	
+	12:00 PM	Departure to Gamboa dock to take boat to BCI	
+	2:00 PM	Settle in BCI	
+	3:00-5:00 PM	Group hike- 50 hectare plot     	Jannene Touchton, Andy Jones, Erin Spear, Dumas Galves
+	6:00 PM	Dinner	
+	7:30 PM	Meting to discuss projects	Jannene Touchton, Andy Jones, Erin Spear, Owen McMillan, Carlos Arias, Dumas Galves
+			
+Wed, Jan 15	BCI	Forest Ecology Primer	
+	6:30 AM	Breakfast	
+	08:00 AM- 12:00PM	Field Projects	Students
+	12:00 PM -1:00PM	Lunch	
+	1:00 PM-6:00 PM	Field Projects	Students
+	6:00 PM	Dinner	
+	7:30 PM	Meting to discuss projects progress	Jannene Touchton, Andy Jones, Erin Spear, Owen McMillan, Carlos Arias, Dumas Galves
+			
+Thurs, Jan 16	BCI	Forest Ecology Primer	
+	6:30 AM	Breakfast	
+	08:00 AM - 12:00 PM	Field projects	Students
+	12:00 PM -1:00 PM	Lunch	
+	1:00 PM-6:00 PM	Data Analysis	Students
+	6:00 PM	Dinner	
+	7:15 PM	Evening Lecture-Bamby Seminar	Owen McMIillan- What is a Model Organism
+			
+Fri, Jan 17	Gamboa	Free moorning/return to Gamboa	
+	7:00 AM	Breakfast	
+	8:00 AM	Packing 	
+	9:00 AM	Return to Gamboa	
+	12:00 PM	Lunch	
+	1:00 PM	Project Curation with R-II	Jarrod Scott
+	3:00-5:00 PM	Students presentations 	Students
+	6:00 PM	Dinner	
+			
+Sat, Jan 18	Gamboa	Insect diversity	Jose Loiza, Kelly Bennet/Ummat
+	6:30 AM	Breakfast	
+	8:00 AM	Short Talk	Kelly Bennet/Ummat
+	10:00 AM	Field work	
+	12:00 PM	Lunch	
+	1:00 PM - 3:00 PM	Field work	Students
+	6:00 PM	Dinner	
+	7:00 PM	Evening Lecture	Jose Loiza
+			
+Sun, Jan 19	Gamboa	Insect diversity	Jose Loiza, Kelly Bennet/Ummat
+	6:00 AM		
+	7:00 AM	Breakfast	
+	8:00 AM	Field Work	Students
+	12:30 PM	Lunch break	
+	1:30 PM -4:00 PM	Data Analysis	Students
+	6:00 PM	Dinner	
+	7:00 PM	Students Presentations	Students
+			
+Mon, Jan 20	Sherman	Plant Physiology	Martijn
+	6:00 AM	Breakfast	
+	7:00 AM-11:30AM	Trip to Sherman Crane	
+	12:00 PM- 1:30 PM	Lunch	
+	3:00 PM	Afternoon Talk	Martijn
+	6:00 PM	Dinner	
+	7:30 PM		
+			
+Tues, Jan 21	Gamboa	Heliconius and CRISPR	Carolina Concha/ Chris Kosak
+	7:00 AM	Breakfast	
+	8:00 AM	Intro to Heliconius and its Phylogeographic history	Chris Kosak
+	10:00 AM	CRISPR technolgy	Carolina Concha
+	12:00 PM	Lunch	
+	1:00 PM	Vistit to insectaries and Lab	Carlos Arias/Owen/Carolina
+	4:00 PM		
+	6:30 PM	Evening Lecture	Denise
+			
+Wed, Jan 22	Agua Salud	Forest Ecology II	Jeff Hall, Katerine Sinacore, Adriana Tapia
+	6:00 AM	Breakfast (prepare lunch to go)	
+	6:30 AM- 10:30 AM	Field visit: Agua Salud project	
+	11:00 AM	Lunch break	
+	1:00 PM	Field visit: Agua Salud	
+	3:00 PM	Afternon Lecture and Discussion	Katerine Sinacore / Jeff Hall
+	6:00 PM	Dinner	
+	7:00 PM	Evening Lecture	Maria Del Carme Ruiz
+			
+Thurs, Jan 23	Gamboa	Animal Physiology and adaptation	Michael Logan/Carlos Arias/Owen
+	7:00 AM	Breakfast	
+	9:00 AM- 12:00PM	Short Research Talks	Michael Logan/Carlos Arias/Rigoberto Gonzalez
+	12:00 PM	Lunch break	
+	1:30pm-4:00pm	Field project 	Students
+	6:00 PM	Dinner	
+	7:30 PM	Evening Lecture	Rowan Barret
+			
+Fri, Jan 24	Gamboa	Animal Physiology & adaptation	Michael Logan/Carlos Arias
+	6:00 AM	Breakfast	
+	8:00 AM- 10:00AM	Field project	Students
+	11:00 AM- 12:00PM	Data Analysis	
+	12:00 PM	Lunch 	
+	1:00 PM	Data Analysis	Students
+	4:30 PM	Students presentations	Studens
+	6:00 PM	Dinner	
+	7:00 PM	Evening Lecture	RIcardo Moreno
+			
+Sat, Jan 25	Gamboa	Animal Conservation	Janeene/ Roberto Ibanez
+	6:00 AM	Breakfast	
+	7:00 AM	Birding in Pipeline Road	Janeene 
+	12:00 PM		
+	1:00 PM	Lunch	
+	2:00 PM		
+	3:00 PM		
+	6:30 PM	Dinner	
+			
+Sun, Jan 26	Gamboa	Free day	
+	7:00 AM	Breakfast 	
+	12:00PM	Lunch	
+	3:00 PM	Afternoon Lecture	Hector Guzman
+	4:00 PM	Afternoon Lecture	Catalina Gomez
+	6:00 PM		
+		Dinner	
+Mon, Jan 27	Coibita	Travel to Coibita	
+	6:00 AM	Breakfast	
+	7:00 AM	Departure to Coibita	
+	12:30 PM	Lunch in Santiago	
+	6:00 PM	Dinner	
+	7:00 PM	Evening Lecture-	Davey Klein
+			
+Tues, Jan 28	Coibita	Marine Ecology and Conservation	Davey Klein, Matt Leray
+	6:30 AM	Breakfast	
+	8:00 AM- 12:00 PM	Morning Lecture	Matt Leray
+	12:30 PM	Lunch break	
+	1:30-4 PM	Field Work	Students
+	6:00 PM	Dinner	
+	7:00 PM	Evening Lecture-	Jarrod or Sean
+			
+Wed, Jan 29	Coibita	Marine Ecology and Conservation	
+	7:00 AM	Breakfast	
+	8:30 AM - 12:30 PM	Field work	Students
+	12:30PM	Lunch break	
+	1:30 PM- 4:00 PM	Field work	Students
+	6:00 PM	Dinner	
+	7:00 PM	Evening Lecture-	Jarrod or Sean
+			
+Thurs, Jan 30	Coibita	Marine Ecology and Conservation	
+	7:00 AM	Breakfast	
+	8:00 AM	Field Work	Students
+	12:00 PM	Lunch	
+	4:00 PM	Data Analysis	Students
+	6:00 PM	Dinner	
+	7:00 AM	Students presentations	Students
+			
+Fri, Jan 31	Travel Back to Panama		
+	6:30 AM	Breakfast	
+	8:00 AM	Travel Back to Panama	
+	12:00 PM	Lunch	
+	1:00 - 5:00 PM	Travel Back to Panama	
+	6:00 PM	Dinner	
+	7:00 PM	Course Wrap up	Owen /Carlos /Janeene
+			
+Sat, Feb 1	Gamboa	Free day	
+	7:00 AM	Breakfast 	
+	12:00PM	Lunch	
+	6:00 PM	Dinner	
+	8:00 PM	No evening lecture	
+			
+Sun, Feb 2	Gamboa	Free day	
+	7:00 AM	Breakfast 	
+	12:00PM	Lunch	
+	6:00 PM	Dinner	
+	8:00 PM	No evening lecture	
+			
+Mon, Feb 3	Gamboa	Environmental Policy	Gordon Hickey
+	6:00 AM	Breakfast	
+	6:30 AM		
+	8:00 AM		
+	12:00PM	Lunch	
+	1:00 PM- 4:00PM 		
+	6:00PM	Dinner	
+	8:00 PM	No evening lecture	
+			
+Tues, Feb 4	Gamboa	Environmental Policy	Gordon Hickey
+	6:00 AM	Breakfast	
+	6:30 AM		
+	8:00 AM		
+	12:00PM	Lunch	
+	1:00 PM- 4:00PM 		
+	6:00PM	Dinner	
+	8:00 PM	No evening lecture	
+			
+Wen, Feb 5	Gamboa	Environmental Policy	Gordon Hickey
+	6:00 AM	Breakfast	
+	6:30 AM		
+	8:00 AM		
+	12:00PM	Lunch	
+	1:00 PM- 4:00PM 		
+	6:00PM	Dinner	
+	8:00 PM	No evening lecture	
+			
+Thur, Feb 6	Gamboa	Environmental Policy	Gordon Hickey
+	6:00 AM	Breakfast	
+	6:30 AM		
+	8:00 AM		
+	12:00PM	Lunch	
+	1:00 PM- 4:00PM 		
+	6:00PM	Dinner	
+	8:00 PM	End of the Course	

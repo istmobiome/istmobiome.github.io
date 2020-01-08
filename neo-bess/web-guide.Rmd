@@ -103,10 +103,7 @@ Rationale 2
 You all know there are many ways to make a website---Squarespace, Wordpress, Wix, and the list goes on. But none of these platforms offer the flexibility, accessibly, usability, and reproducibily like the combination of tools we will use. As with everything there are limitations, but I feel the benefits outweigh the drawbacks. 
 
 
-<div class = "warning">
-<font size="3">Please note. This is not an R course. At least one of us (me) is not an expert in R and teaching R is beyond the scope of the course. However, building a website through the R environment is a great point of entry to the amazing suite of resources this platform offers.
-</font>
-</div>
+> Please note. This is not an R course. At least one of us (me) is not an expert in R and teaching R is beyond the scope of the course. However, building a website through the R environment is a great point of entry to the amazing suite of resources this platform offers.
 
 #### R
 
@@ -119,9 +116,9 @@ RStudio is an integrated development environment ([IDE](https://en.wikipedia.org
 
 #### R Markdown
 
-R Markdown is really the bread and butter of what we will be doing.  R Markdown is a file format for making dynamic documents with R. R Markdown combines the syntax of Markdown with the language and an environment of R. R Markdown documents are written in [Markdown](https://en.wikipedia.org/wiki/Markdown)---a “lightweight” markup language (like HTML), that uses a relatively simple syntax to facilitate the *transformation* of human-readible text files into .html or .pdf documents. What this means is that rather than writing HTML and CSS code to make a website, you  write your content in Markdown, which is then translated (by RStudio in this case) to web content. R code is embedded within code chunks that RStudio can idetify as code. RStudio/R then runs the code and renders the output within the HTML file. 
+R Markdown is really the bread and butter of what we will be doing.  R Markdown is a file format for making dynamic documents with R. R Markdown combines the syntax of Markdown with the language and an environment of R. R Markdown documents are written in [Markdown](https://en.wikipedia.org/wiki/Markdown)---a “lightweight” [markup language](https://en.wikipedia.org/wiki/Markup_language) (like HTML), that uses a relatively simple syntax to facilitate the *transformation* of human-readible text files into .html or .pdf documents. What this means is that rather than writing HTML and CSS code to make a website, you  write your content in Markdown, which is then translated (by RStudio in this case) to web content. R code is embedded within code chunks that RStudio can idetify as code. RStudio/R then runs the code and renders the output within the HTML file. 
 
-Before we get to the R part we first need to take a look at the Markdown component.
+> Before we get to the R part we first need to take a look at the Markdown component. Go to Part 3 to see some example of Markdown text. 
 
 3. Markdown
 =====================================  
