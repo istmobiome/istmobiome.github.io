@@ -6,9 +6,7 @@ title: "Ants for Isabella"
 output:
   html_document: 
     code_download: true
-    toc: TRUE
-    toc_float: true
-    toc_depth: 3
+    toc: FALSE
     theme: cosmo
     highlight: haddock
     df_print: paged

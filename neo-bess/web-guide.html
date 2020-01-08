@@ -55,6 +55,15 @@ if (!!window.navigator.userAgent.match("MSIE 8")) {
 };
 </script>
 <script>!function(a,b){"use strict";function c(c,g){var h=this;h.$el=a(c),h.el=c,h.id=e++,h.$el.bind("destroyed",a.proxy(h.teardown,h)),h.$clonedHeader=null,h.$originalHeader=null,h.cachedHeaderHeight=null,h.isSticky=!1,h.hasBeenSticky=!1,h.leftOffset=null,h.topOffset=null,h.init=function(){h.setOptions(g),h.$el.each(function(){var b=a(this);b.css("padding",0),h.$originalHeader=a("thead:first",this),h.$clonedHeader=h.$originalHeader.clone(),b.trigger("clonedHeader."+d,[h.$clonedHeader]),h.$clonedHeader.addClass("tableFloatingHeader"),h.$clonedHeader.css({display:"none",opacity:0}),h.$originalHeader.addClass("tableFloatingHeaderOriginal"),h.$originalHeader.after(h.$clonedHeader),h.$printStyle=a('<style type="text/css" media="print">.tableFloatingHeader{display:none !important;}.tableFloatingHeaderOriginal{position:static !important;}</style>'),h.$head.append(h.$printStyle)}),h.updateWidth(),h.toggleHeaders(),h.bind()},h.destroy=function(){h.$el.unbind("destroyed",h.teardown),h.teardown()},h.teardown=function(){h.isSticky&&h.$originalHeader.css("position","static"),a.removeData(h.el,"plugin_"+d),h.unbind(),h.$clonedHeader.remove(),h.$originalHeader.removeClass("tableFloatingHeaderOriginal"),h.$originalHeader.css("visibility","visible"),h.$printStyle.remove(),h.el=null,h.$el=null},h.bind=function(){h.$scrollableArea.on("scroll."+d,h.toggleHeaders),h.isWindowScrolling||(h.$window.on("scroll."+d+h.id,h.setPositionValues),h.$window.on("resize."+d+h.id,h.toggleHeaders)),h.$scrollableArea.on("resize."+d,h.toggleHeaders),h.$scrollableArea.on("resize."+d,h.updateWidth)},h.unbind=function(){h.$scrollableArea.off("."+d,h.toggleHeaders),h.isWindowScrolling||(h.$window.off("."+d+h.id,h.setPositionValues),h.$window.off("."+d+h.id,h.toggleHeaders)),h.$scrollableArea.off("."+d,h.updateWidth)},h.debounce=function(a,b){var c=null;return function(){var d=this,e=arguments;clearTimeout(c),c=setTimeout(function(){a.apply(d,e)},b)}},h.toggleHeaders=h.debounce(function(){h.$el&&h.$el.each(function(){var b,c=a(this),e=h.isWindowScrolling?isNaN(h.options.fixedOffset)?h.options.fixedOffset.outerHeight():h.options.fixedOffset:h.$scrollableArea.offset().top+(isNaN(h.options.fixedOffset)?0:h.options.fixedOffset),f=c.offset(),g=h.$scrollableArea.scrollTop()+e,i=h.$scrollableArea.scrollLeft(),j=h.options.cacheHeaderHeight?h.cachedHeaderHeight:h.$clonedHeader.height(),k=h.isWindowScrolling?g>f.top:e>f.top,l=(h.isWindowScrolling?g:0)<f.top+c.height()-j-(h.isWindowScrolling?0:e);k&&l?(b=f.left-i+h.options.leftOffset,h.$originalHeader.css({position:"fixed","margin-top":h.options.marginTop,left:b,"z-index":3}),h.leftOffset=b,h.topOffset=e,h.$clonedHeader.css("display",""),h.isSticky||(h.isSticky=!0,h.updateWidth(),c.trigger("enabledStickiness."+d)),h.setPositionValues()):h.isSticky&&(h.$originalHeader.css("position","static"),h.$clonedHeader.css("display","none"),h.isSticky=!1,h.resetWidth(a("td,th",h.$clonedHeader),a("td,th",h.$originalHeader)),c.trigger("disabledStickiness."+d))})},0),h.setPositionValues=h.debounce(function(){var a=h.$window.scrollTop(),b=h.$window.scrollLeft();!h.isSticky||0>a||a+h.$window.height()>h.$document.height()||0>b||b+h.$window.width()>h.$document.width()||h.$originalHeader.css({top:h.topOffset-(h.isWindowScrolling?0:a),left:h.leftOffset-(h.isWindowScrolling?0:b)})},0),h.updateWidth=h.debounce(function(){if(h.isSticky){h.$originalHeaderCells||(h.$originalHeaderCells=a("th,td",h.$originalHeader)),h.$clonedHeaderCells||(h.$clonedHeaderCells=a("th,td",h.$clonedHeader));var b=h.getWidth(h.$clonedHeaderCells);h.setWidth(b,h.$clonedHeaderCells,h.$originalHeaderCells),h.$originalHeader.css("width",h.$clonedHeader.width()),h.options.cacheHeaderHeight&&(h.cachedHeaderHeight=h.$clonedHeader.height())}},0),h.getWidth=function(c){var d=[];return c.each(function(c){var e,f=a(this);if("border-box"===f.css("box-sizing")){var g=f[0].getBoundingClientRect();e=g.width?g.width:g.right-g.left}else{var i=a("th",h.$originalHeader);if("collapse"===i.css("border-collapse"))if(b.getComputedStyle)e=parseFloat(b.getComputedStyle(this,null).width);else{var j=parseFloat(f.css("padding-left")),k=parseFloat(f.css("padding-right")),l=parseFloat(f.css("border-width"));e=f.outerWidth()-j-k-l}else e=f.width()}d[c]=e}),d},h.setWidth=function(a,b,c){b.each(function(b){var d=a[b];c.eq(b).css({"min-width":d,"max-width":d})})},h.resetWidth=function(b,c){b.each(function(b){var d=a(this);c.eq(b).css({"min-width":d.css("min-width"),"max-width":d.css("max-width")})})},h.setOptions=function(b){h.options=a.extend({},f,b),h.$window=a(h.options.objWindow),h.$head=a(h.options.objHead),h.$document=a(h.options.objDocument),h.$scrollableArea=a(h.options.scrollableArea),h.isWindowScrolling=h.$scrollableArea[0]===h.$window[0]},h.updateOptions=function(a){h.setOptions(a),h.unbind(),h.bind(),h.updateWidth(),h.toggleHeaders()},h.init()}var d="stickyTableHeaders",e=0,f={fixedOffset:0,leftOffset:0,marginTop:0,objDocument:document,objHead:"head",objWindow:b,scrollableArea:b,cacheHeaderHeight:!1};a.fn[d]=function(b){return this.each(function(){var e=a.data(this,"plugin_"+d);e?"string"==typeof b?e[b].apply(e):e.updateOptions(b):"destroy"!==b&&a.data(this,"plugin_"+d,new c(this,b))})}}(jQuery,window);</script>
+<script>$(document).ready(function(){
+    if (typeof $('[data-toggle="tooltip"]').tooltip === 'function') {
+        $('[data-toggle="tooltip"]').tooltip();
+    }
+    if ($('[data-toggle="popover"]').popover === 'function') {
+        $('[data-toggle="popover"]').popover();
+    }
+});
+</script>
 <style type="text/css">
 
 /*
@@ -2951,6 +2960,3250 @@ qplot(speed, dist, data=cars) + geom_smooth()
 </div>
 </div>
 </div>
+</div>
+<div id="d_schedule" class="section level1">
+<h1>D_Schedule</h1>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Date
+</th>
+<th style="text-align:left;">
+Time
+</th>
+<th style="text-align:left;">
+Topic
+</th>
+<th style="text-align:left;">
+Support Team
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Sun, Jan 12
+</td>
+<td style="text-align:left;">
+8:00 AM- 6:00 PM
+</td>
+<td style="text-align:left;">
+Airport pick-ups
+</td>
+<td style="text-align:left;">
+Carlos Arias
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+18:00 PM
+</td>
+<td style="text-align:left;">
+Dinner at Gamboa schoolhouse
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Prepare small bag for trip to BCI (4 days/3 nights). Field clothes.
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mon, Jan 13
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Introduction to the Course
+</td>
+<td style="text-align:left;">
+Owen McMillan, Carlos Arias, Janeene Touchton
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+Introduction to STRI
+</td>
+<td style="text-align:left;">
+Matt Larsen
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+9:00 AM
+</td>
+<td style="text-align:left;">
+Intro to Geolgical history of the Isthmus of Panama
+</td>
+<td style="text-align:left;">
+Camila Martinez
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+11:00 AM
+</td>
+<td style="text-align:left;">
+Intro to BCI
+</td>
+<td style="text-align:left;">
+Joe Wright
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+2:00 PM
+</td>
+<td style="text-align:left;">
+Safety and Security talk
+</td>
+<td style="text-align:left;">
+Jose Ramon Perurena
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+3:00-5:00 PM
+</td>
+<td style="text-align:left;">
+Introduction to course
+</td>
+<td style="text-align:left;">
+Owen McMillan, Carlos Arias, Janeene Touchton
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:30 PM
+</td>
+<td style="text-align:left;">
+Project Curation with R-I
+</td>
+<td style="text-align:left;">
+Jarrod Scott
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tues, Jan 14
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Forest Ecology primer
+</td>
+<td style="text-align:left;">
+Andy Jones, Owen McMillan, Carlos Arias, Janeene Touchton
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+Short Research Talks
+</td>
+<td style="text-align:left;">
+Jannene Touchton, Andy Jones, Erin Spear, Dumas Galves
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+9:00 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+11:30 AM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Departure to Gamboa dock to take boat to BCI
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+2:00 PM
+</td>
+<td style="text-align:left;">
+Settle in BCI
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+3:00-5:00 PM
+</td>
+<td style="text-align:left;">
+Group hike- 50 hectare plot
+</td>
+<td style="text-align:left;">
+Jannene Touchton, Andy Jones, Erin Spear, Dumas Galves
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:30 PM
+</td>
+<td style="text-align:left;">
+Meting to discuss projects
+</td>
+<td style="text-align:left;">
+Jannene Touchton, Andy Jones, Erin Spear, Owen McMillan, Carlos Arias, Dumas Galves
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wed, Jan 15
+</td>
+<td style="text-align:left;">
+BCI
+</td>
+<td style="text-align:left;">
+Forest Ecology Primer
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+08:00 AM- 12:00PM
+</td>
+<td style="text-align:left;">
+Field Projects
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM -1:00PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM-6:00 PM
+</td>
+<td style="text-align:left;">
+Field Projects
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:30 PM
+</td>
+<td style="text-align:left;">
+Meting to discuss projects progress
+</td>
+<td style="text-align:left;">
+Jannene Touchton, Andy Jones, Erin Spear, Owen McMillan, Carlos Arias, Dumas Galves
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thurs, Jan 16
+</td>
+<td style="text-align:left;">
+BCI
+</td>
+<td style="text-align:left;">
+Forest Ecology Primer
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+08:00 AM - 12:00 PM
+</td>
+<td style="text-align:left;">
+Field projects
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM -1:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM-6:00 PM
+</td>
+<td style="text-align:left;">
+Data Analysis
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:15 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture-Bamby Seminar
+</td>
+<td style="text-align:left;">
+Owen McMIillan- What is a Model Organism
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Fri, Jan 17
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Free moorning/return to Gamboa
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+Packing
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+9:00 AM
+</td>
+<td style="text-align:left;">
+Return to Gamboa
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM
+</td>
+<td style="text-align:left;">
+Project Curation with R-II
+</td>
+<td style="text-align:left;">
+Jarrod Scott
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+3:00-5:00 PM
+</td>
+<td style="text-align:left;">
+Students presentations
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sat, Jan 18
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Insect diversity
+</td>
+<td style="text-align:left;">
+Jose Loiza, Kelly Bennet/Ummat
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+Short Talk
+</td>
+<td style="text-align:left;">
+Kelly Bennet/Ummat
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+10:00 AM
+</td>
+<td style="text-align:left;">
+Field work
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM - 3:00 PM
+</td>
+<td style="text-align:left;">
+Field work
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture
+</td>
+<td style="text-align:left;">
+Jose Loiza
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sun, Jan 19
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Insect diversity
+</td>
+<td style="text-align:left;">
+Jose Loiza, Kelly Bennet/Ummat
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+Field Work
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:30 PM
+</td>
+<td style="text-align:left;">
+Lunch break
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:30 PM -4:00 PM
+</td>
+<td style="text-align:left;">
+Data Analysis
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 PM
+</td>
+<td style="text-align:left;">
+Students Presentations
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mon, Jan 20
+</td>
+<td style="text-align:left;">
+Sherman
+</td>
+<td style="text-align:left;">
+Plant Physiology
+</td>
+<td style="text-align:left;">
+Martijn
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM-11:30AM
+</td>
+<td style="text-align:left;">
+Trip to Sherman Crane
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM- 1:30 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+3:00 PM
+</td>
+<td style="text-align:left;">
+Afternoon Talk
+</td>
+<td style="text-align:left;">
+Martijn
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:30 PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tues, Jan 21
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Heliconius and CRISPR
+</td>
+<td style="text-align:left;">
+Carolina Concha/ Chris Kosak
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+Intro to Heliconius and its Phylogeographic history
+</td>
+<td style="text-align:left;">
+Chris Kosak
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+10:00 AM
+</td>
+<td style="text-align:left;">
+CRISPR technolgy
+</td>
+<td style="text-align:left;">
+Carolina Concha
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM
+</td>
+<td style="text-align:left;">
+Vistit to insectaries and Lab
+</td>
+<td style="text-align:left;">
+Carlos Arias/Owen/Carolina
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+4:00 PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture
+</td>
+<td style="text-align:left;">
+Denise
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wed, Jan 22
+</td>
+<td style="text-align:left;">
+Agua Salud
+</td>
+<td style="text-align:left;">
+Forest Ecology II
+</td>
+<td style="text-align:left;">
+Jeff Hall, Katerine Sinacore, Adriana Tapia
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast (prepare lunch to go)
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM- 10:30 AM
+</td>
+<td style="text-align:left;">
+Field visit: Agua Salud project
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+11:00 AM
+</td>
+<td style="text-align:left;">
+Lunch break
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM
+</td>
+<td style="text-align:left;">
+Field visit: Agua Salud
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+3:00 PM
+</td>
+<td style="text-align:left;">
+Afternon Lecture and Discussion
+</td>
+<td style="text-align:left;">
+Katerine Sinacore / Jeff Hall
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture
+</td>
+<td style="text-align:left;">
+Maria Del Carme Ruiz
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thurs, Jan 23
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Animal Physiology and adaptation
+</td>
+<td style="text-align:left;">
+Michael Logan/Carlos Arias/Owen
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+9:00 AM- 12:00PM
+</td>
+<td style="text-align:left;">
+Short Research Talks
+</td>
+<td style="text-align:left;">
+Michael Logan/Carlos Arias/Rigoberto Gonzalez
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Lunch break
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:30pm-4:00pm
+</td>
+<td style="text-align:left;">
+Field project
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:30 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture
+</td>
+<td style="text-align:left;">
+Rowan Barret
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Fri, Jan 24
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Animal Physiology &amp; adaptation
+</td>
+<td style="text-align:left;">
+Michael Logan/Carlos Arias
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM- 10:00AM
+</td>
+<td style="text-align:left;">
+Field project
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+11:00 AM- 12:00PM
+</td>
+<td style="text-align:left;">
+Data Analysis
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM
+</td>
+<td style="text-align:left;">
+Data Analysis
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+4:30 PM
+</td>
+<td style="text-align:left;">
+Students presentations
+</td>
+<td style="text-align:left;">
+Studens
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture
+</td>
+<td style="text-align:left;">
+RIcardo Moreno
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sat, Jan 25
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Animal Conservation
+</td>
+<td style="text-align:left;">
+Janeene/ Roberto Ibanez
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Birding in Pipeline Road
+</td>
+<td style="text-align:left;">
+Janeene
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+2:00 PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+3:00 PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sun, Jan 26
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Free day
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+3:00 PM
+</td>
+<td style="text-align:left;">
+Afternoon Lecture
+</td>
+<td style="text-align:left;">
+Hector Guzman
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+4:00 PM
+</td>
+<td style="text-align:left;">
+Afternoon Lecture
+</td>
+<td style="text-align:left;">
+Catalina Gomez
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mon, Jan 27
+</td>
+<td style="text-align:left;">
+Coibita
+</td>
+<td style="text-align:left;">
+Travel to Coibita
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Departure to Coibita
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:30 PM
+</td>
+<td style="text-align:left;">
+Lunch in Santiago
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture-
+</td>
+<td style="text-align:left;">
+Davey Klein
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tues, Jan 28
+</td>
+<td style="text-align:left;">
+Coibita
+</td>
+<td style="text-align:left;">
+Marine Ecology and Conservation
+</td>
+<td style="text-align:left;">
+Davey Klein, Matt Leray
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM- 12:00 PM
+</td>
+<td style="text-align:left;">
+Morning Lecture
+</td>
+<td style="text-align:left;">
+Matt Leray
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:30 PM
+</td>
+<td style="text-align:left;">
+Lunch break
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:30-4 PM
+</td>
+<td style="text-align:left;">
+Field Work
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture-
+</td>
+<td style="text-align:left;">
+Jarrod or Sean
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wed, Jan 29
+</td>
+<td style="text-align:left;">
+Coibita
+</td>
+<td style="text-align:left;">
+Marine Ecology and Conservation
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:30 AM - 12:30 PM
+</td>
+<td style="text-align:left;">
+Field work
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:30PM
+</td>
+<td style="text-align:left;">
+Lunch break
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:30 PM- 4:00 PM
+</td>
+<td style="text-align:left;">
+Field work
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 PM
+</td>
+<td style="text-align:left;">
+Evening Lecture-
+</td>
+<td style="text-align:left;">
+Jarrod or Sean
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thurs, Jan 30
+</td>
+<td style="text-align:left;">
+Coibita
+</td>
+<td style="text-align:left;">
+Marine Ecology and Conservation
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+Field Work
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+4:00 PM
+</td>
+<td style="text-align:left;">
+Data Analysis
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Students presentations
+</td>
+<td style="text-align:left;">
+Students
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Fri, Jan 31
+</td>
+<td style="text-align:left;">
+Travel Back to Panama
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+Travel Back to Panama
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00 PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 - 5:00 PM
+</td>
+<td style="text-align:left;">
+Travel Back to Panama
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 PM
+</td>
+<td style="text-align:left;">
+Course Wrap up
+</td>
+<td style="text-align:left;">
+Owen /Carlos /Janeene
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sat, Feb 1
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Free day
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 PM
+</td>
+<td style="text-align:left;">
+No evening lecture
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sun, Feb 2
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Free day
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+7:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 PM
+</td>
+<td style="text-align:left;">
+No evening lecture
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mon, Feb 3
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM- 4:00PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 PM
+</td>
+<td style="text-align:left;">
+No evening lecture
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tues, Feb 4
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM- 4:00PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 PM
+</td>
+<td style="text-align:left;">
+No evening lecture
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wen, Feb 5
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM- 4:00PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 PM
+</td>
+<td style="text-align:left;">
+No evening lecture
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thur, Feb 6
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00 AM
+</td>
+<td style="text-align:left;">
+Breakfast
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:30 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 AM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+12:00PM
+</td>
+<td style="text-align:left;">
+Lunch
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+1:00 PM- 4:00PM
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+6:00PM
+</td>
+<td style="text-align:left;">
+Dinner
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+8:00 PM
+</td>
+<td style="text-align:left;">
+End of the Course
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="schedule" class="section level1">
+<h1>Schedule</h1>
+<div class="knitr-options" data-fig-width="576" data-fig-height="460">
+
+</div>
+<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Date
+</th>
+<th style="text-align:right;">
+Day
+</th>
+<th style="text-align:left;">
+Location
+</th>
+<th style="text-align:left;">
+Component
+</th>
+<th style="text-align:left;">
+Activity
+</th>
+<th style="text-align:left;">
+Support Team
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Thurday 9 Jan
+</td>
+<td style="text-align:right;">
+1
+</td>
+<td style="text-align:left;">
+McGill
+</td>
+<td style="text-align:left;">
+Environmental Policy (Check ENVR Syllabus)
+</td>
+<td style="text-align:left;">
+Preliminary readings and discussion
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Friday 10 Jan
+</td>
+<td style="text-align:right;">
+2
+</td>
+<td style="text-align:left;">
+McGill
+</td>
+<td style="text-align:left;">
+Environmental Policy (Check ENVR Syllabus)
+</td>
+<td style="text-align:left;">
+Preliminary readings and discussion
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Saturday 11 Jan
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+3
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Free day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Reading and Writing day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sunday 12 Jan
+</td>
+<td style="text-align:right;">
+4
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Accommodation at schoolhouse
+</td>
+<td style="text-align:left;">
+Acomodation
+</td>
+<td style="text-align:left;">
+Carlos Arias, Janeene Touchton
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Monday 13 Jan
+</td>
+<td style="text-align:right;">
+5
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Geological and biotic history of Panama
+</td>
+<td style="text-align:left;">
+Introduction to the neotropics
+</td>
+<td style="text-align:left;">
+Jose Ramon Peruena, Matthew Larsen , Owen McMillan
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 14 Jan
+</td>
+<td style="text-align:right;">
+6
+</td>
+<td style="text-align:left;">
+Gamboa/BCI
+</td>
+<td style="text-align:left;">
+Tropical Ecology I
+</td>
+<td style="text-align:left;">
+Forest diversity-Students projects I
+</td>
+<td style="text-align:left;">
+Andy Jones Janeene Touchton, Erin Spear, Dumas Galves
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wednesday 15 Jan
+</td>
+<td style="text-align:right;">
+7
+</td>
+<td style="text-align:left;">
+BCI
+</td>
+<td style="text-align:left;">
+Tropical Ecology I
+</td>
+<td style="text-align:left;">
+Forest diversity-Students projects I
+</td>
+<td style="text-align:left;">
+Andy Jones Janeene Touchton, Erin Spear, Dumas Galves
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 16 Jan
+</td>
+<td style="text-align:right;">
+8
+</td>
+<td style="text-align:left;">
+BCI
+</td>
+<td style="text-align:left;">
+Tropical Ecology I
+</td>
+<td style="text-align:left;">
+Forest diversity-Students projects I
+</td>
+<td style="text-align:left;">
+Andy Jones Janeene Touchton, Erin Spear, Dumas Galves
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Friday 17 Jan
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+9
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Free day/return to Gamboa
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Reading and Writing day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Saturday 18 Jan
+</td>
+<td style="text-align:right;">
+10
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Tropical Diversity and Adaptation
+</td>
+<td style="text-align:left;">
+Insect diversity- Students Project II
+</td>
+<td style="text-align:left;">
+Jose Loaiza/ Kelly Bennett/Ummat
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Sunday 19 Jan
+</td>
+<td style="text-align:right;">
+11
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Tropical Diversity and Adaptation
+</td>
+<td style="text-align:left;">
+Insect diversity- Students Project II
+</td>
+<td style="text-align:left;">
+Jose Loaiza/ Kelly Bennett/Ummat
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Monday 20 Jan
+</td>
+<td style="text-align:right;">
+12
+</td>
+<td style="text-align:left;">
+Sherman Crane
+</td>
+<td style="text-align:left;">
+Plant Physiology
+</td>
+<td style="text-align:left;">
+Plant adaptation
+</td>
+<td style="text-align:left;">
+Martjin Slot, Carlos Arias, Janeene Touchton
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 21 Jan
+</td>
+<td style="text-align:right;">
+13
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Tropical Diversity and Adaptation
+</td>
+<td style="text-align:left;">
+Heliconius and CRISPR
+</td>
+<td style="text-align:left;">
+Chris Kosak/Carolina Concha
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wednesday 22 Jan
+</td>
+<td style="text-align:right;">
+14
+</td>
+<td style="text-align:left;">
+Agua Salud
+</td>
+<td style="text-align:left;">
+Forest Ecology and Conservation
+</td>
+<td style="text-align:left;">
+Agua Salud Project
+</td>
+<td style="text-align:left;">
+Jeff Hall/Adriana Tapia/Katherine Sinacore
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 23 Jan
+</td>
+<td style="text-align:right;">
+15
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Tropical Diversity and Adaptation
+</td>
+<td style="text-align:left;">
+Vertebrate diversity-Students Project III
+</td>
+<td style="text-align:left;">
+Michael Logan or Michael Postdoc /Carlos Arias
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Friday 24 Jan
+</td>
+<td style="text-align:right;">
+16
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Tropical Diversity and Adaptation
+</td>
+<td style="text-align:left;">
+Vertebrate diversity-Students Project III
+</td>
+<td style="text-align:left;">
+Michael Logan or Michael Postdoc /Carlos Arias
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Saturday 25 Jan
+</td>
+<td style="text-align:right;">
+17
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Tropical Diversity and Adaptation
+</td>
+<td style="text-align:left;">
+Vertebrate diversity-Birding
+</td>
+<td style="text-align:left;">
+Janeene Touchton
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Sunday 26 Jan
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+18
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Fee day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Reading and Writing day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Monday 27 Jan
+</td>
+<td style="text-align:right;">
+19
+</td>
+<td style="text-align:left;">
+Travel to Coiba
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 28 Jan
+</td>
+<td style="text-align:right;">
+20
+</td>
+<td style="text-align:left;">
+Coiba
+</td>
+<td style="text-align:left;">
+Marine Ecology and Conservation
+</td>
+<td style="text-align:left;">
+Marine diversity- Student project V
+</td>
+<td style="text-align:left;">
+Matt Leray/Davey Klein
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wednesday 29 Jan
+</td>
+<td style="text-align:right;">
+21
+</td>
+<td style="text-align:left;">
+Coiba
+</td>
+<td style="text-align:left;">
+Marine Ecology and Conservation
+</td>
+<td style="text-align:left;">
+Marine diversity- Student project V
+</td>
+<td style="text-align:left;">
+Matt Leray/Davey Klein
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 30 Jan
+</td>
+<td style="text-align:right;">
+22
+</td>
+<td style="text-align:left;">
+Coiba
+</td>
+<td style="text-align:left;">
+Marine Ecology and Conservation
+</td>
+<td style="text-align:left;">
+Marine diversity- Student project V
+</td>
+<td style="text-align:left;">
+Matt Leray/Davey Klein
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Friday 31 Jan
+</td>
+<td style="text-align:right;">
+23
+</td>
+<td style="text-align:left;">
+Travel back
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Saturday 1-Feb
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+24
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Free day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Reading and Writing day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Sunday 2-Feb
+</td>
+<td style="text-align:right;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+25
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Free day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+Reading and Writing day
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+<td style="text-align:left;font-weight: bold;color: white !important;background-color: #0072B2 !important;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Monday 3-Feb
+</td>
+<td style="text-align:right;">
+26
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Discussion
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 4-Feb
+</td>
+<td style="text-align:right;">
+27
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Discussion
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+wednesday 5-Feb
+</td>
+<td style="text-align:right;">
+28
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Discussion
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thurday 6-Feb
+</td>
+<td style="text-align:right;">
+29
+</td>
+<td style="text-align:left;">
+Gamboa
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Discussion
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Friday 7-Feb
+</td>
+<td style="text-align:right;">
+30
+</td>
+<td style="text-align:left;">
+Gamboa/course ends
+</td>
+<td style="text-align:left;">
+Environmental Policy
+</td>
+<td style="text-align:left;">
+Discussion
+</td>
+<td style="text-align:left;">
+Gordon Hickey
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 </div>

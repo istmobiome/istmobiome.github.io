@@ -410,3 +410,22 @@ We will use this space to add use reference and resources  that we come up with 
 * Freely available HTML, PDF, ePub, and Kindle books about R topics writen in the R Markdown package `bookdown` https://bookdown.org/
 
 
+D_Schedule
+=====================================  
+
+```{r schedule_d}
+attend <- read.csv("schedule_long.txt", header = TRUE, sep = "\t", check.names = FALSE)
+knitr::kable(attend) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+
+Schedule
+=====================================  
+
+```{r schedule_b}
+attend <- read.csv("schedule_brief.txt", header = TRUE, sep = "\t", check.names = FALSE)
+knitr::kable(attend) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  row_spec(c(3, 9, 18, 24, 25), bold = T, color = "white", background = "#0072B2")
+```
