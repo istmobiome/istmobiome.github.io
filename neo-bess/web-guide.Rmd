@@ -411,8 +411,7 @@ We will use this space to add use reference and resources  that we come up with 
 
 * Freely available HTML, PDF, ePub, and Kindle books about R topics writen in the R Markdown package `bookdown` https://bookdown.org/
 
-
-D_Schedule
+Detailed Schedule {data-navmenu="Schedule" data-icon="fa-calendar"}
 =====================================  
 
 ```{r schedule_d}
@@ -422,7 +421,7 @@ knitr::kable(attend) %>%
 ```
 
 
-Schedule
+Schedule  {data-navmenu="Schedule" data-icon="fa-calendar"}
 =====================================  
 
 ```{r schedule_b}
