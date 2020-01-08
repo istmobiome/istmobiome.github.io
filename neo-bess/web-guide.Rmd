@@ -416,7 +416,7 @@ D_Schedule
 ```{r schedule_d}
 attend <- read.csv("schedule_long.txt", header = TRUE, sep = "\t", check.names = FALSE)
 knitr::kable(attend) %>% 
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"))
 ```
 
 
