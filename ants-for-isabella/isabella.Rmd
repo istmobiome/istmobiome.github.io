@@ -5,14 +5,14 @@ title: "Ants for Isabella"
 #abstract: "Workflow to generate phyloseq objects, analyze data, and create figures for the fish microbiome paper, processed using the previous DADA2 workflow. Here we report both methods and results in plain text and R code. You can choose to show all code or hide the code using the button in the upper right hand corner of the fron page (default is hide) as well as download the .Rmd file to tweak the code. The document represents a **completely reproducible workflow** of our study."
 output:
   html_document: 
-    code_download: true
+    code_download: false
     toc: FALSE
     theme: cosmo
     highlight: haddock
     df_print: paged
     number_sections: false
-#    includes:
-#      in_header: images/fish_tree_clip_title.html
+    includes:
+      in_header: banner.html
 #      after_body: footer.html
   pdf_document: default
 #cool_themes: default, cerulean, cosmo, darkly, flatly, journal, lumen, sandstone, simplex, spacelab, united, yeti
@@ -49,7 +49,7 @@ Ok, here is another fun thing about ants but we need to use a new word to explai
 
 So **polymorphism** just means *many forms*. Ants are special because a single colony can have many forms of ants, but they are all sisters. Here is an example:
 
-![](640px-Atta.cephalotes.gamut.selection.jpg)
+![](img/640px-Atta.cephalotes.gamut.selection.jpg)
 
 The big ants on the right are the queen. She is very BIG. All of the other ants are her daughters. They are all different sizes but they are all sisters. No other animal in the world has this many different sizes. 
 
@@ -64,17 +64,17 @@ Ants do a lot of different things! Here are some of my favorites.
 
 Do you have a garden at home? Many human beings grown their own food in gardens and farms. Tomatoes, peppers, papayas, mangoes, you name it. Humans grow food so we don't have to walk around the forest all day to find food.  Well there are  ants that grow their own food too! But the ants grow mushrooms (hongos). From Texas in the United States, to Mexico, Panama, and Colombia there are special ants called *Attines* that grow mushrooms in underground garden. Here is what the garden looks like. 
 
-![](1-bacteriatend.jpg) 
+![](img/1-bacteriatend.jpg) 
 
 All of this white stuff are hongos. To grow the hongos the worker ants go out in the forest and collect leave off of trees. Here are  ants collecting leaves to grow mushrooms.
 
-![](640px-Atta_cephalotes-pjt.jpg)
+![](img/640px-Atta_cephalotes-pjt.jpg)
 
 ### Ants that make honey
 
 In the United States there is a very special kind of ant that makes honey. The honey these ants make is what the colony eats. These are called **Honey-pot ants**. That is a great name :) 
 
-![](640px-HoneyAnt.jpg)
+![](img/640px-HoneyAnt.jpg)
 
 Do you see the big orange spheres hanging from the ceiling? Each one of those is the stomach of a worker ant, filled with honey. Think of it this way. In your house you have a shelf in the kitchen that has food. When you get hungry you grab some food off the shelf and eat it. Well the situation is very similar for these ants. The ants with the big stomachs are like the shelf of food in your kitchen. When other ants in the colony are hungry, they just ask the honey ants for some food and everyone is happy.
 
@@ -82,7 +82,7 @@ Do you see the big orange spheres hanging from the ceiling? Each one of those is
 
 Many ants build their homes underground. Some ants build their home in trees. But one ant makes its home out of other ants!
 
-![](Bivouac_of_army_ants.jpg)
+![](img/Bivouac_of_army_ants.jpg)
 
 This is the house of a very special ant called an **army ant**. Army ants are nomadic which means they move around a lot and do not have permanent home. But even army ants get tired from time to time and need to rest. So they build a temporary house out of themselves! Look closely at the picture. Each ant is grabbing the leg of another ant and all together they make a house. Inside the house is the queen (who is very big) and all the babies. 
 
