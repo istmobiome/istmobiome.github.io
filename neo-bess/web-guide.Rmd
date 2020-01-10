@@ -2,7 +2,10 @@
 title: "WebPage Guidebook"
 output: 
   flexdashboard::flex_dashboard:
+#    logo: favicon.png
+    favicon: favicon.png
     navbar:
+     - { icon: "fa-home", href: "web-guide.html", align: left }  
      - { icon: "fa-github", href: "https://github.com/istmobiome/istmobiome.github.io/tree/master/neo-bess", align: right }
     theme: spacelab
     vertical_layout: fill
@@ -23,6 +26,35 @@ div.note { background-color:#FBDFB4; border-radius: 10px; padding: 20px; margin:
 <style>
 div.warning { background-color:#eeac9d; border-radius: 8px; padding: 10px; margin: 0px 3px 10px}
 </style>
+
+
+News {data-icon="fa-bullhorn"}
+=====================================  
+
+This is the new landing page and where we will make announcements for the course. Please check back often :)
+
+General Course News
+--------------------------------------------------
+
+### <font size="5">General Course News</font> 
+
+
+
+### <font size="5">Website Updates</font> 
+
+8 Jan
+
+* Changed layout of Guidebook. All Prep pages are now under **Preparation** dropdown menu.
+* Added and updated **Schedule** pages. 
+
+
+WebPage Project News
+--------------------------------------------------
+
+### <font size="5">WebPage Project</font> 
+
+
+### <font size="5">Random Stuff</font> 
 
 
 
@@ -311,9 +343,6 @@ Installing Software 1
 6) Test your install. Open R and type `sessionInfo()`. If you don't get an error then the install is probably good. 
 
 
-Installing Software 2 
--------------------------------------------------
-
 ### <font size="5">Install RStudio</font>
 
 <br/>
@@ -328,10 +357,10 @@ Installing Software 2
 2) Scroll down and hit the **Download** button under RStudio Desktop Free.
 3) Choose you operating system and install RStudio.
 
-Installing Software 3 
+Installing Software 3
 --------------------------------------------------
 
-### <font size="5">Installing R Packages</font>
+### <font size="5">Installing R Packages</font>   {data-height=1000}
 
 <br/>
 
@@ -342,7 +371,6 @@ Installing Software 3
 
 
 R packages can be found in  several places including GitHub and The Comprehensive R Archive Network, or CRAN. On CRAN alone there are over 15,000 [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html) available. You will need a few packages to get going with you web project and you will likely install several more as the need arises.
-
 
 I have no idea what comes prepackaged with R. So before you install any packages run the `library(PACKAGE_NAME)` command first. if you do not get an error that means the package is already installed. 
 Here is a list to start with:
@@ -359,7 +387,13 @@ Here is a list to start with:
 If you have problems with any of these step, we will try to help. But please know that at least one of us (me) knows nothing about Windows operating systems. We will be in a computationally remote area so please try to take care of any major issues before arriving :)
 
 
-Resources
+### <font size="5">Other Installs</font>
+
+* A good text editor like [Atom](https://atom.io/), [BBEdit](http://www.barebones.com/products/bbedit/), [Sublime](https://www.sublimetext.com/), etc. Personally I do not pay for software (esp. a subscription) unless I absolutely have to. Many proprietary packages have free trials that don't ever seem to end. If I like something a lot I will buy it. 
+
+* A good Markdown editor like [MacDown](https://macdown.uranusjr.com/).
+
+Resources  {data-icon="fa-book"}
 =====================================  
 
 Resources 1
