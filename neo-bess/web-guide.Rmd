@@ -464,3 +464,5 @@ knitr::kable(attend) %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
   row_spec(c(3, 9, 18, 24, 25), bold = T, color = "white", background = "#0072B2")
 ```
+
+
