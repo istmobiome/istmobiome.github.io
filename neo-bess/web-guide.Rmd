@@ -47,6 +47,10 @@ General Course News
 
 ### <font size="5">Website Updates</font> 
 
+14 Jan
+
+* We talked about GitHub for collaboration & version control. In the upper right corner an icon that will direct you to the GitHub repo for this site. For those interested, I can do a small intro to GitHub. 
+
 8 Jan
 
 * Changed layout of Guidebook. All Prep pages are now under **Preparation** dropdown menu.
@@ -61,7 +65,6 @@ WebPage Project News
 14 Jan
 
 * We (all?) agreed that the first step in the webpage project was that each group would create a single page for their project
-
 
 ### <font size="5">Random Stuff</font> 
 
