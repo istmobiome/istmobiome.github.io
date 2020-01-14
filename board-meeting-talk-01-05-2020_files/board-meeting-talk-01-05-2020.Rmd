@@ -14,8 +14,9 @@ output:
       ratio: "16:9"
       beforeInit: "https://platform.twitter.com/widgets.js"
     seal: false 
-    #includes:
-      #in_header: header.html
+    includes:
+      in_header: header.html
+      #after_body: insert-logo.html
 ---
 
 ```{r setup, include=FALSE}
@@ -25,7 +26,7 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 # options(knitr.table.format = "html")
 library(tidyverse)
 #library(babynames)
-#library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 library(DiagrammeR)
 ```
 
@@ -49,6 +50,10 @@ background-position: center
 by Jarrod J Scott | STRI | Panama | 2020-01-05
 
 <!-- this ends up being the title slide since seal = FALSE-->
+
+
+[`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/board-meeting-talk-01-05-2020_files)  
+
 
 ---
 name: background
