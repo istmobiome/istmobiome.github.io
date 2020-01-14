@@ -38,7 +38,12 @@ General Course News
 
 ### <font size="5">General Course News</font> 
 
+14 Jan
 
+* I reciecved Dryad links for plot-related data repositories. I have no idea yet what is in these repositories. If you are interested in exploring these datasets maybe we can help. 
+  + [Census data from 65 tree plots in Panama, 1994-2015](https://datadryad.org/stash/dataset/doi:10.15146/mdpr-pm59) 25MB
+  + [BCI 50-ha Plot Taxonomy](https://datadryad.org/stash/dataset/doi:10.15146/R3FH61) 196kb
+  + [Complete data from the Barro Colorado 50-ha plot: 423617 trees, 35 years](https://datadryad.org/stash/dataset/doi:10.15146/5xcp-0d46) 287MB
 
 ### <font size="5">Website Updates</font> 
 
@@ -53,9 +58,12 @@ WebPage Project News
 
 ### <font size="5">WebPage Project</font> 
 
+14 Jan
+
+* We (all?) agreed that the first step in the webpage project was that each group would create a single page for their project
+
 
 ### <font size="5">Random Stuff</font> 
-
 
 
 1. Introduction {data-navmenu="Preparation"}
