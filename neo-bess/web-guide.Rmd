@@ -8,6 +8,7 @@ output:
      - { icon: "fa-home", href: "web-guide.html", align: left }  
      - { icon: "fa-github", href: "https://github.com/istmobiome/istmobiome.github.io/tree/master/neo-bess", align: right }
     theme: spacelab
+    source_code: embed
     vertical_layout: fill
 # nice themes: spacelab yeti cerulean
 # available themes: default, cosmo, bootstrap, cerulean, journal, flatly, readable, spacelab, united, lumen, paper, sandstone, simplex, yeti
@@ -17,6 +18,7 @@ output:
 library(flexdashboard)
 library(knitr)
 library(kableExtra)
+library(fontawesome)
 ```
 
 <style>
@@ -48,6 +50,8 @@ General Course News
 ### <font size="5">Website Updates</font> 
 
 14 Jan
+
+* Added links to sites I showed you & instructions in how to find the source code in the Resources section. 
 
 * We talked about GitHub for collaboration & version control. In the upper right corner an icon that will direct you to the GitHub repo for this site. For those interested, I can do a small intro to GitHub. 
 
@@ -427,9 +431,19 @@ We will use this space to add solutions that we come up with along the way. When
 Resources 2
 --------------------------------------------------
 
-### <font size="5">References & Resources</font>
+### <font size="5">References & Resources</font> 
 
 We will use this space to add use reference and resources  that we come up with along the way. When you have something to contribute please provide a brief explaination of the resource.
+
+#### Example Web Pages
+
+Here are some of the web projects I shared with you. Look for the `r fa("github", height = "25px")` GitHub icon on each of these pages for links to the R Markdown source code.
+
+* [projectDIGEST](https://projectdigest.github.io/) Website for our fish-gut microbiome paper.
+* [Single page HTML](https://istmobiome.github.io/DIGEST/Phyloseq_workflow.html) workflow and [source code]().
+* [Slide show](https://istmobiome.github.io/board-meeting-talk-01-05-2020_files/board-meeting-talk-01-05-2020.html#1) A super simple slide show I made using the [xaringan](https://github.com/yihui/xaringan) package. I mean, it's called *Presentation Ninja*. 
+* The class resouce website. Look in the upper right corner. 
+* If anyone is interested in adding content to the *Ants for Isabella* page, please let me know. I would like to make it into something nicer that can be shared with more kids. 
 
 #### RStudio
 
