@@ -70,6 +70,8 @@ WebPage Project News
 
 * We (all?) agreed that the first step in the webpage project was that each group would create a single page for their project
 
+* I will sit down with smaller groups of students to go over the details of how to make a web page. Please, please, please ask me questions if you are confused about something. 
+
 ### <font size="5">Random Stuff</font> 
 
 
@@ -440,7 +442,7 @@ We will use this space to add use reference and resources  that we come up with 
 Here are some of the web projects I shared with you. Look for the `r fa("github", height = "25px")` GitHub icon on each of these pages for links to the R Markdown source code.
 
 * [projectDIGEST](https://projectdigest.github.io/) Website for our fish-gut microbiome paper.
-* [Single page HTML](https://istmobiome.github.io/DIGEST/Phyloseq_workflow.html) workflow and [source code]().
+* [Single page HTML](https://istmobiome.github.io/DIGEST/Phyloseq_workflow.html) workflow and [source code](https://github.com/istmobiome/istmobiome.github.io/blob/master/DIGEST/Phyloseq_workflow.Rmd).
 * [Slide show](https://istmobiome.github.io/board-meeting-talk-01-05-2020_files/board-meeting-talk-01-05-2020.html#1) A super simple slide show I made using the [xaringan](https://github.com/yihui/xaringan) package. I mean, it's called *Presentation Ninja*. 
 * The class resouce website. Look in the upper right corner. 
 * If anyone is interested in adding content to the *Ants for Isabella* page, please let me know. I would like to make it into something nicer that can be shared with more kids. 
