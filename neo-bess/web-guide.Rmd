@@ -40,6 +40,9 @@ General Course News
 
 ### <font size="5">General Course News</font> 
 
+**Bat Night!** 1930 hours on Monday 20 Jan. 
+
+
 14 Jan
 
 * I reciecved Dryad links for plot-related data repositories. I have no idea yet what is in these repositories. If you are interested in exploring these datasets maybe we can help. 
@@ -48,6 +51,13 @@ General Course News
   + [Complete data from the Barro Colorado 50-ha plot: 423617 trees, 35 years](https://datadryad.org/stash/dataset/doi:10.15146/5xcp-0d46) 287MB
 
 ### <font size="5">Website Updates</font> 
+
+
+17 Jan 
+
+* Updated Schedule. Added **Bat night**, 1930 hours. 
+* Added link to Blog site in References & Resources section
+* Added **Awesome Stuff** section to References & Resources section
 
 14 Jan
 
@@ -65,6 +75,10 @@ WebPage Project News
 --------------------------------------------------
 
 ### <font size="5">WebPage Project</font> 
+
+17 Jan
+
+* **Herbivory** and **Atta** groups, please upload your project directories to the dropbox folder
 
 14 Jan
 
@@ -416,6 +430,12 @@ Resources  {data-icon="fa-book"}
 Resources 1
 --------------------------------------------------
 
+### <font size="5">Awesome stuff</font>
+
+#### Cast of *Atta* colony
+
+Check out this gnarly [video](https://www.youtube.com/watch?v=dwHGCMwZwJU) of an *Atta* colony filled with cement. 
+
 ### <font size="5">Tips & Tricks</font>
 
 #### Getting Help
@@ -437,6 +457,10 @@ Resources 2
 
 We will use this space to add use reference and resources  that we come up with along the way. When you have something to contribute please provide a brief explaination of the resource.
 
+#### NEO-BESS Blog Site
+
+Here is the link for the [blog site](https://strineoigert.wordpress.com).
+
 #### Example Web Pages
 
 Here are some of the web projects I shared with you. Look for the `r fa("github", height = "25px")` GitHub icon on each of these pages for links to the R Markdown source code.
@@ -445,7 +469,6 @@ Here are some of the web projects I shared with you. Look for the `r fa("github"
 * [Single page HTML](https://istmobiome.github.io/DIGEST/Phyloseq_workflow.html) workflow and [source code](https://github.com/istmobiome/istmobiome.github.io/blob/master/DIGEST/Phyloseq_workflow.Rmd).
 * [Slide show](https://istmobiome.github.io/board-meeting-talk-01-05-2020_files/board-meeting-talk-01-05-2020.html#1) A super simple slide show I made using the [xaringan](https://github.com/yihui/xaringan) package. I mean, it's called *Presentation Ninja*. 
 * The class resouce website. Look in the upper right corner. 
-* If anyone is interested in adding content to the *Ants for Isabella* page, please let me know. I would like to make it into something nicer that can be shared with more kids. 
 
 #### RStudio
 
