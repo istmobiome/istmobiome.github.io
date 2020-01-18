@@ -78,7 +78,7 @@ WebPage Project News
 
 17 Jan
 
-* **Herbivory** and **Atta** groups, please upload your project directories to the dropbox folder
+* **All Groups**, please upload your project directories to the dropbox folder and make sure all the files are included. 
 
 14 Jan
 
@@ -87,6 +87,8 @@ WebPage Project News
 * I will sit down with smaller groups of students to go over the details of how to make a web page. Please, please, please ask me questions if you are confused about something. 
 
 ### <font size="5">Random Stuff</font> 
+
+Awesome [video](https://www.youtube.com/watch?v=dwHGCMwZwJU) of an *Atta* colony filled with cement. 
 
 
 1. Introduction {data-navmenu="Preparation"}
