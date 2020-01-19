@@ -1,4 +1,4 @@
-Species	Temperature	Mass_mg	Metabolic_rate_μW
+Species	Temperature	Mass_mg	Metabolic_rate_uW
 Anoplolepis steinergroeveri	20	0.94	5.6
 Anoplolepis steinergroeveri	20	0.98	1.8
 Anoplolepis steinergroeveri	20	1.15	2.3
