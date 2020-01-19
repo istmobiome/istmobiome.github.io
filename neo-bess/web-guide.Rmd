@@ -97,6 +97,9 @@ WebPage Project News
 
 ### <font size="5">Random Stuff</font> 
 
+Supplementary tables [Scaling of insect metabolic rate is inconsistent with the nutrient supply network model](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2435.2007.01245.x), [Supplementary table 1](chown_supp_table_1.txt) & [Supplementary table 2](chown_supp_table_2.txt) 
+
+
 Awesome [video](https://www.youtube.com/watch?v=dwHGCMwZwJU) of an *Atta* colony filled with cement. 
 
 
@@ -473,6 +476,7 @@ We will use this space to add use reference and resources  that we come up with 
 * Online [photo editor](https://www.befunky.com/create/photo-editor/)
 * Online [image compression](https://www.websiteplanet.com/webtools/imagecompressor/)
 * Online [color wheel](https://www.canva.com/colors/color-wheel/)
+* [a few tips for R Markdown](https://holtzy.github.io/Pimp-my-rmd/)
 
 #### NEO-BESS Blog Site
 
