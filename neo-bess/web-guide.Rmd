@@ -485,7 +485,7 @@ Here are some of the web projects I shared with you. Look for the `r fa("github"
 * [projectDIGEST](https://projectdigest.github.io/) Website for our fish-gut microbiome paper.
 * [Single page HTML](https://istmobiome.github.io/DIGEST/Phyloseq_workflow.html) workflow and [source code](https://github.com/istmobiome/istmobiome.github.io/blob/master/DIGEST/Phyloseq_workflow.Rmd).
 * [Slide show](https://istmobiome.github.io/board-meeting-talk-01-05-2020_files/board-meeting-talk-01-05-2020.html#1) A super simple slide show I made using the [xaringan](https://github.com/yihui/xaringan) package. I mean, it's called *Presentation Ninja*. 
-* The class resouce website. Look in the upper right corner. 
+* [The class resouce website](https://istmobiome.github.io/neo-bess/web-guide.html). Look in the upper right corner. 
 
 #### RStudio
 
