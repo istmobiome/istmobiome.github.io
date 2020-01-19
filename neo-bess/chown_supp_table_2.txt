@@ -1,4 +1,4 @@
-Species	Family	Order	Method	Wing status	Mass (mg)	Metabolic rate (µW)
+Species	Family	Order	Method	Wing_status	Mass_mg	Metabolic_rate_µW
 Unknown species	Meinertellidae	Archaeognatha	Open	0	12.75	38.3
 Species (Sutherland)	Lepismatidae	Thysanura	Open	0	23.04	36.9
 Species (Stellenbosch)	Lepismatidae	Thysanura	Open	0	26.64	23
