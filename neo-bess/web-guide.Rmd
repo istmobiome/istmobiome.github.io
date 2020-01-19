@@ -99,8 +99,9 @@ WebPage Project News
 
 Supplementary tables from [Scaling of insect metabolic rate is inconsistent with the nutrient supply network model](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2435.2007.01245.x).
 
-* [Supplementary table 1](chown_supp_table_1.txt) 
-* [Supplementary table 2](chown_supp_table_2.txt) 
+* [Appendix S1](chown_supp_table_1.txt). Metabolic rate data for eight species of size-polymorphic ants. Temperature refers to experimental temperature. All metabolic rates estimated using flow-through respirometry. 
+
+* [Appendix S2](chown_supp_table_2.txt). Metabolic rates and body masses of insects used in this study. Wing status: 1 = winged; 0 = no wings 
 
 
 Awesome [video](https://www.youtube.com/watch?v=dwHGCMwZwJU) of an *Atta* colony filled with cement. 
