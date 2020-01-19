@@ -52,6 +52,10 @@ General Course News
 
 ### <font size="5">Website Updates</font> 
 
+19 Jan
+
+* added links to online Tools for Image Manipulation 
+
 
 17 Jan 
 
@@ -75,6 +79,11 @@ WebPage Project News
 --------------------------------------------------
 
 ### <font size="5">WebPage Project</font> 
+
+19 Jan
+
+* added links to online Tools for Image Manipulation on the **Resources** under *References & Resources*
+
 
 17 Jan
 
@@ -458,6 +467,12 @@ Resources 2
 ### <font size="5">References & Resources</font> 
 
 We will use this space to add use reference and resources  that we come up with along the way. When you have something to contribute please provide a brief explaination of the resource.
+
+#### Tools for Image Manipulation
+
+* Online [photo editor](https://www.befunky.com/create/photo-editor/)
+* Online [image compression](https://www.websiteplanet.com/webtools/imagecompressor/)
+* Online [color wheel](https://www.canva.com/colors/color-wheel/)
 
 #### NEO-BESS Blog Site
 
