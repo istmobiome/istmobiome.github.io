@@ -27,7 +27,7 @@ Contact Info {#contact}
 - <i class="fa fa-phone"></i> +1 512 782-9595
 - <i class="fa fa-whatsapp"></i> +507 6733-6268 
 - <i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0001-9863-1318)
-- Please contact me anytime,  email is probably best.
+- [Click here](https://istmobiome.github.io/jarrod-cv/cv.pdf) for a pdf version of this CV.
 
 
 Skills {#skills}
@@ -672,10 +672,13 @@ N/A
 
 **Scott JJ**, Oh DC, Yuceer MC, Klepzig KD, Clardy J, Currie CR.  
 
+::: aside
+See accompanying Perspective: Bugs Bugs. Berenbaum MR, Eisner T. 2008. [Science. 322:52-53](https://doi.org/10.1126/science.1164873). 
+:::
 
 Disclaimer {#disclaimer style="width: var(--sidebar-width); padding-left: var(--sidebar-horizontal-padding);"}
 --------------------------------------------------------------------------------
 
-This document was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and a lot of help from the Internet. You can find the GitHub repo for this cv here.
+This document was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and a lot of help from the Internet. You can find the GitHub repo for this cv [here](https://github.com/istmobiome/istmobiome.github.io/tree/master/jarrod-cv).
 
 Last updated on `r Sys.Date()`.
