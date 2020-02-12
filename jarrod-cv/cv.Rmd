@@ -11,10 +11,6 @@ knit: pagedown::chrome_print
 css: styles.css
 ---
 
-```{r echo=FALSE, include=FALSE}
-library(fontawesome)
-```
-
 
 Aside
 ================================================================================
