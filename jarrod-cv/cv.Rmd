@@ -52,8 +52,7 @@ Jarrod J. Scott {#title}
 
 ### an old-school naturalist using new-school tech
 
-I study the organiztion of microbial diversity. I do my best to take a holistic approach to build & see the bigger picture. My work is systems agnostic, meaning my studies span ecosystems, from the forest floor to the ocean floor. I am interested in making science  accessible & exciting as well as transparent & reproducible. I use open-source tools to build web products that communicate many aspects of my science.
-
+I study the organiztion of microbial diversity. I do my best to take a holistic approach to build & see the bigger picture. My work is systems agnostic, meaning my studies span ecosystems, from the forest floor to the ocean floor. I try to make my science  accessible & exciting, transparent & reproducible. I use open-source tools to build web products that communicate  my science.
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
@@ -123,6 +122,7 @@ Gamboa, Panama
 
 Smithsonian Institution
 
+
 Marine Field Experience {data-icon=anchor}
 --------------------------------------------------------------------------------
 
@@ -134,7 +134,7 @@ Isla Coiba, Panama
 
 2020 - 2017
 
-5 different trips over the past 3 years
+5 expeditions over the past 3 years
 
 ::: aside
 Use [this link](https://stri.si.edu/facility/coibita-island) to learn more about Isla Coiba. 
@@ -201,14 +201,14 @@ Terrestrial Field Experience {data-icon=truck}
 
 Smithsonian Tropical Research Institute
 
-Gamboa, Panama
+Panama
 
 2010 - 2008
 
 ::: concise
-- Four separate research trips to various locations in Panama 
-- Included a 15-months at the STRI station in Gamboa
-- Conducted field & lab experiments with fungus-growing ants
+- Four expeditions to Panama 
+- 15-month residency at STRI
+- Field & lab experiments with fungus-growing ants
 :::
 
 ::: aside
@@ -249,7 +249,6 @@ Northwestern Belize
 
 Extensive surveys & excavations of Mayan archaeological sites in  lowland tropical rain forests. 
 
-
 Recent Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
@@ -262,13 +261,13 @@ Panama
 2020
 
 ::: concise
-- Guide students in project design & implementation. 
-- Help students  make reproducible analytical workflows using R Markdown. 
-- Share general knowledge of neotropical marine & terrestrial ecosystems.
-- Conduct field work with students.
+- Guide project design & implementation. 
+- Reproducible analytical workflows using R Markdown. 
+- Assist with field work.
+- Natural history of neotropical marine & terrestrial ecosystems.
 :::
 
-Multiple field sites around Panama including Barro Colorado Island, Ft Sherman Canopy Crane, Pipeline Road Forests, & Isla Coiba. 
+Field sites incl. [Barro Colorado Island](https://stri.si.edu/facility/barro-colorado), [Ft Sherman Canopy Crane](https://stri.si.edu/facility/canopy-access-cranes), [Pipeline Road Forests](https://stri.si.edu/facility/gamboa), [Agua Salud](https://stri.si.edu/facility/agua-salud) & [Isla Coiba](https://stri.si.edu/facility/coibita-island). 
 
 ::: aside
 [Click here](https://strineoigert.wordpress.com/) for the course blog & [here](https://www.mcgill.ca/pfss/) for the course website. 
@@ -283,9 +282,9 @@ Isla Coiba, Panama
 2019
 
 ::: concise
-- Guide students in project design & implementation. 
-- Conduct field work with students.
-- Taught snorkeling class for inexperienced students.
+- Guide  project design & implementation. 
+- Assist with field work.
+- Snorkeling class for inexperienced students.
 :::
 
 Additional Training & Certifications {data-icon=plus}
@@ -336,7 +335,7 @@ Sante Fe, New Mexico USA
 4-week intensive course on complex systems.
 
 ::: aside
-[Click here](https://wiki.santafe.edu/index.php/Complex_Systems_Summer_School_2015_(CSSS)) to access the  the proceedings for the 2015 CSSS.
+[Click here](https://wiki.santafe.edu/index.php/Complex_Systems_Summer_School_2015_(CSSS)) for the  2015 CSSS proceedings.
 :::
 
 ### UNOLS Chief Scientist Training Cruise
@@ -350,7 +349,7 @@ Barbados to Bermuda.
 2-week course on how to effectively plan for, acquire, utilize, & report on time at sea for multi-disciplinary research & education.
 
 ::: aside
-[Click here](http://dmoserv3.bco-dmo.org/data_docs/GEOTRACES/AE1410/2014_ChfSci_Training_final_cruise_rpt.pdf) to access the final report from the 2014 UNOLS training cruise.
+[Click here](http://dmoserv3.bco-dmo.org/data_docs/GEOTRACES/AE1410/2014_ChfSci_Training_final_cruise_rpt.pdf) for the final report from the 2014 UNOLS training cruise.
 :::
 
 ### Fire Fighter I & II. NFPA 1001-2006 
@@ -371,7 +370,11 @@ Woods Hole, Massachusetts USA
 
 2007
 
-6-week intensive course on discovering, cultivating, & isolating diverse microbes that catalyze a breadth of chemical transformations. Additional training includes molecular and computational analyses.
+6-week intensive course. Cultivating, & isolating diverse microbes. Molecular & computational analyses.
+
+::: aside
+[Click here](https://www.mbl.edu/education/courses/microbial-diversity/) to learn more. 
+:::
 
 ### Marine Botany & the Biology of Fish
 
@@ -389,13 +392,16 @@ Orange Walk District, Belize
 
 1998
 
-Intensive field course in the Rio Bravo Conservation area on Mayan art, architecture, and iconography. Hosted by University of Texas–Austin.
+Intensive field course on Mayan art, architecture, & iconography. 
 
+::: aside
+Learn more on the [course website](https://liberalarts.utexas.edu/cats/pfbap/overview.php).
+:::
 
 Fellowships {data-icon=award}
 --------------------------------------------------------------------------------
 
-### Smithsonian Institution Biodiversity Genomics Postdoctoral Fellowship
+### Smithsonian Institution Genomics Postdoctoral Fellowship
 
 *declined*
 
@@ -604,7 +610,7 @@ N/A
 
 2011
 
-Suen G, Teiling C, Li L, Holt C, Abouheif E, Bornberg-Bauer E, Bou↵ard P, Caldera EJ, Cash E, Cavanaugh A, Denas O, Elhaik E, Fav MJ, Gadau J, Gibson JD, Graur D, Grubbs KJ, Hagen DE, Harkins TT, Helmkampf M, Hu H, Johnson BR, Kim J, Marsh SE, Moeller JA, Muoz-Torres MC, Murphy MC, Naughton MC, Nigam S, Overson R, Rajakumar R, Reese JT, **Scott JJ** Smith CR, Tao S, Tsutsui ND, Viljakainen L, Wissler L, Yandell MD, Zimmer F, Taylor J, Slater SC, Clifton SW, Warren WC, Elsik CG, Smith CD, Weinstock GM, Gerardo NM, Currie CR. 
+Suen G, Teiling C, Li L, Holt C, Abouheif E, Bornberg-Bauer E, Bouard P, Caldera EJ, Cash E, Cavanaugh A, Denas O, Elhaik E, Fav MJ, Gadau J, Gibson JD, Graur D, Grubbs KJ, Hagen DE, Harkins TT, Helmkampf M, Hu H, Johnson BR, Kim J, Marsh SE, Moeller JA, Muoz-Torres MC, Murphy MC, Naughton MC, Nigam S, Overson R, Rajakumar R, Reese JT, **Scott JJ** Smith CR, Tao S, Tsutsui ND, Viljakainen L, Wissler L, Yandell MD, Zimmer F, Taylor J, Slater SC, Clifton SW, Warren WC, Elsik CG, Smith CD, Weinstock GM, Gerardo NM, Currie CR. 
 
 ### Microbial community structure of leaf-cutter ant fungus gardens and refuse dumps. 
 
