@@ -1,0 +1,13 @@
+/* Whole document: */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow|PT+Serif|Roboto:300');
+/* controls general properties of site*/
+
+
+.blocks {
+  break-inside: avoid;}
+
+/* Give headers playfair font */
+h1 {
+  font-family: "Roboto", serif;
+  color: #4c4c4c;
+}
