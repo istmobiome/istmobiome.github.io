@@ -41,7 +41,7 @@ Skills {#skills}
 
 - Highly skilled analyzing DNA datasets (amplicon, genomic, & metagenomic).
 
-- Computational expertise include [anvi'o](http://merenlab.org/software/anvio/), [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Hugo](https://gohugo.io/), [Python](https://www.python.org/). 
+- Computational expertise incl. [anvi'o](http://merenlab.org/software/anvio/), [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Hugo](https://gohugo.io/), [Python](https://www.python.org/). 
 
 
 Main
@@ -52,14 +52,14 @@ Jarrod J. Scott {#title}
 
 ### an old-school naturalist using new-school tech
 
-I study the organiztion of microbial diversity. I do my best to take a holistic approach to build & see the bigger picture. My work is systems agnostic, meaning my studies span ecosystems, from the forest floor to the ocean floor. I try to make my science  accessible & exciting, transparent & reproducible. I use open-source tools to build web products that communicate  my science.
+I study the organization of microbial diversity. I do my best to take a holistic approach to build & see the bigger picture. My work is systems agnostic, meaning my studies span ecosystems, from the forest floor to the ocean floor. I try to make my science  accessible & exciting, transparent & reproducible. I use open-source tools to build web products that communicate  my science.
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
 
 ### STRI/Moore Foundation Postdoctoral Fellow
 
-Smithsonian Tropical Research Institue
+Smithsonian Tropical Research Institute
 
 Panama
 
@@ -89,7 +89,7 @@ Austin, Texas USA
 2002 - 1998
 
 
-Prior Research & Professional <br/>Experience {data-icon=compass}
+Prior Research Positions {data-icon=compass}
 --------------------------------------------------------------------------------
 
 ### Postdoctoral Research Associate
@@ -128,7 +128,7 @@ Marine Field Experience {data-icon=anchor}
 
 ###  Research Expeditions to Isla Coiba
 
-Smithsonian Tropical Research Istitute
+Smithsonian Tropical Research Institute
 
 Isla Coiba, Panama
 
@@ -168,7 +168,7 @@ May 31 – June 10
 
 [FeMo Deep Iron Eaters](https://www.rvdata.us/search/cruise/TN293)
 
-L ̄o‘ihi Seamount, Hawaii
+Lo'ihi Seamount, Hawaii
 
 2013
 
@@ -212,7 +212,7 @@ Panama
 :::
 
 ::: aside
-The majority of my field experience in terrestrial systems invovles studies of fungus-growing ants in the Neotropics.
+The majority of my field experience in terrestrial systems involves studies of fungus-growing ants in the Neotropics.
 :::
 
 ### Biogeography of Fungus-Growing Ants
@@ -328,7 +328,7 @@ Penryn, England
 
 Santa Fe Institute 
 
-Sante Fe, New Mexico USA
+Santa Fe, New Mexico USA
 
 2015
 
