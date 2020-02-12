@@ -9,14 +9,21 @@ output:
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
 css: styles.css
+#- <i class="fa fa-phone"></i> +1 512 782-9595
+#- <i class="fa fa-whatsapp"></i> +507 6733-6268 
+
 ---
+
+```{r echo=FALSE}
+library(fontawesome)
+```
 
 
 Aside
 ================================================================================
 
 
-![Jarrod J. Scott](bitmap1.png){width=80%}
+![Jarrod J. Scott](bitmap1.png){width=70%}
 
 
 Contact Info {#contact}
@@ -24,8 +31,6 @@ Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> jarrod.jude.scott@gmail.com
 - <i class="fa fa-github"></i> [github.com/jarrodscott](https://github.com/jarrodscott)
-- <i class="fa fa-phone"></i> +1 512 782-9595
-- <i class="fa fa-whatsapp"></i> +507 6733-6268 
 - <i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0001-9863-1318)
 - [Click here](https://istmobiome.github.io/jarrod-cv/cv.pdf) for a pdf of this CV.
 
@@ -689,6 +694,6 @@ See accompanying Perspective: Bugs Bugs. Berenbaum MR, Eisner T. 2008. [Science.
 Disclaimer {#disclaimer style="width: var(--sidebar-width); padding-left: var(--sidebar-horizontal-padding);"}
 --------------------------------------------------------------------------------
 
-This document was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and a lot of help from the Internet. You can find the GitHub repo for this cv [here](https://github.com/istmobiome/istmobiome.github.io/tree/master/jarrod-cv).
+This document was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and a lot of help from the Internet. You can find the GitHub  <i class="fa fa-github"></i> repo for this cv [here](https://github.com/istmobiome/istmobiome.github.io/tree/master/jarrod-cv).
 
 Last updated on `r Sys.Date()`.
