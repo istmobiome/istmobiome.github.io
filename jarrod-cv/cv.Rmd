@@ -27,7 +27,7 @@ Contact Info {#contact}
 - <i class="fa fa-phone"></i> +1 512 782-9595
 - <i class="fa fa-whatsapp"></i> +507 6733-6268 
 - <i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0001-9863-1318)
-- [Click here](https://istmobiome.github.io/jarrod-cv/cv.pdf) for a pdf version of this CV.
+- [Click here](https://istmobiome.github.io/jarrod-cv/cv.pdf) for a pdf of this CV.
 
 
 Skills {#skills}
@@ -41,7 +41,7 @@ Skills {#skills}
 
 - Highly skilled analyzing DNA datasets (amplicon, genomic, & metagenomic).
 
-- Computational skills include anvi'o, R, R Markdown, Hugo, Python. 
+- Computational expertise include [anvi'o](http://merenlab.org/software/anvio/), [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Hugo](https://gohugo.io/), [Python](https://www.python.org/). 
 
 
 Main
@@ -135,6 +135,10 @@ Isla Coiba, Panama
 2020 - 2017
 
 5 different trips over the past 3 years
+
+::: aside
+Use [this link](https://stri.si.edu/facility/coibita-island) to learn more about Isla Coiba. 
+:::
 
 ### R/V Revelle & ROV Jason II (cruise RR1413)
 
@@ -332,7 +336,7 @@ Sante Fe, New Mexico USA
 4-week intensive course on complex systems.
 
 ::: aside
-You can check out the proceedings for the 2015 CSSS course [here](https://wiki.santafe.edu/index.php/Complex_Systems_Summer_School_2015_(CSSS)).
+[Click here](https://wiki.santafe.edu/index.php/Complex_Systems_Summer_School_2015_(CSSS)) to access the  the proceedings for the 2015 CSSS.
 :::
 
 ### UNOLS Chief Scientist Training Cruise
