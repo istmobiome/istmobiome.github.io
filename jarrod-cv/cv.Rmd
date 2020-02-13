@@ -23,7 +23,7 @@ Aside
 ================================================================================
 
 
-![Jarrod J. Scott](bitmap1.png){width=70%}
+![Jarrod J. Scott](featured.png){width=100%}
 
 
 Contact Info {#contact}
@@ -217,7 +217,7 @@ Panama
 :::
 
 ::: aside
-The majority of my field experience in terrestrial systems involves studies of fungus-growing ants in the Neotropics.
+A lot of my field experience in terrestrial systems is on fungus-growing ants in the Neotropics.
 :::
 
 ### Biogeography of Fungus-Growing Ants
@@ -275,7 +275,7 @@ Panama
 Field sites incl. [Barro Colorado Island](https://stri.si.edu/facility/barro-colorado), [Ft Sherman Canopy Crane](https://stri.si.edu/facility/canopy-access-cranes), [Pipeline Road Forests](https://stri.si.edu/facility/gamboa), [Agua Salud](https://stri.si.edu/facility/agua-salud) & [Isla Coiba](https://stri.si.edu/facility/coibita-island). 
 
 ::: aside
-[Click here](https://strineoigert.wordpress.com/) for the course blog & [here](https://www.mcgill.ca/pfss/) for the course website. 
+I teach the way I learn. Be curious, get your hands dirty, make mistakes, & explore. I'm here to help you see what's possible, not tell you what to do. 
 :::
 
 ### Marine Biology Instructor
@@ -291,6 +291,11 @@ Isla Coiba, Panama
 - Assist with field work.
 - Snorkeling class for inexperienced students.
 :::
+
+::: aside
+[Click here](https://strineoigert.wordpress.com/) for the course blog & [here](https://www.mcgill.ca/pfss/) for the course website. 
+:::
+
 
 Additional Training & Certifications {data-icon=plus}
 --------------------------------------------------------------------------------
@@ -327,9 +332,13 @@ Penryn, England
 
 2016
 
-1-week hands-on training bootcamp  on deploying Oxford Nanopore's portable sequencing technology, the MinION.
+1-week hands-on training bootcamp  on deploying Oxford Nanopore's portable sequencing platform, the [MinION](https://nanoporetech.com/products/minion).
 
-### Complex System Summer School
+::: aside
+[Click here](http://porecamp.github.io/2016/) to learn more. 
+:::
+
+### Complex Systems Summer School
 
 Santa Fe Institute 
 
@@ -657,7 +666,7 @@ N/A
 
 **Scott JJ**, Weskin MK, Cooper M, Mueller UG. 
 
-### Mycangimycin, a polyene peroxide from a mutualist *Streptomyces* sp. 
+### Mycangimycin, a polyene peroxide from a mutualist *Streptomyces*.
 
 [Organic Letters.  11(2009):633-636.](http://doi.org/10.1021/ol802709x)
 
@@ -694,6 +703,6 @@ See accompanying Perspective: Bugs Bugs. Berenbaum MR, Eisner T. 2008. [Science.
 Disclaimer {#disclaimer style="width: var(--sidebar-width); padding-left: var(--sidebar-horizontal-padding);"}
 --------------------------------------------------------------------------------
 
-This document was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and a lot of help from the Internet. You can find the GitHub  <i class="fa fa-github"></i> repo for this cv [here](https://github.com/istmobiome/istmobiome.github.io/tree/master/jarrod-cv).
+The source code for this cv is available [here](https://github.com/istmobiome/istmobiome.github.io/tree/master/jarrod-cv). I made it with the R package [**pagedown**](https://github.com/rstudio/pagedown) and  help from the Internet, especially this [**repo**](https://github.com/nstrayer/cv). 
 
 Last updated on `r Sys.Date()`.
