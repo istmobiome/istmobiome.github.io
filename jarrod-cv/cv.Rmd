@@ -22,9 +22,9 @@ library(fontawesome)
 Aside
 ================================================================================
 
-
-![Jarrod J. Scott](featured.png){width=100%}
-
+<div class="zoom"><a href="fish_network_big.svg" target="_blank">
+      <img src="fish_network_big.svg" alt=""></div>
+ 
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
@@ -57,7 +57,7 @@ Jarrod J. Scott {#title}
 
 ### an old-school naturalist using new-school tech
 
-I study the organization of microbial diversity. I do my best to take a holistic approach to build & see the bigger picture. My work is systems agnostic, meaning my studies span ecosystems, from the forest floor to the ocean floor. I try to make my science  accessible & exciting, transparent & reproducible. I use open-source tools to build web products that communicate  my science.
+I study microbial diversity and take a  holistic approach to understand how microbes I do my best to take a holistic approach to build & see the bigger picture. My work spans marine & terrestrial ecosystems, which helps how microbes .I try to make my science  accessible & exciting, transparent & reproducible. I use & teach open-source tools to make web products that communicate science more effectievly .
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
@@ -275,7 +275,7 @@ Panama
 Field sites incl. [Barro Colorado Island](https://stri.si.edu/facility/barro-colorado), [Ft Sherman Canopy Crane](https://stri.si.edu/facility/canopy-access-cranes), [Pipeline Road Forests](https://stri.si.edu/facility/gamboa), [Agua Salud](https://stri.si.edu/facility/agua-salud) & [Isla Coiba](https://stri.si.edu/facility/coibita-island). 
 
 ::: aside
-I teach the way I learn. Be curious, get your hands dirty, make mistakes, & explore. I'm here to help you see what's possible, not tell you what to do. 
+I teach the way I learn. Be curious, get your hands dirty, make mistakes, & explore. I'm here to help students see what's possible, not tell them what to do. 
 :::
 
 ### Marine Biology Instructor
