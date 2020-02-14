@@ -22,8 +22,7 @@ library(fontawesome)
 Aside
 ================================================================================
 
-<div class="zoom"><a href="fish_network_big.svg" target="_blank">
-      <img src="fish_network_big.svg" alt=""></div>
+<div class="zoom"><img src="fish_network_big.svg" alt=""></div>
  
 
 Contact Info {#contact}
@@ -42,11 +41,11 @@ Skills {#skills}
 
 - PADI Rescue Diver certification. 
 
-- Fire Fighter I & II certification.
-
 - Highly skilled analyzing DNA datasets (amplicon, genomic, & metagenomic).
 
 - Computational expertise incl. [anvi'o](http://merenlab.org/software/anvio/), [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Hugo](https://gohugo.io/), [Python](https://www.python.org/). 
+
+- Fire Fighter I & II certification.
 
 
 Main
@@ -57,7 +56,7 @@ Jarrod J. Scott {#title}
 
 ### an old-school naturalist using new-school tech
 
-I study microbial diversity and take a  holistic approach to understand how microbes I do my best to take a holistic approach to build & see the bigger picture. My work spans marine & terrestrial ecosystems, which helps how microbes .I try to make my science  accessible & exciting, transparent & reproducible. I use & teach open-source tools to make web products that communicate science more effectievly .
+I study microbial diversity.  My holistic approach spans marine & terrestrial systems to better understand  how a collection of  simple organisms coalesce into  complex and dynamic communities; how the structure of these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I want my science  accessible & exciting, transparent & reproducible. I use & teach open-source tools to make web products that communicate science more effectievly.
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
@@ -275,7 +274,7 @@ Panama
 Field sites incl. [Barro Colorado Island](https://stri.si.edu/facility/barro-colorado), [Ft Sherman Canopy Crane](https://stri.si.edu/facility/canopy-access-cranes), [Pipeline Road Forests](https://stri.si.edu/facility/gamboa), [Agua Salud](https://stri.si.edu/facility/agua-salud) & [Isla Coiba](https://stri.si.edu/facility/coibita-island). 
 
 ::: aside
-I teach the way I learn. Be curious, get your hands dirty, make mistakes, & explore. I'm here to help students see what's possible, not tell them what to do. 
+I teach the way I learn. My goal is to create a venue where students can be curious, get their hands dirty, make mistakes, & explore. I'm here to help students see what's possible, not tell them what to do. 
 :::
 
 ### Marine Biology Instructor
