@@ -8,7 +8,7 @@ output:
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
 knit: pagedown::chrome_print
-css: styles.css
+css: ["css/styles.css", "academicons-1.8.6/css/academicons.min.css"]
 #- <i class="fa fa-phone"></i> +1 512 782-9595
 #- <i class="fa fa-whatsapp"></i> +507 6733-6268 
 
@@ -30,7 +30,7 @@ Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> jarrod.jude.scott@gmail.com
 - <i class="fa fa-github"></i> [github.com/jarrodscott](https://github.com/jarrodscott)
-- <i class="fab fa-orcid"></i> [ORCID](https://orcid.org/0000-0001-9863-1318)
+- <i class="ai ai-orcid-square"></i> [ORCID](https://orcid.org/0000-0001-9863-1318)
 - [Click here](https://istmobiome.github.io/jarrod-cv/cv.pdf) for a pdf of this CV.
 
 
@@ -56,7 +56,7 @@ Jarrod J. Scott {#title}
 
 ### an old-school naturalist using new-school tech
 
-I study microbial diversity.  My holistic approach spans marine & terrestrial systems to better understand  how a collection of  simple organisms coalesce into  complex and dynamic communities; how the structure of these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I want my science  accessible & exciting, transparent & reproducible. I use & teach open-source tools to make web products that communicate science more effectievly.
+I study microbial diversity.  My holistic approach spans marine & terrestrial systems to better understand  how a collection of  simple organisms coalesce into  complex communities  & how the structure of these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. To make research more accessible & exciting, transparent & reproducible, I use & teach open-source tools to make web products that communicate science more effectievly.
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
@@ -84,7 +84,7 @@ Madison, Wisconsin USA
 
 - Microbial ecology of fungus growing insects 
 
-### BSc Aquatic Biology/Archaeology
+### BSc Aquatic Biology, Minor in Archaeology
 
 University of Texas--Austin
 
@@ -104,17 +104,13 @@ East Boothbay, Maine USA
 
 2016 - 2012 
 
-- Deep-sea hydrothermal vent microbial ecology.
-
 ### Graduate Fellow
 
-College of Agriculture & Life Science
+University of Wisconsin--Madison
 
 Madison, Wisconsin USA
 
 2011 - 2010
-
-University of Wisconsin--Madison
 
 ### Predoctoral Fellow
 
@@ -124,7 +120,13 @@ Gamboa, Panama
 
 2010 - 2009
 
-Smithsonian Institution
+### Research Technician
+
+University of Texas--Austin
+
+Austin, Texas USA
+
+2005 - 2002
 
 
 Marine Field Experience {data-icon=anchor}
@@ -457,7 +459,7 @@ N/A
 
 ### A Genus definition for Bacteria and Archaea based on a standard genome relatedness index
 
-[mBio 11(2020):e02475-19](http://doi.org/10.1128/mBio.02475-19)
+[mBio 11(2020):e02475-19](http://doi.org/10.1128/mBio.02475-19) <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -465,9 +467,14 @@ N/A
 
 Barco RA, Garrity GM, **Scott JJ**, Amend JP,  Nealson KH,  Emerson D.
 
+::: aside
+**Editor's Pick**
+:::
+
+
 ### Biological rejuvenation of iron oxides in bioturbated marine sediments.
 
-[The ISME Journal.   12(2018):1389-1394.](http://doi.org/10.1038/s41396-017-0032-6)
+[The ISME Journal. 12(2018):1389-1394.](http://doi.org/10.1038/s41396-017-0032-6) <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -477,7 +484,7 @@ Beam JP, **Scott JJ**, McAllister SM, Chan CS, McManus J, Meysman FJ, Emerson D.
 
 ### Bringing microbial diversity into focus: high‐resolution analysis of iron mats from the Lō‘ihi Seamount. 
 
-[Environmental Microbiology.  19(2017):301-316.]({http://doi.org/10.1111/1462-2920.13607)
+[Environmental Microbiology.  19(2017):301-316.](http://doi.org/10.1111/1462-2920.13607)
 
 N/A
 
@@ -487,7 +494,7 @@ N/A
 
 ### Physiological and ecological implications of an iron-or hydrogen-oxidizing member of the Zetaproteobacteria, *Ghiorsea bivora*, gen. nov., sp. nov. 
 
-[The ISME Journal.  11(2017):2624-2636.](http://doi.org/10.1038/ismej.2017.132)
+[The ISME Journal.  11(2017):2624-2636.](http://doi.org/10.1038/ismej.2017.132) <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -516,7 +523,7 @@ Emerson D, **Scott JJ**, Leavitt A, Fleming E, Moyer C.
 
 ###  Exploring the "SHARKCANO": biogeochemical observations of the Kavachi Submarine Volcano (Solomon Islands). 
 
-[Oceanography.  29(2016):160-169.](http://doi.org/10.5670/oceanog.2016.85)
+[Oceanography.  29(2016):160-169.](http://doi.org/10.5670/oceanog.2016.85) <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -526,7 +533,7 @@ Phillips BT, Dunbabin M, Henning B, Howell C, DeCiccio A, Flinders A, Kelley KA,
 
 ### Microbial iron mats at the Mid-Atlantic Ridge and evidence that Zetaproteobacteria may be restricted to iron-oxidizing marine systems. 
 
-[PLoS One.  10(2015):e0119284.](http://doi.org/10.1371/journal.pone.0119284)
+[PLoS One.  10(2015):e0119284.](http://doi.org/10.1371/journal.pone.0119284) <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -536,7 +543,7 @@ N/A
 
 ### Baleen whales host a unique gut microbiome with similarities to both carnivores and herbivores. 
 
-[Nature Communications.  6(2015):8285.](http://doi.org/10.1038/ncomms9285)
+[Nature Communications.  6(2015):8285.](http://doi.org/10.1038/ncomms9285) <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -546,7 +553,7 @@ Sanders JG, Beichman AC, Roman J, **Scott JJ**, Emerson D, McCarthy JJ, Girguis 
 
 ### Microbial iron oxidation in the arctic tundra and its implications for biogeochemical cycling. 
 
-[Applied & Environmental Microbiology.  81(2015):8066-8075.]({http://doi.org/10.1128/aem.02832-15)
+[Applied & Environmental Microbiology.  81(2015):8066-8075.](http://doi.org/10.1128/aem.02832-15)  <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -556,7 +563,7 @@ Emerson D, **Scott JJ**, Benes J, Bowden WB.
 
 ### Unique honey bee (*Apis mellifera*) hive component-based communities as detected by a hybrid of phospholipid fatty-acid and fatty-acid methyl ester analyses. 
 
-[PloS One.  10(2015):e0121697.](http://doi.org/10.1371/journal.pone.0121697)
+[PloS One.  10(2015):e0121697.](http://doi.org/10.1371/journal.pone.0121697)  <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -566,7 +573,7 @@ Grubbs KJ, **Scott JJ**, Budsberg KJ, Read H, Balser TC, Currie CR.
 
 ### Convergent bacterial microbiotas in the fungal agricultural systems of insects. 
 
-[mBio.  5(2014):e02077-14.](http://doi.org/10.1128/mbio.02077-14)
+[mBio. 5(2014):e02077-14.](http://doi.org/10.1128/mbio.02077-14)  <i class="ai ai-open-access"></i>
 
 N/A 
 
@@ -586,7 +593,7 @@ MacDonald DJ, Findlay AJ, McAllister S, Barnett JM, Hredzak-Showalter P, Krepski
 
 ### *Leucoagaricus gongylophorus* produces diverse enzymes for the degradation of recalcitrant plant polymers in leaf-cutter ant fungus gardens. 
 
-[Applied & Environmental Microbiology  79(2013):3770-3778.](http://doi.org/10.1128/aem.03833-12)
+[Applied & Environmental Microbiology  79(2013):3770-3778.](http://doi.org/10.1128/aem.03833-12)  <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -596,7 +603,7 @@ Aylward FO, Burnum-Johnson KE, Tringe SG, Teiling C, Tremmel DM, Moeller JA, **S
 
 ### A phylogenetic analysis of the phylum Fibrobacteres. 
 
-[Systematic & Applied Microbiology.   36(2013):376-382.](http://doi.org/10.1016/j.syapm.2013.04.002)
+[Systematic & Applied Microbiology. 36(2013):376-382.](http://doi.org/10.1016/j.syapm.2013.04.002)
 
 N/A
 
@@ -607,7 +614,7 @@ Jewell KA, **Scott JJ**, Adams SM, Suen G.
 ### Metagenomic and metaproteomic insights into bacterial communities in leaf-cutter ant fungus gardens. 
 
 
-[The ISME Journal.  6(2012):1688-701.](http://doi.org/10.1038/ismej.2012.10)
+[The ISME Journal.  6(2012):1688-701.](http://doi.org/10.1038/ismej.2012.10)  <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -617,7 +624,7 @@ Aylward FO, Burnum KE, **Scott JJ**, Suen G, Tringe SG, Adams SM, Barry KW, Nico
 
 ### The genome sequence of the leaf-cutter ant *Atta cephalotes* reveals insights into its obligate symbiotic lifestyle. 
 
-[PLoS Genetics.  7(2011):e1002007.](http://doi.org/10.1371/journal.pgen.1002007)
+[PLoS Genetics.  7(2011):e1002007.](http://doi.org/10.1371/journal.pgen.1002007)  <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -627,7 +634,7 @@ Suen G, Teiling C, Li L, Holt C, Abouheif E, Bornberg-Bauer E, Bouard P, Caldera
 
 ### Microbial community structure of leaf-cutter ant fungus gardens and refuse dumps. 
 
-[PloS One   5(2010):e9922.](http://doi.org/10.1371/journal.pone.0009922)
+[PloS One   5(2010):e9922.](http://doi.org/10.1371/journal.pone.0009922)  <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -637,7 +644,7 @@ N/A
 
 ### An insect herbivore microbiome with high plant biomass-degrading capacity. 
 
-[PLoS Genetics.   6(2010): e1001129.](http://doi.org/10.1371/journal.pgen.1001129)
+[PLoS Genetics.   6(2010): e1001129.](http://doi.org/10.1371/journal.pgen.1001129)  <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -647,7 +654,7 @@ Suen G, **Scott JJ**, Aylward FO, Adams SM, Tringe SG, Pinto-Tomás AA, Foster C
 
 ### Monoculture of leafcutter ant gardens. 
 
-[PLoS One.  5(2010):e12668.](http://doi.org/10.1371/journal.pone.0012668)
+[PLoS One.  5(2010):e12668.](http://doi.org/10.1371/journal.pone.0012668)  <i class="ai ai-open-access"></i>
 
 N/A
 
@@ -667,7 +674,7 @@ N/A
 
 ### Mycangimycin, a polyene peroxide from a mutualist *Streptomyces*.
 
-[Organic Letters.  11(2009):633-636.](http://doi.org/10.1021/ol802709x)
+[Organic Letters.  11(2009):633-636.](http://doi.org/10.1021/ol802709x)  <i class="ai ai-open-access"></i>
 
 N/A
 
