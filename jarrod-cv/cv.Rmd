@@ -37,15 +37,17 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Extensive experience conducting both marine & terrestrial field work. 
+- Extensive experience in both marine & terrestrial field work. 
 
 - PADI Rescue Diver certification. 
 
 - Highly skilled analyzing DNA datasets (amplicon, genomic, & metagenomic).
 
-- Computational expertise incl. [anvi'o](http://merenlab.org/software/anvio/), [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Hugo](https://gohugo.io/), [Python](https://www.python.org/). 
+- Expertise incl.  [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Hugo](https://gohugo.io/), [Python](https://www.python.org/), CSS, HTML, [anvi'o](http://merenlab.org/software/anvio/). 
 
 - Fire Fighter I & II certification.
+
+- Knots
 
 
 Main
@@ -143,7 +145,7 @@ Isla Coiba, Panama
 5 expeditions over the past 3 years
 
 ::: aside
-Use [this link](https://stri.si.edu/facility/coibita-island) to learn more about Isla Coiba. 
+Use [**this link**](https://stri.si.edu/facility/coibita-island) to learn more about Isla Coiba. 
 :::
 
 ### R/V Revelle & ROV Jason II (cruise RR1413)
@@ -189,6 +191,10 @@ Mid-Atlantic Ridge
 2012
 
 October 16 – November 14
+
+::: aside
+I've also worked on a lobster boat in Maine & a seine boat in Alaska.
+:::
 
 ### R/V Longhorn 
 
@@ -294,7 +300,7 @@ Isla Coiba, Panama
 :::
 
 ::: aside
-[Click here](https://strineoigert.wordpress.com/) for the course blog & [here](https://www.mcgill.ca/pfss/) for the course website. 
+[**Click here**](https://strineoigert.wordpress.com/) for the course blog & [**here**](https://www.mcgill.ca/pfss/) for the course website. 
 :::
 
 
@@ -336,7 +342,7 @@ Penryn, England
 1-week hands-on training bootcamp  on deploying Oxford Nanopore's portable sequencing platform, the [MinION](https://nanoporetech.com/products/minion).
 
 ::: aside
-[Click here](http://porecamp.github.io/2016/) to learn more. 
+[**Click here**](http://porecamp.github.io/2016/) to learn more. 
 :::
 
 ### Complex Systems Summer School
@@ -350,7 +356,7 @@ Santa Fe, New Mexico USA
 4-week intensive course on complex systems.
 
 ::: aside
-[Click here](https://wiki.santafe.edu/index.php/Complex_Systems_Summer_School_2015_(CSSS)) for the  2015 CSSS proceedings.
+[**Click here**](https://wiki.santafe.edu/index.php/Complex_Systems_Summer_School_2015_(CSSS)) for the  2015 CSSS proceedings.
 :::
 
 ### UNOLS Chief Scientist Training Cruise
@@ -364,7 +370,7 @@ Barbados to Bermuda.
 2-week course on how to effectively plan for, acquire, utilize, & report on time at sea for multi-disciplinary research & education.
 
 ::: aside
-[Click here](http://dmoserv3.bco-dmo.org/data_docs/GEOTRACES/AE1410/2014_ChfSci_Training_final_cruise_rpt.pdf) for the final report from the 2014 UNOLS training cruise.
+[**Click here**](http://dmoserv3.bco-dmo.org/data_docs/GEOTRACES/AE1410/2014_ChfSci_Training_final_cruise_rpt.pdf) for the final report from the 2014 UNOLS training cruise.
 :::
 
 ### Fire Fighter I & II. NFPA 1001-2006 
@@ -388,7 +394,7 @@ Woods Hole, Massachusetts USA
 6-week intensive course. Cultivating, & isolating diverse microbes. Molecular & computational analyses.
 
 ::: aside
-[Click here](https://www.mbl.edu/education/courses/microbial-diversity/) to learn more. 
+[**Click here**](https://www.mbl.edu/education/courses/microbial-diversity/) to learn more. 
 :::
 
 ### Marine Botany & the Biology of Fish
@@ -410,7 +416,7 @@ Orange Walk District, Belize
 Intensive field course on Mayan art, architecture, & iconography. 
 
 ::: aside
-Learn more on the [course website](https://liberalarts.utexas.edu/cats/pfbap/overview.php).
+Learn more on the [**course website**](https://liberalarts.utexas.edu/cats/pfbap/overview.php).
 :::
 
 Fellowships {data-icon=award}
@@ -454,7 +460,7 @@ N/A
 **Scott JJ**, Adam TC, Duran A, Burkepile DE, Rasher DB. 
 
 ::: aside
-[Click here](https://projectdigest.github.io/) for the project website & reproducible workflows from this paper.
+[**Click here**](https://projectdigest.github.io/) for the project website & reproducible workflows from this paper.
 :::
 
 ### A Genus definition for Bacteria and Archaea based on a standard genome relatedness index
@@ -709,6 +715,6 @@ See accompanying Perspective: Bugs Bugs. Berenbaum MR, Eisner T. 2008. [Science.
 Disclaimer {#disclaimer style="width: var(--sidebar-width); padding-left: var(--sidebar-horizontal-padding);"}
 --------------------------------------------------------------------------------
 
-The source code for this cv is available [here](https://github.com/istmobiome/istmobiome.github.io/tree/master/jarrod-cv). I made it with the R package [**pagedown**](https://github.com/rstudio/pagedown) and  help from the Internet, especially this [**repo**](https://github.com/nstrayer/cv). 
+The source code for this cv is available [**here**](https://github.com/istmobiome/istmobiome.github.io/tree/master/jarrod-cv). I made it with the R package [**pagedown**](https://github.com/rstudio/pagedown) and  help from the Internet, especially this [**repo**](https://github.com/nstrayer/cv). 
 
 Last updated on `r Sys.Date()`.
