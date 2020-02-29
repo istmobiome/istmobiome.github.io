@@ -54,13 +54,10 @@ tree_pal <- c("#56B4E9", "#D55E00", "#009E73", "#CC79A7", "#B6DBFF", "#7F7F7F", 
 ```
 
 
-## Tidits
-
 #  <font color="#F5F5F5">overview </font>{ data-background-image="images/paper-bag.jpg" data-background-size="110%"  background-transition-speed="slow" style="font-size: 0em;"}
 
 
-
-## Outline 
+## <font color="#F5F5F5">outline </font>{ data-background-image="images/collage.png" data-background-size="90%"  background-transition-speed="slow" style="font-size: 0em;"} 
 
 PUT SMALL PICS OF TOPICS
 
@@ -198,16 +195,13 @@ dag
 
 ##  <font color="#414141" font-weight="800"> more than 600 volatile compounds in cocoa flavor</font> {background-transition="slide" data-background-image="images/odor_volatiles.png" data-background-size="85%" background-color="#F5F5F5"  style="font-size: 0.8em;"}
 
-
-
-
 # Fermentation
 
 
-## <font color="#1b1b1b">Fermentation defined</font> {data-background-image="images/fermentation_general.png" data-background-size="95%" style="font-size:0em"}
+## <font color="#1b1b1b">Fermentation defined</font> {data-background-image="images/fermentation_general.png" data-background-size="85%" style="font-size:0em"}
 
 
-## <font color="#1b1b1b">history</font> {data-background-image="images/fermentation-history.png" data-background-size="90%" style="font-size:0em"}
+## <font color="#1b1b1b">history</font> {data-background-image="images/fermentation-history.png" data-background-size="80%" style="font-size:0em"}
 
 
 ## Fermentation in Cacao
@@ -330,7 +324,7 @@ style_widget(
 ```
 
 
-## <font color="#1b1b1b">parencchyma</font> {data-background-image="images/cotyledon.png" data-background-size="90%" style="font-size:0em"}
+## <font color="#1b1b1b">parenchyma</font> {data-background-image="images/parenchyma.png" data-background-size="70%" style="font-size:0em"}
 
 # Cacao Fermentation  <br/> <small>the key step in the formation of aroma precursors</small>
 
@@ -370,9 +364,7 @@ style_widget(
 
 ## <font color="#F5F5F5">factor</font> { data-background-image="images/factors.png" data-background-size="95%"  background-transition-speed="slow" style="font-size: 0em;"}
 
-
-
-# Where do the microbes come from?
+# Where do the microbes come from? {style="font-size:0.8em"}
 
 ## Do we know?
 
@@ -383,6 +375,8 @@ When the <font size=6 color="#F9E79F">pod is opened</font> with a knife, the pul
 Organisms come mainly from the hands of workers, knives, unwashed baskets used for transport of seeds, and dried mucilage left on the walls of boxes from previous fermentations.
 
 > <small>from Schwan RF & Wheals AE (2004) The microbiology of cocoa fermentation & its role in chocolate quality. Critical Reviews in Food Science & Nutrition, 44: 205–221</small>
+
+## <font color="#F5F5F5">lambic</font> { data-background-image="images/lambic.png" data-background-size="95%"  background-transition-speed="slow" style="font-size: 0em;"}
 
 
 # Resources
@@ -418,10 +412,7 @@ Credits continue on the next slide
 
 ## <font color="#004949"> </font>{data-background="#F5F5F5" style="font-size: 1em;"}
 
-
-
 ::: {style="font-size: 0.5em;color: #414141;font-family: 'Lato';font-weight: '100';text-align: left;"}
-Photo on Slide XX of *Lactobacillus* entitled *Kolorierte rasterelektronenmikroskopische Aufnahmen von Lactobacillus paracasei* by Dr. Horst Neve (Max Rubner-Institut) was obtained from Wikimedia Commons licensed under [Attribution-Share Alike 3.0 Germany](https://creativecommons.org/licenses/by-sa/3.0/de/deed.en). [Original file](https://commons.wikimedia.org/wiki/File:Lactobacillus_paracasei.jpg).
 :::
 
 <h2 style="text-align: right;">
@@ -436,11 +427,11 @@ Here is the recipe I used to make the <a href="#/volatile-compounds-in-cocoa-fla
 
 ::: {style="font-size: 0.7em;color: #414141;font-family: 'Lato';font-weight: '100';text-align: left;"}
 
-> - Get a list of compound names, e.g., from a paper. 
-> - Put the names into a single column text file, say `compounds.txt`.
-> - Upload the file to [PubChem Identifier Exchange Service](https://pubchem.ncbi.nlm.nih.gov/idexchange/idexchange.cgi). Under <u>Input ID List</u> select *Synonyms* from the drop-down menu and the *Choose File* radio button. Upload the file. Under <u>Operator Type</u> select *Same CID* from the drop down. For <u>Output IDs</u>  select *CIDs* and for <u>Output Method</u> choose the *two column* option. Then hit <u>Submit Job</u>. 
-> - Download the resulting file. This will have the CID to Compound name. Delete the compound name so there is a single column of CIDs. Save a new file with the `csv` file extension. 
-> - Upload file to the [PubChem Download Service](https://pubchem.ncbi.nlm.nih.gov/pc_fetch/pc_fetch.cgi). Select <u>PubChem Compound</u>, under <u>Choose a format</u> select *Image* then hit the <u>Download</u> button. You should get a directory of `.png` image files, one for each CID.
+* Get a list of compound names, e.g., from a paper. 
+* Put the names into a single column text file, say `compounds.txt`.
+* Upload the file to [PubChem Identifier Exchange Service](https://pubchem.ncbi.nlm.nih.gov/idexchange/idexchange.cgi). Under <u>Input ID List</u> select *Synonyms* from the drop-down menu and the *Choose File* radio button. Upload the file. Under <u>Operator Type</u> select *Same CID* from the drop down. For <u>Output IDs</u>  select *CIDs* and for <u>Output Method</u> choose the *two column* option. Then hit <u>Submit Job</u>. 
+* Download the resulting file. This will have the CID to Compound name. Delete the compound name so there is a single column of CIDs. Save a new file with the `csv` file extension. 
+* Upload file to the [PubChem Download Service](https://pubchem.ncbi.nlm.nih.gov/pc_fetch/pc_fetch.cgi). Select <u>PubChem Compound</u>, under <u>Choose a format</u> select *Image* then hit the <u>Download</u> button. You should get a directory of `.png` image files, one for each CID.
 :::
 
 <br/>
@@ -448,39 +439,18 @@ Here is the recipe I used to make the <a href="#/volatile-compounds-in-cocoa-fla
 #### <font color="#004949">Putting the pieces together</font>
 
 ::: {style="font-size: 0.7em;color: #414141;font-family: 'Lato';font-weight: '100';text-align: left;"}
-> - Once I had `.png` files for all of the compounds I did some cropping in [Gimp](https://www.gimp.org/).
-> - Then I used an online tool called [Photo Collage](https://www.photocollage.com/) to put all the images together and [Inkscape](https://inkscape.org/) to add text and finalize the image. Finally I  used  [this tool](https://www.websiteplanet.com/webtools/imagecompressor/) to compress the image. 
+* Once I had `.png` files for all of the compounds I did some cropping in [Gimp](https://www.gimp.org/).
+* Then I used an online tool called [Photo Collage](https://www.photocollage.com/) to put all the images together and [Inkscape](https://inkscape.org/) to add text and finalize the image. Finally I  used  [this tool](https://www.websiteplanet.com/webtools/imagecompressor/) to compress the image. 
 ::: 
-
-
-
-## Example Lambic
-
-## Example Soy Sauce
-
-## Bibliography
-
-::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: left;"}
-Below is a list of the principal publications used in this presentation, listed alphabetically by first author. Each publication contains the unique digital object identifier (DOI). 
-:::
-
-
-
-
-<p style="font-size:0.5em">
-<em>
-Many of the articles linked in this presentation sit behind pay walls. No matter what, do not enter the DOI address into <a href="https://sci-hub.tw/">sci-hub</a> to access a publication. Seriously. Don't do it. Pay the publisher ~$30 per publication and go broke trying to learn.
-</em>
-</p>
 
 
 ## Packages used in this presentation
 
 ::: {style="font-size: 0.8em;font-family: 'Lato';font-weight: '100';"}
 
-> - [reveal.js](https://github.com/hakimel/reveal.js) An HTML Presentation Framework in [R Markdown](https://bookdown.org/yihui/rmarkdown/revealjs.html).  
-> - [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/) an R package for flow charts.  
-> - [treemap](https://github.com/mtennekes/treemap) an R package for treemap visualization.  
+*  [reveal.js](https://github.com/hakimel/reveal.js) An HTML Presentation Framework in [R Markdown](https://bookdown.org/yihui/rmarkdown/revealjs.html).  
+* [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/) an R package for flow charts.  
+*  [treemap](https://github.com/mtennekes/treemap) an R package for treemap visualization.  
 
 :::
 
