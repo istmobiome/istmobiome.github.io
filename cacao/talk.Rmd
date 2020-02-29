@@ -59,7 +59,6 @@ tree_pal <- c("#56B4E9", "#D55E00", "#009E73", "#CC79A7", "#B6DBFF", "#7F7F7F", 
 
 ## <font color="#F5F5F5">outline </font>{ data-background-image="images/collage.png" data-background-size="90%"  background-transition-speed="slow" style="font-size: 0em;"} 
 
-PUT SMALL PICS OF TOPICS
 
 # Tree to Bean to Bar<br/><small>the Process of Making Chocolate</small>
 
@@ -328,29 +327,28 @@ style_widget(
 
 # Cacao Fermentation  <br/> <small>the key step in the formation of aroma precursors</small>
 
-## Why is fermentation important?
+## Why is fermentation important & <br/>what are the microbes doing?  
 
 ::: {style="color: #F5F5F5;"}
 * Unfermented beans do not produce cocoa flavor on roasting. 
-* Produces ethanol & heat.
-* Metabolic activity stops --> Kills the embryo. 
+* Produces acids, alcohols, & heat that penetrate the testae.
+* Metabolic activity stops. Kills the embryo.
+<hr/>
 * Allows the diffusion of metabolites in & out of seed.
 * Which triggers complex biochemical reactions in the cotyledon.
-:::
-
-## The role of microorganisms during fermentation
-
-* Produce acids and alcohols that penetrate the testae.
 * Initiates chemical reactions that will form the precursors.
+<hr/>
 * No evidence that microbial enzymes penetrate testae.
 * Rather enzymes inside the beans are activated by microbial metabolites.
 * Exact role of microbes in final product is not understood.
-
+:::
 
 ## <font color="#F5F5F5">timeline</font> {data-background-image="images/timeline.png" data-background-size="70%" style="font-size:0em"}
 
 
 ## <font color="#F5F5F5">fermentation process</font> {data-background-image="images/fermentation_process.png" data-background-size="90%" style="font-size:0em"}
+
+## <font color="#F5F5F5">timeline2</font> {data-background-image="images/timeline.png" data-background-size="70%" style="font-size:0em"}
 
 
 ## <font color="#F5F5F5">fermented beans</font> { data-background-image="images/fermented_beans.png" data-background-size="85%"  background-transition-speed="slow" style="font-size: 0em;"}
@@ -410,10 +408,6 @@ Boethius (2016). <em>Something rotten in Scandinavia: The world's earliest evide
 Credits continue on the next slide
 :::
 
-## <font color="#004949"> </font>{data-background="#F5F5F5" style="font-size: 1em;"}
-
-::: {style="font-size: 0.5em;color: #414141;font-family: 'Lato';font-weight: '100';text-align: left;"}
-:::
 
 <h2 style="text-align: right;">
 ## <font color="#004949">Creating a chemical collage</font>{style="font-size: 0.9em;font-family: 'Lato';font-weight: '100';" data-background="#F5F5F5" data-vertical-align-top="0px"}
