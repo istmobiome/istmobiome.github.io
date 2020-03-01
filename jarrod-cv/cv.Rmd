@@ -56,9 +56,9 @@ Main
 Jarrod J. Scott {#title}
 --------------------------------------------------------------------------------
 
-### an old-school naturalist using new-school tech...
+### an old-school naturalist using new-school tech
 
-...to explore microbial diversity.  My holistic approach spans marine & terrestrial systems to better understand  how a collection of  simple organisms coalesce into  complex communities  & how the structure of these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I also want to make research more accessible & exciting, transparent & reproducible. To that end, I use & teach open-source tools to create web products that communicate science more effectievly. 
+I study microbial diversity.  My holistic approach spans marine & terrestrial systems to better understand  how a collection of  simple organisms coalesce into  complex communities  & how the structure of these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I also want to make research more accessible & exciting, transparent & reproducible. To that end, I use & teach open-source tools to create web products that communicate science more effectievly. 
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
