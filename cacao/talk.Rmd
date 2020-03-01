@@ -1,6 +1,6 @@
 ---
 title: "CACAO fermentation"
-date: "https://istmobiome.github.io/cacao/talk.html"
+date: "<small>Raw code can be found on this [GitHub repo](https://github.com/istmobiome/istmobiome.github.io/tree/master/cacao)</small>"
 author: "Jarrod J Scott <br/> jarrod.jude.scott@gmail.com"
 output: 
   revealjs::revealjs_presentation:
@@ -56,10 +56,6 @@ tree_pal <- c("#56B4E9", "#D55E00", "#009E73", "#CC79A7", "#B6DBFF", "#7F7F7F", 
 
 
 #  <font color="#F5F5F5">overview </font>{ data-background-image="images/paper-bag.png" data-background-size="95%"  background-transition-speed="slow" style="font-size: 0em;"}
-
-
-## <font color="#F5F5F5">outline </font>{ data-background-image="images/collage.png" data-background-size="90%"  background-transition-speed="slow" style="font-size: 0em;"} 
-
 
 # Tree to Bean to Bar<br/><small>the Process of Making Chocolate</small>
 
@@ -218,8 +214,9 @@ What factors influence the fermentation process?
 
 ## <font color="#1b1b1b">The Seed</font> {data-background-image="images/beans_unfermented.png" data-background-size="90%" style="font-size:0em"}
 
-## <font color="#1b1b1b">Cacao Pulp <br/> <small>a rich medium for microbial growth</small></font> {data-background-image="images/bean_in_pod.jpg" data-background-size="100%" style="font-size:1.3em"}
+## <font color="#F5F5F5">Cacao Pulp <br/> <small>a rich medium for microbial growth</small></font> {data-background-image="images/bean_in_pod.jpg" data-background-size="100%" style="font-size:1.3em"}
 
+## The Pulp
 
 ```{r setup_treemap, echo=FALSE, include=FALSE}
 # dataset
@@ -299,10 +296,6 @@ style_widget <- function(hw=NULL, style="", addl_selector="") {
 }
 ```
 
-
-## The Pulp
-
-
 ```{r make_treemap, echo=FALSE, fig.align='right'}
 ## UNCOMMENT TO REGENERATE STAND-ALONE HTML VERSION
 # make it interactive ("rootname" becomes the title of the plot):
@@ -323,6 +316,7 @@ style_widget(
 
 ```
 
+<small> if this slide his blank refresh the page. Figure is mildly interactive.</small>
 
 ## <font color="#1b1b1b">parenchyma</font> {data-background-image="images/parenchyma.png" data-background-size="70%" style="font-size:0em"}
 
@@ -373,28 +367,45 @@ When the <font size=6 color="#F9E79F">pod is opened</font> with a knife, the pul
 
 Organisms come mainly from the hands of workers, knives, unwashed baskets used for transport of seeds, and dried mucilage left on the walls of boxes from previous fermentations.
 
-> <small>from Schwan RF & Wheals AE (2004) The microbiology of cocoa fermentation & its role in chocolate quality. Critical Reviews in Food Science & Nutrition, 44: 205–221</small>
+> <small>from Schwan RF & Wheals AE (2004) The microbiology of cocoa fermentation & its role in chocolate quality. [Critical Reviews in Food Science & Nutrition, 44: 205–221](https://doi.org/10.1080/10408690490464104)</small>
 
 ## <font color="#F5F5F5">lambic</font> { data-background-image="images/lambic.png" data-background-size="95%"  background-transition-speed="slow" style="font-size: 0em;"}
 
 
 # Resources
 
-## <font color="#004949">Photo, image, & graphic credits</font>{data-background="#F5F5F5"}
+## Photo, image, & graphic credits
 
-::: {style="font-size: 0.5em;color: #414141;font-family: 'Lato';font-weight: '100';text-align: left;"}
+::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: left;"}
 
 *Plesse note that unless otherwise stated, I created all figures and  take full responsibility for their content.*
 
 <a href="#/making-cocoa-a-complex-multistep-process">Cacao to cocoa workflow</a> was made by the author using the R package [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/) and adapted from Aprotosoaie, Luca, &  Miron (2015) <em>Flavor Chemistry of Cocoa and Cocoa Products—An Overview.</em> [Comprehensive Reviews in Food Science and Food Safety 15:73-91](https://doi.org/10.1111/1541-4337.12180).
 
-Image  of <a href="#/pre-and-post-testae">pre and post fermented testae</a> was modified from Brillouet & Hue (2017) <em>Fate of proanthocyanidins and anthocyanins along fermentation of cocoa seeds (</em>Theobroma cacao <em>L.</em>). [Journal of Applied Botany and Food Quality 90:141-146.](https://doi.org/10.5073/JABFQ.2017.090.017) Figure 5, page 143. 
+Images  of <a href="#/pre-and-post-testae">pre and post fermented testae</a> & <a href="#/fermented-beans">fermented beans</a> were modified from Brillouet & Hue (2017) <em>Fate of proanthocyanidins and anthocyanins along fermentation of cocoa seeds (</em>Theobroma cacao <em>L.</em>). [Journal of Applied Botany and Food Quality 90:141-146.](https://doi.org/10.5073/JABFQ.2017.090.017) Figures 1 & 5.
+
 
 Photos on the <a href="#/cacao-to-cocoa">cacao to cocoa slide</a>  credits: left photo entitled *Cocoa beans in a cocoa pod* by Keith Weller ([Kbh3rd](https://en.wikipedia.org/wiki/User:Kbh3rd)) was obtained from Wikimedia Commons licensed under [CC-0](https://creativecommons.org/share-your-work/public-domain/cc0). [Original file](https://commons.wikimedia.org/wiki/File:Cacao-pod-k4636-14.jpg); right photo was obtained from this [website](https://irenamacri.com/ultimate-guide-to-raw-cacao-powder-butter-nibs) (original credit could not be ascertained). 
 
 Close-up photo of  <a href="#/cacao-pulp-a-rich-medium-for-microbial-growth">cacao beans</a>  entitled *bean in pod Cocoa beans in cocoa pod at El Trapiche in Costa Rica* by [Aude](https://commons.wikimedia.org/wiki/User:Aude) was obtained from Wikimedia Commons licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0). [Original file](https://en.wikipedia.org/wiki/Cocoa_bean#/media/File:Cocoa_beans_in_cocoa_pod_at_El_Trapiche,_Costa_Rica.jpg)
 
-Images on the <a href="#/history">History slide </a>come from the following references:
+Images from the <a href="#/lambic">Mystery of Lambic Beer</a> were modified from the [original publication](https://pdfs.semanticscholar.org/8c12/9985b9f1264179fe2e2f779bae1ff3e51a54.pdf) by Jacques De Keersmaecker.
+
+Figure of  <a href="#/parenchyma">parenchyma cells</a> was modified from the paper by Elwers, Zambrano, Rohsius, Lieberei (2010) <em>Histological features of phenolic compounds in fi ne and bulk cocoa seed</em> (Theobroma cacao L.). [Journal of Applied Botany and Food Quality 83:182-188](https://www.researchgate.net/profile/Alexis_Zambrano/publication/259703547_Histological_features_of_phenolic_compounds_in_fi_ne_and_bulk_cocoa_seed_Theobroma_cacao_L/links/5424e0050cf26120b7ac49f2.pdf). Figure 3.
+
+Credits continue on the next slide
+:::
+
+## Photo, image, & graphic credits continued
+
+::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: left;"}
+
+<a href="#/volatile-compound-profiles-in-beans-vs-chocolates">The Sankey diagram </a> was made  using the [Sankey Diagram Generator](http://sankey-diagram-generator.acquireprocure.com/) using data from da Veiga Moreira, de Figueiredo Vilela, Santos, Lima, Schwan (2018). Volatile compounds and protein profiles analyses of fermented cocoa beans and chocolates from different hybrids cultivated in Brazil. [Food research international 109:196-203](https://doi.org/10.1016/j.foodres.2018.04.012). Table 1.
+
+
+<a href="#/timeline">Timeline of succession and metabolite developement </a> was reproduced from De Vuyst &Weckx (2016). <em>The cocoa bean fermentation process: from ecosystem analysis to starter culture development</em>. [Journal of Applied Microbiology 121:5-17]( https://doi.org/10.1111/jam.13045). Figure 1.
+
+**Images on the <a href="#/history">History of fermentation slide </a>come from the following references:**
 
 McGovern, Zhang, Tang, Zhang, Hall, Moreau, Nuñez, Butrym, Richards, Wang, Cheng, Zhao, Wang (2004). <em>Fermented beverages of pre- and proto-historic China</em>. [Proceedings of the National Academy of Sciences. 101:17593-17598](https://doi.org/10.1073/pnas.0407921102). Figure 1. 
 
@@ -404,23 +415,20 @@ McGovern, Mirzoian, Hall (2009). <em>Ancient Egyptian herbal wines</em>. [Procee
 
 Boethius (2016). <em>Something rotten in Scandinavia: The world's earliest evidence of fermentation</em>. [Journal of Archaeological Science 66 (2016) 169-180](http://dx.doi.org/10.1016/j.jas.2016.01.008). Figure 10. 
 
-<a href="#/volatile-compound-profiles-in-beans-vs-chocolates">The Sankey diagram </a> was made  using the [Sankey Diagram Generator](http://sankey-diagram-generator.acquireprocure.com/) using data from da Veiga Moreira, de Figueiredo Vilela, Santos, Lima, Schwan (2018). Volatile compounds and protein profiles analyses of fermented cocoa beans and chocolates from different hybrids cultivated in Brazil. [Food research international 109:196-203](https://doi.org/10.1016/j.foodres.2018.04.012). Table 1.
-
-Credits continue on the next slide
 :::
 
 
 <h2 style="text-align: right;">
-## <font color="#004949">Creating a chemical collage</font>{style="font-size: 0.9em;font-family: 'Lato';font-weight: '100';" data-background="#F5F5F5" data-vertical-align-top="0px"}
+## Creating a chemical collage{style="font-size: 0.9em;font-family: 'Lato';font-weight: '100';" data-vertical-align-top="0px"}
 </h2>
 
-::: {style="font-size: 0.7em;color: #414141;font-family: 'Lato';font-weight: '100';text-align: center;"}
+::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: center;"}
 Here is the recipe I used to make the <a href="#/volatile-compounds-in-cocoa-flavor">chemical collage</a>. 
 :::
 
-#### <font color="#004949">Getting the chemical structures</font>
+#### Getting the chemical structures
 
-::: {style="font-size: 0.7em;color: #414141;font-family: 'Lato';font-weight: '100';text-align: left;"}
+::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: left;"}
 
 * Get a list of compound names, e.g., from a paper. 
 * Put the names into a single column text file, say `compounds.txt`.
@@ -431,9 +439,8 @@ Here is the recipe I used to make the <a href="#/volatile-compounds-in-cocoa-fla
 
 <br/>
 
-#### <font color="#004949">Putting the pieces together</font>
-
-::: {style="font-size: 0.7em;color: #414141;font-family: 'Lato';font-weight: '100';text-align: left;"}
+#### Putting the pieces together
+::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: left;"}
 * Once I had `.png` files for all of the compounds I did some cropping in [Gimp](https://www.gimp.org/).
 * Then I used an online tool called [Photo Collage](https://www.photocollage.com/) to put all the images together and [Inkscape](https://inkscape.org/) to add text and finalize the image. Finally I  used  [this tool](https://www.websiteplanet.com/webtools/imagecompressor/) to compress the image. 
 ::: 

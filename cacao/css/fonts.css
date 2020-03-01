@@ -69,7 +69,7 @@ body {
 
 .reveal code {
   font-family: 'Monaco';
-  color: #920000;
+/*  color: #920000;*/
   font-weight: 100;
   font-size: 0.8em;
 }
