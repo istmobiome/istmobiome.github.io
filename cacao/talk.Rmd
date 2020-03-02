@@ -4,7 +4,7 @@ date: "<small>Raw code can be found on this [GitHub repo](https://github.com/ist
 author: "Jarrod J Scott <br/> jarrod.jude.scott@gmail.com"
 output: 
   revealjs::revealjs_presentation:
-    incremental: false
+    incremental: true
     css: ["css/fonts.css"]
     #css: ["default", "css/sfah.css", "css/fonts.css", "css/ninjutsu.css"]
     self_contained: false
@@ -14,13 +14,13 @@ output:
     highlight: pygments
     center: true
     reveal_options:
+      showNotes: true
       chalkboard:
         theme: chalkboard
         toggleNotesButton: true
       slideNumber: true
       previewLinks: false
       slide_level: 1
-      #center: true
       mathjax: false
       width: "100%"
       height: "100%"
@@ -56,6 +56,44 @@ tree_pal <- c("#56B4E9", "#D55E00", "#009E73", "#CC79A7", "#B6DBFF", "#7F7F7F", 
 
 
 #  <font color="#F5F5F5">overview </font>{ data-background-image="images/paper-bag.png" data-background-size="95%"  background-transition-speed="slow" style="font-size: 0em;"}
+
+
+## Presentation Information
+
+::: notes
+This is a speaker note.
+:::
+
+> - There are some interactive components in this presentation.  
+> - The presentation has a nested, 2D structure meaning main ideas run horizontally & sub ideas run vertically.  
+
+<br/>
+
+### Shortcut keys
+
+> - Press `ESC` button to see all the sildes in the **Slide Overview** mode. 
+> - In OSX hold down the `option` key (ctrl in Linux) & click on any element to zoom towards it using.   
+> - To enter presenter mode with notes press the `S` key. Notes do not seem to work on level 1 headers (h1).
+> - To enter full screen press `F` key.  
+> - Navigation buttons and slide number in bottom right.  
+> - Chalkboard, marker, & menu buttons in bottom left. 
+
+## TEST
+
+<section>
+	<p class="fragment grow">grow</p>
+	<p class="fragment shrink">shrink</p>
+	<p class="fragment fade-out">fade-out</p>
+	<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+	<p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
+	<p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
+	<p class="fragment highlight-current-blue">blue only once</p>
+	<p class="fragment highlight-red">highlight-red</p>
+	<p class="fragment highlight-green">highlight-green</p>
+	<p class="fragment highlight-blue">highlight-blue</p>
+</section>
+
+
 
 # Tree to Bean to Bar<br/><small>the Process of Making Chocolate</small>
 
@@ -325,17 +363,17 @@ style_widget(
 ## Why is fermentation important & <br/>what are the microbes doing?  
 
 ::: {style="color: #F5F5F5;"}
-* Unfermented beans do not produce cocoa flavor on roasting. 
-* Produces acids, alcohols, & heat that penetrate the testae.
-* Metabolic activity stops. Kills the embryo.
+> - Unfermented beans do not produce cocoa flavor on roasting. 
+> - Produces acids, alcohols, & heat that penetrate the testae.
+> - Metabolic activity stops. Kills the embryo.
 <hr/>
-* Allows the diffusion of metabolites in & out of seed.
-* Which triggers complex biochemical reactions in the cotyledon.
-* Initiates chemical reactions that will form the precursors.
+> - Allows the diffusion of metabolites in & out of seed.
+> - Which triggers complex biochemical reactions in the cotyledon.
+> - Initiates chemical reactions that will form the precursors.
 <hr/>
-* No evidence that microbial enzymes penetrate testae.
-* Rather enzymes inside the beans are activated by microbial metabolites.
-* Exact role of microbes in final product is not understood.
+> - No evidence that microbial enzymes penetrate testae.
+> - Rather enzymes inside the beans are activated by microbial metabolites.
+> - Exact role of microbes in final product is not understood.
 :::
 
 ## <font color="#F5F5F5">timeline</font> {data-background-image="images/timeline.png" data-background-size="70%" style="font-size:0em"}
@@ -430,19 +468,20 @@ Here is the recipe I used to make the <a href="#/volatile-compounds-in-cocoa-fla
 
 ::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: left;"}
 
-* Get a list of compound names, e.g., from a paper. 
-* Put the names into a single column text file, say `compounds.txt`.
-* Upload the file to [PubChem Identifier Exchange Service](https://pubchem.ncbi.nlm.nih.gov/idexchange/idexchange.cgi). Under <u>Input ID List</u> select *Synonyms* from the drop-down menu and the *Choose File* radio button. Upload the file. Under <u>Operator Type</u> select *Same CID* from the drop down. For <u>Output IDs</u>  select *CIDs* and for <u>Output Method</u> choose the *two column* option. Then hit <u>Submit Job</u>. 
-* Download the resulting file. This will have the CID to Compound name. Delete the compound name so there is a single column of CIDs. Save a new file with the `csv` file extension. 
-* Upload file to the [PubChem Download Service](https://pubchem.ncbi.nlm.nih.gov/pc_fetch/pc_fetch.cgi). Select <u>PubChem Compound</u>, under <u>Choose a format</u> select *Image* then hit the <u>Download</u> button. You should get a directory of `.png` image files, one for each CID.
+> - Get a list of compound names, e.g., from a paper. 
+> - Put the names into a single column text file, say `compounds.txt`.
+> - Upload the file to [PubChem Identifier Exchange Service](https://pubchem.ncbi.nlm.nih.gov/idexchange/idexchange.cgi). Under <u>Input ID List</u> select *Synonyms* from the drop-down menu and the *Choose File* radio button. Upload the file. Under <u>Operator Type</u> select *Same CID* from the drop down. For <u>Output IDs</u>  select *CIDs* and for <u>Output Method</u> choose the *two column* option. Then hit <u>Submit Job</u>. 
+> - Download the resulting file. This will have the CID to Compound name. Delete the compound name so there is a single column of CIDs. Save a new file with the `csv` file extension. 
+> - Upload file to the [PubChem Download Service](https://pubchem.ncbi.nlm.nih.gov/pc_fetch/pc_fetch.cgi). Select <u>PubChem Compound</u>, under <u>Choose a format</u> select *Image* then hit the <u>Download</u> button. You should get a directory of `.png` image files, one for each CID.
 :::
 
 <br/>
 
 #### Putting the pieces together
+
 ::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: left;"}
-* Once I had `.png` files for all of the compounds I did some cropping in [Gimp](https://www.gimp.org/).
-* Then I used an online tool called [Photo Collage](https://www.photocollage.com/) to put all the images together and [Inkscape](https://inkscape.org/) to add text and finalize the image. Finally I  used  [this tool](https://www.websiteplanet.com/webtools/imagecompressor/) to compress the image. 
+> - Once I had `.png` files for all of the compounds I did some cropping in [Gimp](https://www.gimp.org/).
+> - Then I used an online tool called [Photo Collage](https://www.photocollage.com/) to put all the images together and [Inkscape](https://inkscape.org/) to add text and finalize the image. Finally I  used  [this tool](https://www.websiteplanet.com/webtools/imagecompressor/) to compress the image. 
 ::: 
 
 
@@ -450,9 +489,9 @@ Here is the recipe I used to make the <a href="#/volatile-compounds-in-cocoa-fla
 
 ::: {style="font-size: 0.8em;font-family: 'Lato';font-weight: '100';"}
 
-*  [reveal.js](https://github.com/hakimel/reveal.js) An HTML Presentation Framework in [R Markdown](https://bookdown.org/yihui/rmarkdown/revealjs.html).  
-* [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/) an R package for flow charts.  
-*  [treemap](https://github.com/mtennekes/treemap) an R package for treemap visualization.  
+> - [reveal.js](https://github.com/hakimel/reveal.js) An HTML Presentation Framework in [R Markdown](https://bookdown.org/yihui/rmarkdown/revealjs.html).  
+> - [DiagrammeR](https://rich-iannone.github.io/DiagrammeR/) an R package for flow charts.  
+> - [treemap](https://github.com/mtennekes/treemap) an R package for treemap visualization.  
 
 :::
 
