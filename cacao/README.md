@@ -4,7 +4,7 @@ The talk can be found here:
 
 https://istmobiome.github.io/cacao/talk.html#/
 
-The presentation is written in R Markdown Format for reveal.js Presentations. The presentation contains the following features:
+The presentation is written in [R Markdown Format for reveal.js Presentations](https://github.com/rstudio/revealjs). The presentation contains the following features:
 
 > - Some interactive components written in R.  
 > - A nested, 2D structure meaning main ideas run horizontally & sub ideas run vertically.  
