@@ -58,7 +58,7 @@ Jarrod J. Scott {#title}
 
 ### an old-school naturalist using new-school tech
 
-I study microbial diversity.  My holistic approach spans marine & terrestrial systems to better understand  how a collection of  simple organisms coalesce into  complex communities  & how the structure of these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I also want to make research more accessible & exciting, transparent & reproducible. To that end, I make & teach open-source tools to create web products that communicate science more effectievly. 
+I study [microbial diversity](#pubs).  My approach is holistic, spanning [marine](#marine) & [terrestrial](#land) systems to understand  how simple organisms coalesce into  complex communities  & how these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I work to make research more accessible & exciting, transparent & reproducible. I use & teach open-source tools to create [web products](#web) that communicate science more effectievly. 
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
@@ -71,7 +71,7 @@ Panama
 
 2017 - 
 
-- Transisthmian microbial ecology of coral reefs & mangrove ecosystems in the Western Atlantic & the Tropical Eastern Pacific of Panama.
+- Microbial ecology of coral reefs & mangrove ecosystems across the Isthmus of Panama. The Eastern Pacific & Western Atlantic.
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -131,7 +131,7 @@ Austin, Texas USA
 2005 - 2002
 
 
-Marine Field Experience {data-icon=anchor}
+Marine Field Experience {data-icon=anchor #marine}
 --------------------------------------------------------------------------------
 
 ###  Research Expeditions to Isla Coiba
@@ -216,7 +216,7 @@ Gulf of Mexico
 2001
 
 
-Terrestrial Field Experience {data-icon=truck}
+Terrestrial Field Experience {data-icon=truck #land}
 --------------------------------------------------------------------------------
 
 ### Microbial Ecology of Fungus-Growing Ants
@@ -313,7 +313,7 @@ Isla Coiba, Panama
 [**Click here**](https://strineoigert.wordpress.com/) for the course blog & [**here**](https://www.mcgill.ca/pfss/) for the course website. 
 :::
 
-Web Products {data-icon=globe data-concise=true}
+Web Products {data-icon=globe data-concise=true #web}
 --------------------------------------------------------------------------------
 
 ### [Cacao Fermentation](https://istmobiome.github.io/cacao/talk.html)
@@ -327,7 +327,6 @@ Bocas del Toro, Panama
 ::: aside
 Talks & Presentations
 :::
-
 
 ### [Rethinking the Diversity of Life](https://istmobiome.github.io/rethink-d/rethink-d.html)
 
@@ -357,6 +356,19 @@ Pickles Reef, Florida USA
 
 2019
 
+
+
+### [Web Project Guide](https://istmobiome.github.io/neo-bess/web-guide.html)
+
+Web project guide book for STRI-McGill Tropical Biology Field Course. 
+
+Panama
+
+2020
+
+::: aside
+Other
+:::
 
 Additional Training & Certifications {data-icon=plus}
 --------------------------------------------------------------------------------
@@ -501,7 +513,7 @@ Panama
 2010 - 2009
 
 
-Peer Reviewed Publications {data-icon=file}
+Peer Reviewed Publications {data-icon=file #pubs}
 --------------------------------------------------------------------------------
 
 ### Intestinal microbes: an axis of functional diversity among large marine consumers
