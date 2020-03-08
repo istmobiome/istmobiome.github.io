@@ -2,7 +2,7 @@
 title: "Rethinking Diversity"
 subtitle: "Meet xaringan"
 author: "Jarrod J Scott"
-date: "2020/01/05"
+#date: "2020/01/05"
 output:
   xaringan::moon_reader:
     css: ["default", "css/sfah.css", "css/fonts.css", "css/ninjutsu.css"]
@@ -47,12 +47,13 @@ background-position: center
 
 ### .fancy[A conceptual tour of the microbial world]
 
-by Jarrod J Scott | STRI | Panama | 2020-01-05
+by Jarrod J Scott | STRI | Panama
 
 <!-- this ends up being the title slide since seal = FALSE-->
 
+[Credits](#credits)
 
-[`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/board-meeting-talk-01-05-2020_files)  
+[`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/rethink-d)  
 
 
 ---
@@ -65,7 +66,7 @@ background-image: url(img/land.jpg)
 
 ---
 
-name: background
+name: overview
 class: center, middle
 
 
@@ -291,17 +292,6 @@ class: center, middle
 
 
 ---
-name: end
-class: center, middle, inverse
-background-color: #1F4E74
-background-image: url(img/panama_dna_50.png)
-font-color: white
-background-size: contain
-background-position: center
-
-# Rethinking the Diversity of Panama
-
----
 name: chaos
 background-color: #FFFFFF
 class: middle, split-four 
@@ -330,4 +320,37 @@ class: inverse, center, middle
 ### Emergent Self-Organizing Map
 
 ![esom](img/esom.jpg)
+
+---
+name: end
+class: center, middle, inverse
+background-color: #1F4E74
+background-image: url(img/panama_dna_50.png)
+font-color: white
+background-size: contain
+background-position: center
+
+# Rethinking the Diversity of Panama
+
+---
+name: credits
+class: left, middle
+background-color: #F2F2F2
+font-color: #191919
+background-size: contain
+background-position: center
+
+# Credits & Resources
+
+* Find the source code for the presentation here [`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/rethink-d).   
+* Slides created with the R package [xaringan](https://github.com/yihui/xaringan).  
+* [Title slide](#aringan-title) designed by the author.   
+* [Leaf-cutter ant](#background) photo by the author.  
+* Image on left of [ancient rock art](#iron) from MacDonald, et al. *Hunter-Gatherers Harvested and Heated Microbial Biogenic Iron Oxides to Produce Rock Art Pigment*. (2019) [Scientific Reports 9: 17070](https://doi.org/10.1038/s41598-019-53564-w). Image on right of [deep-sea iron mats](#iron) from Hager et. al. *Community Structure of Lithotrophically-Driven Hydrothermal Microbial Mats from the Mariana Arc and Back-Arc* (2017). [Frontiers in Microbiology 8:1578](https://doi.org/10.3389/fmicb.2017.01578).   
+* Field work photos [here](#collecting) and [here](#filtering) by [Sean Mattson](https://twitter.com/mattsonsean).  
+* [Tree of Life](#magnitude) from Hug et. al. *A new view of the tree of life* (2016) [Nature Microbiology 1:16048](https://doi.org/10.1038/nmicrobiol.2016.48).
+* [DNA snippet](#genome_book) from Mori et. al. *Physiological and ecological implications of an iron- or hydrogen-oxidizing member of the Zetaproteobacteria, Ghiorsea bivora, gen. nov., sp. nov.* (2017) [ISME Journal 11:2624-2636](https://doi.org/10.1038/ismej.2017.132).
+* [Microbial shapes](#10) from Park & Chess. (2012) *Foundations in Microbiology*. McGraw Hill. United States.
+* [Old library] (#library) photo is all over the internet. I have no idea where credit should be given.
+* Everything else created by the author. 
 
