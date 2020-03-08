@@ -2,8 +2,8 @@
 title: "WebPage Guidebook"
 output: 
   flexdashboard::flex_dashboard:
-#    logo: favicon.png
-    favicon: favicon.png
+    logo: favicon.png
+#    favicon: favicon.png
     navbar:
      - { icon: "fa-home", href: "web-guide.html", align: left }  
      - { icon: "fa-github", href: "https://github.com/istmobiome/istmobiome.github.io/tree/master/neo-bess", align: right }
@@ -519,19 +519,6 @@ Here are some of the web projects I shared with you. Look for the `r fa("github"
 #### General resources
 
 * Freely available HTML, PDF, ePub, and Kindle books about R topics writen in the R Markdown package `bookdown` https://bookdown.org/
-
-
-Databases {data-icon="fa-database"}
-=====================================  
-
-
-Resources 2
---------------------------------------------------
-
-### <font size="5">References & Resources</font> 
-
-Resources 2
---------------------------------------------------
 
 
 Detailed Schedule {data-navmenu="Schedule" data-icon="fa-calendar"}

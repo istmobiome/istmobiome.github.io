@@ -58,7 +58,7 @@ Jarrod J. Scott {#title}
 
 ### an old-school naturalist using new-school tech
 
-I study microbial diversity.  My holistic approach spans marine & terrestrial systems to better understand  how a collection of  simple organisms coalesce into  complex communities  & how the structure of these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I also want to make research more accessible & exciting, transparent & reproducible. To that end, I use & teach open-source tools to create web products that communicate science more effectievly. 
+I study microbial diversity.  My holistic approach spans marine & terrestrial systems to better understand  how a collection of  simple organisms coalesce into  complex communities  & how the structure of these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I also want to make research more accessible & exciting, transparent & reproducible. To that end, I make & teach open-source tools to create web products that communicate science more effectievly. 
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
@@ -147,6 +147,16 @@ Isla Coiba, Panama
 ::: aside
 Use [**this link**](https://stri.si.edu/facility/coibita-island) to learn more about Isla Coiba. 
 :::
+
+###  Caribbean Field Work
+
+Smithsonian Tropical Research Institute
+
+Bocas del Toro, Panama
+
+2020 - 2017
+
+Extensive field work around the Bocas del Toro archipelago.
 
 ### R/V Revelle & ROV Jason II (cruise RR1413)
 
@@ -303,6 +313,50 @@ Isla Coiba, Panama
 [**Click here**](https://strineoigert.wordpress.com/) for the course blog & [**here**](https://www.mcgill.ca/pfss/) for the course website. 
 :::
 
+Web Products {data-icon=globe data-concise=true}
+--------------------------------------------------------------------------------
+
+### [Cacao Fermentation](https://istmobiome.github.io/cacao/talk.html)
+
+Public leture about the microbiology of cacao fermentation.
+
+Bocas del Toro, Panama
+
+2020
+
+::: aside
+Talks & Presentations
+:::
+
+
+### [Rethinking the Diversity of Life](https://istmobiome.github.io/rethink-d/rethink-d.html)
+
+Public leture about microbial diversity.
+
+Bocas del Toro, Panama
+
+2020
+
+### [Istmobiome Project](https://istmobiome.rbind.io/)
+
+Reproducible bioinformatic workflows for the Istmobiome microbiome project. (*work in progress*)
+
+Panama
+
+2020
+
+::: aside
+Reproducible Workflows
+:::
+
+### [ProjectDIGEST](https://projectdigest.github.io/)
+
+Reproducible bioinformatic workflows for reef fish microbiome project.
+
+Pickles Reef, Florida USA
+
+2019
+
 
 Additional Training & Certifications {data-icon=plus}
 --------------------------------------------------------------------------------
@@ -445,6 +499,7 @@ Smithsonian Tropical Research Institute
 Panama
 
 2010 - 2009
+
 
 Peer Reviewed Publications {data-icon=file}
 --------------------------------------------------------------------------------
