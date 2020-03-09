@@ -448,7 +448,7 @@ Boethius (2016). <em>Something rotten in Scandinavia: The world's earliest evide
 </h2>
 
 ::: {style="font-size: 0.7em;font-family: 'Lato';font-weight: '100';text-align: center;"}
-Here is the recipe I used to make the <a href="#/volatile-compounds-in-cocoa-flavor">chemical collage</a>. 
+Here is the recipe I used to make the <a href="#/more-than-600-volatile-compounds-in-cocoa-flavor">chemical collage</a>. 
 :::
 
 #### Getting the chemical structures
