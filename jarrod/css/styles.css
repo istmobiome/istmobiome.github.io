@@ -1,0 +1,53 @@
+/* Whole document: */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow|PT+Serif|Roboto:300');
+/* controls general properties of site*/
+
+
+.blocks {
+  break-inside: avoid;}
+
+/* Give headers playfair font */
+h1 {
+  font-family: "Roboto", serif;
+  color: #4c4c4c;
+}
+
+* {
+  /* Override default right margin for sidebar*/
+  --pagedjs-margin-right: 0.2in;
+  --pagedjs-margin-left: 0.1in;
+}
+
+
+/* Customize some of the sizing variables */
+:root {
+  --sidebar-width: 12rem; /* Shrink sidebar width  */
+  --sidebar-background-color: #F5F9FF; /* Make sidebar blue */
+  --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
+  --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
+/*  --decorator-border: 2px solid #bdd7e7; /* Make timeline a blue as well*/ */
+}
+
+.aside {
+  width: calc(var(--sidebar-width) + 9px);
+  line-height: 1.2;
+  font-size: 0.75rem;
+}
+
+/* Make little circle outline be a light blue */
+.decorator::after {
+  background-color: #08306b;
+}
+
+/* Remove the fake bullets from lists */
+.aside li::before {
+  content: auto;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(2.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */

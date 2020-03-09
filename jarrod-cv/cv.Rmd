@@ -24,6 +24,10 @@ Aside
 
 <div class="zoom"><img src="fish_network_big.svg" alt=""></div>
  
+<br/>
+
+<i class="fa fa-download"></i><a href="https://github.com/istmobiome/istmobiome.github.io/raw/master/jarrod-cv/cv.pdf" download="jarrod-cv.pdf"> Download a PDF of this CV</a>
+
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
@@ -31,7 +35,7 @@ Contact Info {#contact}
 - <i class="fa fa-envelope"></i> jarrod.jude.scott@gmail.com
 - <i class="fa fa-github"></i> [github.com/jarrodscott](https://github.com/jarrodscott)
 - <i class="ai ai-orcid-square"></i> [ORCID](https://orcid.org/0000-0001-9863-1318)
-- [Click here](https://istmobiome.github.io/jarrod-cv/cv.pdf) for a pdf of this CV.
+- <i class="fa fa-globe"></i> [web](https://istmobiome.rbind.io/)
 
 
 Skills {#skills}
@@ -43,7 +47,7 @@ Skills {#skills}
 
 - Highly skilled analyzing DNA datasets (amplicon, genomic, & metagenomic).
 
-- Expertise incl.  [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Hugo](https://gohugo.io/), [Python](https://www.python.org/), CSS, HTML, [anvi'o](http://merenlab.org/software/anvio/). 
+- Expertise incl.  [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Python](https://www.python.org/), CSS, HTML, [anvi'o](http://merenlab.org/software/anvio/). 
 
 - Fire Fighter I & II certification.
 
@@ -83,8 +87,6 @@ University of Wisconsin--Madison
 Madison, Wisconsin USA
 
 2011 - 2006 
-
-- Microbial ecology of fungus growing insects 
 
 ### BSc Aquatic Biology, Minor in Archaeology
 
@@ -134,6 +136,16 @@ Austin, Texas USA
 Marine Field Experience {data-icon=anchor #marine}
 --------------------------------------------------------------------------------
 
+###  Caribbean Field Work
+
+Smithsonian Tropical Research Institute
+
+Bocas del Toro, Panama
+
+2020 - 2017
+
+Extensive field work around the Bocas del Toro archipelago.
+
 ###  Research Expeditions to Isla Coiba
 
 Smithsonian Tropical Research Institute
@@ -148,15 +160,6 @@ Isla Coiba, Panama
 Use [**this link**](https://stri.si.edu/facility/coibita-island) to learn more about Isla Coiba. 
 :::
 
-###  Caribbean Field Work
-
-Smithsonian Tropical Research Institute
-
-Bocas del Toro, Panama
-
-2020 - 2017
-
-Extensive field work around the Bocas del Toro archipelago.
 
 ### R/V Revelle & ROV Jason II (cruise RR1413)
 
@@ -363,7 +366,6 @@ Reproducible bioinformatic workflows for reef fish microbiome project.
 Pickles Reef, Florida USA
 
 2019
-
 
 
 ### [Web Project Guide](https://istmobiome.github.io/neo-bess/web-guide.html)
