@@ -1,7 +1,6 @@
 ---
 title: "CACAO fermentation"
 date: "<small>Raw code can be found on this [GitHub repo](https://github.com/istmobiome/istmobiome.github.io/tree/master/cacao)</small>"
-author: "Jarrod J Scott <br/> jarrod.jude.scott@gmail.com"
 output: 
   revealjs::revealjs_presentation:
     incremental: true
@@ -58,42 +57,30 @@ tree_pal <- c("#56B4E9", "#D55E00", "#009E73", "#CC79A7", "#B6DBFF", "#7F7F7F", 
 #  <font color="#F5F5F5">overview </font>{ data-background-image="images/paper-bag.png" data-background-size="95%"  background-transition-speed="slow" style="font-size: 0em;"}
 
 
-## Presentation Information
+## Housekeeping
 
 ::: notes
 This is a speaker note.
 :::
 
+::: {style="font-size: 0.8em;font-family: 'Lato';font-weight: '100';"}
+
+Press the <font color="red">?</font> on your keyboard to see the remark.js keyboard shortcuts.
+
+See the [Credits](#credits-resources) section for additional information.
+
+The [Source Code ](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus) for the presentation is available on GitHub.  
+
+
 > - There are some interactive components in this presentation.  
-> - The presentation has a nested, 2D structure meaning main ideas run horizontally & sub ideas run vertically.  
-
-<br/>
-
-### Shortcut keys
-
-> - Press `ESC` button to see all the sildes in the **Slide Overview** mode. 
+> - The presentation has a nested, 2D structure. Main ideas run horizontally & sub ideas run vertically.  
+> - Press `ESC` button to see all the sildes in the **Slide Overview** mode.  
 > - In OSX hold down the `option` key (ctrl in Linux) & click on any element to zoom towards it using.   
-> - To enter presenter mode with notes press the `S` key. Notes do not seem to work on level 1 headers (h1).
-> - To enter full screen press `F` key.  
-> - Navigation buttons and slide number in bottom right.  
-> - Chalkboard, marker, & menu buttons in bottom left. 
-
-## TEST
-
-<section>
-	<p class="fragment grow">grow</p>
-	<p class="fragment shrink">shrink</p>
-	<p class="fragment fade-out">fade-out</p>
-	<p class="fragment fade-up">fade-up (also down, left and right!)</p>
-	<p class="fragment fade-in-then-out">fades in, then out when we move to the next step</p>
-	<p class="fragment fade-in-then-semi-out">fades in, then obfuscate when we move to the next step</p>
-	<p class="fragment highlight-current-blue">blue only once</p>
-	<p class="fragment highlight-red">highlight-red</p>
-	<p class="fragment highlight-green">highlight-green</p>
-	<p class="fragment highlight-blue">highlight-blue</p>
-</section>
-
-
+> - To enter presenter mode with notes press the `S` key. Notes do not seem to work on level 1 headers (h1).  
+> - To enter full screen press `F` key.   
+> - Navigation buttons and slide number in bottom right.   
+> - Chalkboard, marker, & menu buttons in bottom left.  
+:::
 
 # Tree to Bean to Bar<br/><small>the Process of Making Chocolate</small>
 
@@ -410,7 +397,7 @@ Organisms come mainly from the hands of workers, knives, unwashed baskets used f
 ## <font color="#F5F5F5">lambic</font> { data-background-image="images/lambic.png" data-background-size="95%"  background-transition-speed="slow" style="font-size: 0em;"}
 
 
-# Resources
+# Credits & Resources
 
 ## Photo, image, & graphic credits
 
