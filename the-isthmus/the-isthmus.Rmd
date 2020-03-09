@@ -720,7 +720,7 @@ background-position: center
 
  Find the source code for the presentation here [`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus).   
  Slides created with the R package [xaringan](https://github.com/yihui/xaringan).  
-Most of the raw material for this presentation was courtesy of [Dr. Aaron O'Dea](https://odealab.com/).
+Most of the raw material for this presentation was courtesy of [Dr. Aaron O'Dea](https://odealab.com/). 
 
 <br/>
 
