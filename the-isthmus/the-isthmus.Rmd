@@ -73,6 +73,8 @@ The Source Code [`r fa(name = "github", fill = "white")`](https://github.com/ist
 
 This is an [amazing tutorial](https://arm.rbind.io/slides/xaringan.html#1) on the [xaringan](https://github.com/yihui/xaringan) package.
 
+Press `p` to see the speaker notes where you can find more description of the slides. 
+
 ---
 name: isthmus
 class: center, bottom, inverse
@@ -224,7 +226,7 @@ The Great American Biotic Interchange—Many of the mammal species we see today 
 name: land
 class: inverse, center, middle
 
-# What happened on .large[land]? 
+# .large[What] happened on .large[land]? 
 
 ---
 name: land-1
@@ -385,7 +387,7 @@ What you see are several large pieces of land moving downriver.
 name: sea
 class: inverse, center, middle
 
-# What happened in the .large[sea]? 
+# .large[What] happened in the .large[sea]? 
 
 ---
 name: gene-flow-2
@@ -716,8 +718,14 @@ background-position: center
 
 # Credits & Resources
 
-* Find the source code for the presentation here [`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus).   
-* Slides created with the R package [xaringan](https://github.com/yihui/xaringan).  
+ Find the source code for the presentation here [`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus).   
+ Slides created with the R package [xaringan](https://github.com/yihui/xaringan).  
+Most of the raw material for this presentation was courtesy of [Dr. Aaron O'Dea](https://odealab.com/).
 
+<br/>
 
-MORE COMING SOON
+I also drew heavily from these publication for much of the framework for the presentation.  
+- O'Dea et al. (2016) *Formation of the Isthmus of Panama*. [Science Advances 2:e1600883](https://doi.org/10.1126/sciadv.1600883). 
+- Alan de Queiroz (2005) *The resurrection of oceanic dispersal in historical biogeography* [Trends in Ecology & Evolution  20: 68-73](https://doi.org/10.1016/j.tree.2004.11.006).  
+- Leigh  et. al. (2013) *Historical biogeography of the Isthmus of Panama* [Biological Reviews 89:148-172](https://doi.org/10.1111/brv.12048).  
+- Lessios (2008) *The Great American Schism: Divergence of Marine Organisms After the Rise of the Central American Isthmus* [Annual Review of Ecology, Evolution, and Systematics 39:63-91](https://doi.org/10.1146/annurev.ecolsys.38.091206.095815). 
