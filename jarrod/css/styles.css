@@ -25,7 +25,7 @@ h1 {
   --sidebar-background-color: #F5F9FF; /* Make sidebar blue */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
-/*  --decorator-border: 2px solid #bdd7e7; /* Make timeline a blue as well*/ */
+/*  --decorator-border: 2px solid #bdd7e7; /* Make timeline a blue as well*/
 }
 
 .aside {
@@ -51,3 +51,9 @@ h1 {
 
 .zoom:hover {
   transform: scale(2.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* Links  */
+
+a, a:link, a:visited, a:hover, a:active, a:-webkit-any-link {
+  color: #0000EE;
+}
