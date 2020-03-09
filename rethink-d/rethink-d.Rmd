@@ -351,6 +351,6 @@ background-position: center
 * [Tree of Life](#magnitude) from Hug et. al. *A new view of the tree of life* (2016) [Nature Microbiology 1:16048](https://doi.org/10.1038/nmicrobiol.2016.48).
 * [DNA snippet](#genome_book) from Mori et. al. *Physiological and ecological implications of an iron- or hydrogen-oxidizing member of the Zetaproteobacteria, Ghiorsea bivora, gen. nov., sp. nov.* (2017) [ISME Journal 11:2624-2636](https://doi.org/10.1038/ismej.2017.132).
 * [Microbial shapes](#10) from Park & Chess. (2012) *Foundations in Microbiology*. McGraw Hill. United States.
-* [Old library] (#library) photo is all over the internet. I have no idea where credit should be given.
+* [Old library](#library) photo is all over the internet. I have no idea where credit should be given.
 * Everything else created by the author. 
 
