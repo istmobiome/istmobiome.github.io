@@ -56,6 +56,24 @@ background-position: center
 
 
 ---
+name: housekeeping
+class: center, middle, inverse
+background-color: #000000
+font-color: white
+background-size: contain
+background-position: center
+
+# Housekeeping
+
+Press `h` or `?` to see the remark.js [keyboard shortcuts](https://bookdown.org/yihui/rmarkdown/xaringan-key.html).
+
+See the [Credits](#credits) section at the end for information about all of the things I used to make this presentation.
+
+The Source Code [`r fa(name = "github", fill = "white")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus) for the presentation is also available.  
+
+This is an [amazing tutorial](https://arm.rbind.io/slides/xaringan.html#1) on the [xaringan](https://github.com/yihui/xaringan) package.
+
+---
 name: isthmus
 class: center, bottom, inverse
 background-color: #FFFFFF
@@ -686,3 +704,20 @@ background-position: center
 # And that is how the Isthmus of Panama <br/>changed the world.
 
 the end
+
+
+---
+name: credits
+class: left, middle
+background-color: #F2F2F2
+font-color: #191919
+background-size: contain
+background-position: center
+
+# Credits & Resources
+
+* Find the source code for the presentation here [`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus).   
+* Slides created with the R package [xaringan](https://github.com/yihui/xaringan).  
+
+
+MORE COMING SOON

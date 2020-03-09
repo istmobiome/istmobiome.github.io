@@ -53,7 +53,7 @@ by Jarrod J Scott | STRI | Panama
 
 [Credits](#credits)
 
-[`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/rethink-d)  
+Source Code [`r fa(name = "github")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/rethink-d)  
 
 
 ---
