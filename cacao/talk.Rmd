@@ -1,6 +1,6 @@
 ---
 title: "CACAO fermentation"
-date: "<small>Raw code can be found on this [GitHub repo](https://github.com/istmobiome/istmobiome.github.io/tree/master/cacao)</small>"
+date: "<small>Source code can be found on this [GitHub repo](https://github.com/istmobiome/istmobiome.github.io/tree/master/cacao)</small>"
 output: 
   revealjs::revealjs_presentation:
     incremental: false
