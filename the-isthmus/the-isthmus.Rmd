@@ -1,8 +1,8 @@
 ---
-title: "How the Isthmus of Panama Changed the World"
-subtitle: "⚔<br/>on land & in the sea"
-author: "Jarrod J Scott"
-institute: "STRI."
+title: "A presentation about <br/> the Isthmus of Panama "
+subtitle: "⚔"
+author: "~ made by Jarrod J Scott ~"
+#institute: "STRI"
 #date: "2019/12/12 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
@@ -15,12 +15,17 @@ output:
       #- https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css
     lib_dir: libs
     nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: true
       ratio: "16:9"
       beforeInit: "https://platform.twitter.com/widgets.js"
-    seal: false 
+    seal: true 
     includes:
       in_header: header.html
       #after_body: insert-logo.html
@@ -34,13 +39,11 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 #library(babynames)
 library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 library(xaringanExtra)
-
 ```
 
 ```{r xaringan-animate-css, echo=FALSE}
 xaringanExtra::use_animate_css()
 xaringanExtra::use_tile_view()
-
 ```
 
 layout: true
@@ -65,15 +68,18 @@ background-position: center
 
 # Housekeeping
 
-Press `h` or `?` to see the remark.js [keyboard shortcuts](https://bookdown.org/yihui/rmarkdown/xaringan-key.html).
+Press <font size=6em>`f`</font> for full screen mode.
+
+Press <font size=6em>`p`</font> to see the speaker notes where you can find more description of the slides. 
+
+Press <font size=6em>`h`</font> or <font size=6em>`?`</font> to see the remark.js [keyboard shortcuts](https://bookdown.org/yihui/rmarkdown/xaringan-key.html).
 
 See the [Credits](#credits) section at the end for information about all of the things I used to make this presentation.
 
-The Source Code [`r fa(name = "github", fill = "white")`](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus) for the presentation is also available.  
+The source code for the presentation is  available on [`r fa(name = "github", fill = "white")` Github ](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus). 
 
-This is an [amazing tutorial](https://arm.rbind.io/slides/xaringan.html#1) on the [xaringan](https://github.com/yihui/xaringan) package.
+I used the [xaringan](https://github.com/yihui/xaringan) package and referred a lot to this [amazing tutorial](https://arm.rbind.io/slides/xaringan.html#1).
 
-Press `p` to see the speaker notes where you can find more description of the slides. 
 
 ---
 name: isthmus

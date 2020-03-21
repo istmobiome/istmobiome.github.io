@@ -13,6 +13,11 @@ body, p {
   font-family: 'Nunito Sans', 'Lato', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Microsoft YaHei', 'Songti SC', serif;
 }
 
+h2#-br-on-land-in-the-sea {
+  font-family: 'Lato';
+  font-weight: 300;
+}
+
 h1, h2 {
   font-family: 'Muli';
   font-weight: 600;
