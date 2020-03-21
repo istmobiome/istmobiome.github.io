@@ -271,6 +271,6 @@ img.lil {
 }
 
 .remark-slide-number .progress-bar {
-  height: 100%;
-  background-color: red;
+  height: 120%;
+  background-color: #CC79A7;
 }
