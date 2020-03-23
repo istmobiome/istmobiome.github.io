@@ -45,7 +45,7 @@ Skills {#skills}
 
 - PADI Rescue Diver certification. 
 
-- Bioinformatics (amplicon, genomic, & metagenomic). [anvi'o](http://merenlab.org/software/anvio/), [DADA2](https://benjjneb.github.io/dada2/), [mothur](https://mothur.org/), [R](https://www.r-project.org/), [Python](https://www.python.org/). 
+- Bioinformatics (amplicon, genomic, & metagenomic). [anvi'o](http://merenlab.org/software/anvio/), [DADA2](https://benjjneb.github.io/dada2/), [mothur](https://mothur.org/), [oligotyping](http://merenlab.org/software/oligotyping/), [MED](http://merenlab.org/software/med/), [R](https://www.r-project.org/), [Python](https://www.python.org/). 
 
 - Web Products [R Markdown](https://rmarkdown.rstudio.com/), CSS, HTML, [HUGO](https://gohugo.io/), [blogdown](https://bookdown.org/yihui/blogdown/), [xaringan](https://github.com/yihui/xaringan), [reveal.js](https://github.com/hakimel/reveal.js/), [pagedown](https://github.com/rstudio/pagedown). 
 
