@@ -41,13 +41,13 @@ Contact Info {#contact}
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Extensive experience in both marine & terrestrial field work. 
+- Marine & terrestrial field work. 
 
 - PADI Rescue Diver certification. 
 
-- Highly skilled analyzing DNA datasets (amplicon, genomic, & metagenomic).
+- Bioinformatics (amplicon, genomic, & metagenomic). [anvi'o](http://merenlab.org/software/anvio/), [DADA2](https://benjjneb.github.io/dada2/), [mothur](https://mothur.org/), [R](https://www.r-project.org/), [Python](https://www.python.org/). 
 
-- Expertise incl.  [R](https://www.r-project.org/), [R Markdown](https://rmarkdown.rstudio.com/), [Python](https://www.python.org/), CSS, HTML, [anvi'o](http://merenlab.org/software/anvio/). 
+- Web Products [R Markdown](https://rmarkdown.rstudio.com/), CSS, HTML, [HUGO](https://gohugo.io/), [blogdown](https://bookdown.org/yihui/blogdown/), [xaringan](https://github.com/yihui/xaringan), [reveal.js](https://github.com/hakimel/reveal.js/), [pagedown](https://github.com/rstudio/pagedown). 
 
 - Fire Fighter I & II certification.
 
@@ -528,7 +528,7 @@ Peer Reviewed Publications {data-icon=file #pubs}
 
 ### Intestinal microbes: an axis of functional diversity among large marine consumers
 
-Proceedings of the Royal Society B: Biological Sciences *In Press*
+Proceedings of the Royal Society B: Biological Sciences *In Press* <i class="ai ai-open-access"></i>
 
 N/A
 
