@@ -528,7 +528,7 @@ Peer Reviewed Publications {data-icon=file #pubs}
 
 ### Intestinal microbes: an axis of functional diversity among large marine consumers
 
-Proceedings of the Royal Society B: Biological Sciences *In Press* <i class="ai ai-open-access"></i>
+[Proceedings of the Royal Society B: Biological Sciences 287:(20192367)](https://doi.org/10.1098/rspb.2019.2367) <i class="ai ai-open-access"></i>
 
 N/A
 
