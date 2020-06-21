@@ -28,6 +28,8 @@ Aside
 
 <i class="fa fa-download"></i><a href="https://github.com/istmobiome/istmobiome.github.io/raw/master/jarrod/jarrod-cv.pdf" download="jarrod-cv.pdf"> Download a PDF of this CV</a>
 
+<i class="fa fa-globe"></i><a href="https://istmobiome.github.io/jarrod/jarrod-cv.html"> Web version of CV</a>
+
 
 Contact Info {#contact}
 --------------------------------------------------------------------------------
@@ -319,6 +321,34 @@ Isla Coiba, Panama
 Web Products {data-icon=globe data-concise=true #web}
 --------------------------------------------------------------------------------
 
+### [Hypocolypse](https://hypocolypse.github.io/)
+
+Hypoxia driven coral bleaching & microbial shifts in Caribbean Panama.
+
+Bocas del Toro, Panam
+
+2020
+
+::: aside
+Reproducible Workflows
+:::
+
+### [Istmobiome Project](https://istmobiome.rbind.io/)
+
+Reproducible bioinformatic workflows for the Istmobiome microbiome project. (*work in progress*)
+
+Panama
+
+2020
+
+### [ProjectDIGEST](https://projectdigest.github.io/)
+
+Reproducible bioinformatic workflows for [reef fish microbiome paper](https://doi.org/10.1098/rspb.2019.2367).
+
+Pickles Reef, Florida USA
+
+2020
+
 ### [Cacao Fermentation](https://istmobiome.github.io/cacao/talk.html)
 
 Talk about the microbiology of cacao fermentation.
@@ -346,27 +376,6 @@ Talk about how life changed on land & in the sea after the closure of the Isthmu
 Bocas del Toro, Panama
 
 2019
-
-### [Istmobiome Project](https://istmobiome.rbind.io/)
-
-Reproducible bioinformatic workflows for the Istmobiome microbiome project. (*work in progress*)
-
-Panama
-
-2020
-
-::: aside
-Reproducible Workflows
-:::
-
-### [ProjectDIGEST](https://projectdigest.github.io/)
-
-Reproducible bioinformatic workflows for reef fish microbiome project.
-
-Pickles Reef, Florida USA
-
-2019
-
 
 ### [Web Project Guide](https://istmobiome.github.io/neo-bess/web-guide.html)
 
@@ -525,6 +534,20 @@ Panama
 
 Peer Reviewed Publications {data-icon=file #pubs}
 --------------------------------------------------------------------------------
+
+### Catastrophic cascading effects of deoxygenation on coral reef communities
+
+*Submitted*
+
+N/A
+
+2020
+
+Johnson MD, **Scott JJ**, Leray M, Lucey N, Lucia Rodriguez L,  Wied W, Altieri AH.
+
+::: aside
+[**Click here**](https://hypocolypse.github.io/) for the project website & reproducible workflows from this paper. Johnson, **Scott**, Leray, &  Lucey contributed equally to the work.
+:::
 
 ### Intestinal microbes: an axis of functional diversity among large marine consumers
 
