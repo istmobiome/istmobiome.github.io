@@ -16,6 +16,7 @@ css: ["css/styles.css", "academicons-1.8.6/css/academicons.min.css"]
 
 ```{r echo=FALSE}
 library(fontawesome)
+# To render run knit
 ```
 
 
@@ -62,9 +63,7 @@ Main
 Jarrod J. Scott {#title}
 --------------------------------------------------------------------------------
 
-### an old-school naturalist using new-school tech
-
-I study [microbial diversity](#pubs).  My approach is holistic, spanning [marine](#marine) & [terrestrial](#land) systems to understand  how simple organisms coalesce into  complex communities  & how these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I work to make research more accessible & exciting, transparent & reproducible. I use & teach open-source tools to create [web products](#web) that communicate science more effectievly. 
+I study [microbial diversity](#pubs).  My approach is holistic, spanning [marine](#marine) & [terrestrial](#land) systems to understand  how simple organisms coalesce into  complex communities  & how these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I work to make [my research](#pubs) more accessible & exciting, transparent & reproducible. I use & [teach](#teach) open-source tools to create [web products](#web) that communicate science more effectively. 
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
@@ -148,7 +147,7 @@ Bocas del Toro, Panama
 
 Extensive field work around the Bocas del Toro archipelago.
 
-###  Research Expeditions to Isla Coiba
+### Expeditions to Isla Coiba
 
 Smithsonian Tropical Research Institute
 
@@ -276,8 +275,22 @@ Northwestern Belize
 
 Extensive surveys & excavations of Mayan archaeological sites in  lowland tropical rain forests. 
 
-Recent Teaching Experience {data-icon=chalkboard-teacher}
+Recent Teaching Experience {data-icon=chalkboard-teacher #teach}
 --------------------------------------------------------------------------------
+
+### Instructor & Course Creator
+
+[Web Products & Data Curation](https://stri-con.github.io/data-curation/)
+
+Panama
+
+2020
+
+Online course on creating web-based reproducible workflows using open source software tools and platforms. The course website can be found [here](https://stri-con.github.io/data-curation/). 
+
+::: aside
+I teach the way I learn. My goal is to create a venue where students can be curious, get their hands dirty, make mistakes, & explore. I'm here to help students see what's possible, not tell them what to do. 
+:::
 
 ### Course Instructor
 
@@ -296,9 +309,6 @@ Panama
 
 Field sites incl. [Barro Colorado Island](https://stri.si.edu/facility/barro-colorado), [Ft Sherman Canopy Crane](https://stri.si.edu/facility/canopy-access-cranes), [Pipeline Road Forests](https://stri.si.edu/facility/gamboa), [Agua Salud](https://stri.si.edu/facility/agua-salud) & [Isla Coiba](https://stri.si.edu/facility/coibita-island). 
 
-::: aside
-I teach the way I learn. My goal is to create a venue where students can be curious, get their hands dirty, make mistakes, & explore. I'm here to help students see what's possible, not tell them what to do. 
-:::
 
 ### Marine Biology Instructor
 
@@ -323,15 +333,23 @@ Web Products {data-icon=globe data-concise=true #web}
 
 ### [Hypocolypse](https://hypocolypse.github.io/)
 
-Hypoxia driven coral bleaching & microbial shifts in Caribbean Panama.
+Reproducible bioinformatic workflows for the study *Rapid ecosystem-scale consequences of acute deoxygenation on a Caribbean reef*. 
 
-Bocas del Toro, Panam
+Bocas del Toro, Panama
 
 2020
 
 ::: aside
 Reproducible Workflows
 :::
+
+### [BocasBiome](https://bocasbiome.github.io/)
+
+Reproducible bioinformatic workflows for the study *The gut microbiome stability of a butterflyfish is disrupted on severely degraded Caribbean reef habitats.*. 
+
+Bocas del Toro, Panama
+
+2020
 
 ### [Istmobiome Project](https://istmobiome.rbind.io/)
 
@@ -343,7 +361,7 @@ Panama
 
 ### [ProjectDIGEST](https://projectdigest.github.io/)
 
-Reproducible bioinformatic workflows for [reef fish microbiome paper](https://doi.org/10.1098/rspb.2019.2367).
+Reproducible bioinformatic workflows for the study [*Intestinal microbes: an axis of functional diversity among large marine consumers*](https://doi.org/10.1098/rspb.2019.2367).
 
 Pickles Reef, Florida USA
 
@@ -377,6 +395,18 @@ Bocas del Toro, Panama
 
 2019
 
+### [Web Products & Data Curation](https://stri-con.github.io/data-curation/)
+
+Website for course on using open-source software tools to create web-based reproducible workflows. 
+
+Panama
+
+2020
+
+::: aside
+Courses
+:::
+
 ### [Web Project Guide](https://istmobiome.github.io/neo-bess/web-guide.html)
 
 Web project guide book for STRI-McGill Tropical Biology Field Course. 
@@ -384,10 +414,6 @@ Web project guide book for STRI-McGill Tropical Biology Field Course.
 Panama
 
 2020
-
-::: aside
-Other
-:::
 
 Additional Training & Certifications {data-icon=plus}
 --------------------------------------------------------------------------------
@@ -535,9 +561,9 @@ Panama
 Peer Reviewed Publications {data-icon=file #pubs}
 --------------------------------------------------------------------------------
 
-### Catastrophic cascading effects of deoxygenation on coral reef communities
+### Rapid ecosystem-scale consequences of acute deoxygenation on a Caribbean reef
 
-*Submitted*
+*Under Review*
 
 N/A
 
@@ -547,6 +573,20 @@ Johnson MD, **Scott JJ**, Leray M, Lucey N, Lucia Rodriguez L,  Wied W, Altieri 
 
 ::: aside
 [**Click here**](https://hypocolypse.github.io/) for the project website & reproducible workflows from this paper. Johnson, **Scott**, Leray, &  Lucey contributed equally to the work.
+:::
+
+### The gut microbiome stability of a butterflyfish is disrupted on severely degraded Caribbean reef habitats.
+
+*Submitted*
+
+N/A
+
+2020
+
+Clever F, Sourisse JM, Preziosi RF, Eisen JA, Rodriguez Guerra EC, **Scott JJ**, Wilkins LGE, Altieri AH, McMillan WO, Leray M.
+
+::: aside
+[**Click here**](https://bocasbiome.github.io/) for the project website & reproducible workflows from this paper. 
 :::
 
 ### Intestinal microbes: an axis of functional diversity among large marine consumers
