@@ -14,7 +14,7 @@ output:
     center: true
     reveal_options:
       showNotes: true
-      history: false
+      history: true
       chalkboard:
         theme: chalkboard
         toggleNotesButton: true

@@ -63,7 +63,7 @@ Main
 Jarrod J. Scott {#title}
 --------------------------------------------------------------------------------
 
-I study [microbial diversity](#pubs).  My approach is holistic, spanning [marine](#marine) & [terrestrial](#land) systems to understand  how simple organisms coalesce into  complex communities  & how these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I work to make [my research](#pubs) more accessible & exciting, transparent & reproducible. I use & [teach](#teach) open-source tools to create [web products](#web) that communicate science more effectively. 
+I study [microbial diversity](#pubs).  My approach is holistic, spanning [marine](#marine) & [terrestrial](#land) systems to understand  how simple organisms coalesce into  complex communities  & how these communities affect host biology, biogeochemical cycles, & ecosystem-level processes. I also work to make [my research](#pubs) more accessible & exciting, transparent & reproducible. I use & [teach](#teach) open-source tools to create [web products](#web) that communicate science more effectively. 
 
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
@@ -286,7 +286,7 @@ Panama
 
 2020
 
-Online course on creating web-based reproducible workflows using open source software tools and platforms. The course website can be found [here](https://stri-con.github.io/data-curation/). 
+Online course about creating web-based reproducible workflows using open source software tools and platforms. The course website can be found [here](https://stri-con.github.io/data-curation/). 
 
 ::: aside
 I teach the way I learn. My goal is to create a venue where students can be curious, get their hands dirty, make mistakes, & explore. I'm here to help students see what's possible, not tell them what to do. 
@@ -303,12 +303,11 @@ Panama
 ::: concise
 - Guide project design & implementation. 
 - Reproducible analytical workflows using R Markdown. 
-- Assist with field work.
+- Assist students with field work.
 - Natural history of neotropical marine & terrestrial ecosystems.
 :::
 
 Field sites incl. [Barro Colorado Island](https://stri.si.edu/facility/barro-colorado), [Ft Sherman Canopy Crane](https://stri.si.edu/facility/canopy-access-cranes), [Pipeline Road Forests](https://stri.si.edu/facility/gamboa), [Agua Salud](https://stri.si.edu/facility/agua-salud) & [Isla Coiba](https://stri.si.edu/facility/coibita-island). 
-
 
 ### Marine Biology Instructor
 
@@ -320,13 +319,34 @@ Isla Coiba, Panama
 
 ::: concise
 - Guide  project design & implementation. 
-- Assist with field work.
+- Assist students with field work.
 - Snorkeling class for inexperienced students.
 :::
 
 ::: aside
 [**Click here**](https://strineoigert.wordpress.com/) for the course blog & [**here**](https://www.mcgill.ca/pfss/) for the course website. 
 :::
+
+### Workshop Creator & Organizer
+
+Marine Microbiome Workshop 
+
+Bocas del Tora, Panama
+
+2018
+
+From model organisms to ecosystems: scaling-up our understanding of host-microbe symbiosis in the sea.
+
+::: concise
+- Conceived, created & designed workshop. 
+- Handled workshop logistics & organization.
+- Led discussions & working groups.
+:::
+
+::: aside
+[**Click here**](https://istmobiome.rbind.io/workshops/bocas-del-toro-panama-2018/) for the workshop website & [**here**](https://doi.org/10.1371/journal.pbio.3000533) for the publication written by workshop participants. 
+:::
+
 
 Web Products {data-icon=globe data-concise=true #web}
 --------------------------------------------------------------------------------
@@ -414,6 +434,14 @@ Web project guide book for STRI-McGill Tropical Biology Field Course.
 Panama
 
 2020
+
+### [Workshop Guide](https://istmobiome.rbind.io/workshops/bocas-del-toro-panama-2018/)
+
+Web project guide book for STRI/Moore Foundation Marine Microbiome Workshop. 
+
+Bocas del Toro, 
+
+2018
 
 Additional Training & Certifications {data-icon=plus}
 --------------------------------------------------------------------------------
@@ -569,7 +597,7 @@ N/A
 
 2020
 
-Johnson MD, **Scott JJ**, Leray M, Lucey N, Lucia Rodriguez L,  Wied W, Altieri AH.
+Johnson MD, **Scott JJ**, Leray M, Lucey N, Lucia Rodriguez L, Wied W, Altieri AH.
 
 ::: aside
 [**Click here**](https://hypocolypse.github.io/) for the project website & reproducible workflows from this paper. Johnson, **Scott**, Leray, &  Lucey contributed equally to the work.
