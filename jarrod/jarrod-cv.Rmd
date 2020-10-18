@@ -83,7 +83,7 @@ Education {data-icon=graduation-cap data-concise=true}
 
 ### PhD Microbiology
 
-University of Wisconsin--Madison
+University of Wisconsin
 
 Madison, Wisconsin USA
 
@@ -91,7 +91,7 @@ Madison, Wisconsin USA
 
 ### BSc Aquatic Biology, Minor in Archaeology
 
-University of Texas--Austin
+University of Texas
 
 Austin, Texas USA
 
@@ -111,7 +111,7 @@ East Boothbay, Maine USA
 
 ### Graduate Fellow
 
-University of Wisconsin--Madison
+University of Wisconsin
 
 Madison, Wisconsin USA
 
@@ -127,7 +127,7 @@ Gamboa, Panama
 
 ### Research Technician
 
-University of Texas--Austin
+University of Texas
 
 Austin, Texas USA
 
@@ -212,7 +212,7 @@ I've also worked on a lobster boat in Maine & a seine boat in Alaska.
 
 ### R/V Longhorn 
 
-University of Texas-Austin
+University of Texas
 
 Gulf of Mexico 
 
@@ -424,7 +424,7 @@ Panama
 2020
 
 ::: aside
-Courses
+Courses & Workshops
 :::
 
 ### [Web Project Guide](https://istmobiome.github.io/neo-bess/web-guide.html)
@@ -573,7 +573,7 @@ Panama
 
 College of Agriculture & Life Science
 
-University of Wisconsin–Madison
+University of Wisconsin
 
 2011 - 2010
 
@@ -844,7 +844,7 @@ N/A
 
 2009
 
-**Scott JJ**, Weskin MK, Cooper M, Mueller UG. 
+**Scott JJ**, Kweskin MK, Cooper M, Mueller UG. 
 
 ### Mycangimycin, a polyene peroxide from a mutualist *Streptomyces*.
 
@@ -868,13 +868,13 @@ Freinkman E, Oh DC, **Scott JJ**, Currie CR, Clardy J.
 
 ### Bacterial protection of beetle-fungus mutualism
 
-[Science. 2008 322(5898):63.](http://doi.org/10.1126/science.1160423)
+**Scott JJ**, Oh DC, Yuceer MC, Klepzig KD, Clardy J, Currie CR.  
 
 N/A
 
 2008
 
-**Scott JJ**, Oh DC, Yuceer MC, Klepzig KD, Clardy J, Currie CR.  
+[Science. 2008 322(5898):63.](http://doi.org/10.1126/science.1160423)
 
 ::: aside
 See accompanying Perspective: Bugs Bugs. Berenbaum MR, Eisner T. 2008. [Science. 322:52-53](https://doi.org/10.1126/science.1164873). 
