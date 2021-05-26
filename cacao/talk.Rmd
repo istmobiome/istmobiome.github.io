@@ -82,7 +82,7 @@ Chalkboard, marker, & menu buttons in bottom left.
 :::
 
 ::: {style="font-size: 0.8em;font-family: 'Inconsolata';font-weight: '100';text-align: center;"}
-See the [Credits](#credits-resources) section for and other info. The [Source Code ](https://github.com/istmobiome/istmobiome.github.io/tree/master/the-isthmus) for the presentation is available on GitHub.  
+See the [Credits](#credits-resources) section for and other info. The [Source Code ](https://github.com/istmobiome/istmobiome.github.io/tree/master/cacao) for the presentation is available on GitHub.  
 :::
 
 
