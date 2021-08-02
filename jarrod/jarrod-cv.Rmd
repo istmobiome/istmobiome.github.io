@@ -357,25 +357,25 @@ Reproducible bioinformatic workflows for the study *Rapid ecosystem-scale conseq
 
 Bocas del Toro, Panama
 
-2020
+2021
 
 ::: aside
 Reproducible Workflows
 :::
+
+### [Istmobiome Project](https://istmobiome.rbind.io/)
+
+Reproducible bioinformatic workflows for the Istmobiome microbiome project. 
+
+Panama
+
+2021
 
 ### [BocasBiome](https://bocasbiome.github.io/)
 
 Reproducible bioinformatic workflows for the study *The gut microbiome stability of a butterflyfish is disrupted on severely degraded Caribbean reef habitats.*. 
 
 Bocas del Toro, Panama
-
-2020
-
-### [Istmobiome Project](https://istmobiome.rbind.io/)
-
-Reproducible bioinformatic workflows for the Istmobiome microbiome project. (*work in progress*)
-
-Panama
 
 2020
 
@@ -591,11 +591,11 @@ Peer Reviewed Publications {data-icon=file #pubs}
 
 ### Rapid ecosystem-scale consequences of acute deoxygenation on a Caribbean reef
 
-*Under Review*
+[Nature Communications 12, 4522 (2021)](https://doi.org/10.1038/s41467-021-24777-3) <i class="ai ai-open-access"></i>
 
 N/A
 
-2020
+2021
 
 Johnson MD, **Scott JJ**, Leray M, Lucey N, Lucia Rodriguez L, Wied W, Altieri AH.
 
