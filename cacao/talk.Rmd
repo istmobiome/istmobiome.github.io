@@ -1,6 +1,7 @@
 ---
 title: "CACAO fermentation"
 date: "<small>Source code can be found on this [GitHub repo](https://github.com/istmobiome/istmobiome.github.io/tree/master/cacao)</small>"
+#output: revealjs::revealjs_presentation
 output: 
   revealjs::revealjs_presentation:
     incremental: false
@@ -14,7 +15,7 @@ output:
     center: true
     reveal_options:
       showNotes: true
-      history: true
+      #history: true
       chalkboard:
         theme: chalkboard
         toggleNotesButton: true
@@ -387,12 +388,12 @@ style_widget(
 ## <font color="#F5F5F5">pre and post testae</font> { data-background-image="images/bean_transform.png" data-background-size="65%"  background-transition-speed="slow" style="font-size: 0em;"}
 
 
-# Fermentation Dynamics <br/><small>What factors influence community formation & growth kinetics?</small> { style="font-size: 0.8em;"}
+# Fermentation Dynamics <br/><small>What factors influence community formation & growth kinetics?</small>
 
 
 ## <font color="#F5F5F5">factor</font> { data-background-image="images/factors.png" data-background-size="95%"  background-transition-speed="slow" style="font-size: 0em;"}
 
-# Where do the microbes come from? {style="font-size:0.8em"}
+# Where do the microbes come from? 
 
 ## Do we know? {style="font-family:'Inconsolata'"}
 
