@@ -74,7 +74,7 @@ Smithsonian Tropical Research Institute
 
 Panama
 
-2017 - 
+2017 - 2022
 
 - Microbial ecology of coral reefs & mangrove ecosystems across the Isthmus of Panama. The Eastern Pacific & Western Atlantic.
 
@@ -278,6 +278,27 @@ Extensive surveys & excavations of Mayan archaeological sites in  lowland tropic
 Recent Teaching Experience {data-icon=chalkboard-teacher #teach}
 --------------------------------------------------------------------------------
 
+### Data Specialist & Project Coordinator
+
+STRI-McGill NEO Tropical Biology Field Course 
+
+Panama
+
+2022
+
+::: concise
+- Guide project design & implementation. 
+- Reproducible analytical workflows using R Markdown. 
+- Assist students with field work.
+- Natural history of neotropical marine & terrestrial ecosystems.
+:::
+
+::: aside
+[**Click here**](https://stri-mcgill-neo.github.io/2022/) for the course tutorial site 
+:::
+
+Field sites incl. [Barro Colorado Island](https://stri.si.edu/facility/barro-colorado), [Bocas del Toro](https://stri.si.edu/facility/bocas-del-toro), [Agua Salud](https://stri.si.edu/facility/agua-salud), & [Isla Coiba](https://stri.si.edu/facility/coibita-island). 
+
 ### Instructor & Course Creator
 
 [Web Products & Data Curation](https://stri-con.github.io/data-curation/)
@@ -286,15 +307,17 @@ Panama
 
 2020
 
+::: aside
+[**Click here**](https://stri-con.github.io/data-curation/) for the course website. 
+:::
+
+
 Online course about creating web-based reproducible workflows using open source software tools and platforms. The course website can be found [here](https://stri-con.github.io/data-curation/). 
 
-::: aside
-I teach the way I learn. My goal is to create a venue where students can be curious, get their hands dirty, make mistakes, & explore. I'm here to help students see what's possible, not tell them what to do. 
-:::
 
 ### Course Instructor
 
-STRI-McGill Tropical Biology Field Course 
+STRI-McGill NEO Tropical Biology Field Course 
 
 Panama
 
@@ -308,6 +331,10 @@ Panama
 :::
 
 Field sites incl. [Barro Colorado Island](https://stri.si.edu/facility/barro-colorado), [Ft Sherman Canopy Crane](https://stri.si.edu/facility/canopy-access-cranes), [Pipeline Road Forests](https://stri.si.edu/facility/gamboa), [Agua Salud](https://stri.si.edu/facility/agua-salud) & [Isla Coiba](https://stri.si.edu/facility/coibita-island). 
+
+::: aside
+I teach the way I learn. My goal is to create a venue where students can be curious, get their hands dirty, make mistakes, & explore. I'm here to help students see what's possible, not tell them what to do. 
+:::
 
 ### Marine Biology Instructor
 
@@ -350,6 +377,18 @@ From model organisms to ecosystems: scaling-up our understanding of host-microbe
 
 Web Products {data-icon=globe data-concise=true #web}
 --------------------------------------------------------------------------------
+
+### [SWELTR](https://sweltr.github.io/high-temp/)
+
+Reproducible bioinformatic workflows for the study **S**oil **W**arming **E**xperiment in **L**owland **T**ropical **R**ainforest. 
+
+Barro Colorado Island, Panama
+
+2021
+
+::: aside
+Reproducible Workflows
+:::
 
 ### [Hypocolypse](https://hypocolypse.github.io/)
 
@@ -415,6 +454,18 @@ Bocas del Toro, Panama
 
 2019
 
+### [R Markdown Fieldguide](https://stri-mcgill-neo.github.io/2022/)  
+
+Web project tutorial site for the 2022 STRI-McGill NEO Tropical Biology Field Course. 
+
+Panama
+
+2022
+
+::: aside
+Courses & Workshops
+:::
+
 ### [Web Products & Data Curation](https://stri-con.github.io/data-curation/)
 
 Website for course on using open-source software tools to create web-based reproducible workflows. 
@@ -423,21 +474,18 @@ Panama
 
 2020
 
-::: aside
-Courses & Workshops
-:::
 
 ### [Web Project Guide](https://istmobiome.github.io/neo-bess/web-guide.html)
 
-Web project guide book for STRI-McGill Tropical Biology Field Course. 
+Web project guide book for 2020 STRI-McGill NEO Tropical Biology Field Course. 
 
 Panama
 
 2020
 
-### [Workshop Guide](https://istmobiome.rbind.io/workshops/bocas-del-toro-panama-2018/)
+### [Workshop Guide](https://istmobiome.rbind.io/workshops/workshop-2018/)
 
-Web project guide book for STRI/Moore Foundation Marine Microbiome Workshop. 
+Web site for the first STRI/Moore Foundation Marine Microbiome Workshop. 
 
 Bocas del Toro, 
 
@@ -589,6 +637,35 @@ Panama
 Peer Reviewed Publications {data-icon=file #pubs}
 --------------------------------------------------------------------------------
 
+### Microbial diversity declines in warmed tropical soil and respiration rise exceed predictions as communities adapt.
+
+[Nature Microbiology 7, 1650–1660 (2022)](https://doi.org/10.1038/s41564-022-01200-1) 
+
+N/A
+
+2022
+
+Nottingham AT, **Scott JJ**, Saltonstall K,  Broders K,  Montero-Sanchez M,   Püspök J,  Bååth E,  Meir P. 
+
+::: aside
+[**Click here**](https://sweltr.github.io/high-temp/) for the project website & reproducible workflows from this paper. 
+:::
+
+
+### The gut microbiome variability of a butterflyfish increases on severely degraded Caribbean reefs
+
+[Communications Biology 5, 770 (2022)](https://doi.org/10.1038/s42003-022-03679-0) <i class="ai ai-open-access"></i>
+
+N/A
+
+2022
+
+Clever F, Sourisse JM, Preziosi RF, Eisen JA, Rodriguez Guerra EC, **Scott JJ**, Wilkins LGE, Altieri AH, McMillan WO, Leray M.
+
+::: aside
+[**Click here**](https://bocasbiome.github.io/) for the project website & reproducible workflows from this paper. 
+:::
+
 ### Rapid ecosystem-scale consequences of acute deoxygenation on a Caribbean reef
 
 [Nature Communications 12, 4522 (2021)](https://doi.org/10.1038/s41467-021-24777-3) <i class="ai ai-open-access"></i>
@@ -603,19 +680,6 @@ Johnson MD, **Scott JJ**, Leray M, Lucey N, Lucia Rodriguez L, Wied W, Altieri A
 [**Click here**](https://hypocolypse.github.io/) for the project website & reproducible workflows from this paper. Johnson, **Scott**, Leray, &  Lucey contributed equally to the work.
 :::
 
-### The gut microbiome stability of a butterflyfish is disrupted on severely degraded Caribbean reef habitats.
-
-*Submitted*
-
-N/A
-
-2020
-
-Clever F, Sourisse JM, Preziosi RF, Eisen JA, Rodriguez Guerra EC, **Scott JJ**, Wilkins LGE, Altieri AH, McMillan WO, Leray M.
-
-::: aside
-[**Click here**](https://bocasbiome.github.io/) for the project website & reproducible workflows from this paper. 
-:::
 
 ### Intestinal microbes: an axis of functional diversity among large marine consumers
 
@@ -879,6 +943,11 @@ N/A
 ::: aside
 See accompanying Perspective: Bugs Bugs. Berenbaum MR, Eisner T. 2008. [Science. 322:52-53](https://doi.org/10.1126/science.1164873). 
 :::
+
+</br>
+</br>
+</br>
+</br>
 
 Disclaimer {#disclaimer style="width: var(--sidebar-width); padding-left: var(--sidebar-horizontal-padding);"}
 --------------------------------------------------------------------------------
