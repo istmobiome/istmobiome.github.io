@@ -1,0 +1,544 @@
+---
+title: "WebPage Guidebook"
+output: 
+  flexdashboard::flex_dashboard:
+    logo: favicon.png
+#    favicon: favicon.png
+    navbar:
+     - { icon: "fa-home", href: "web-guide.html", align: left }  
+     - { icon: "fa-github", href: "https://github.com/istmobiome/istmobiome.github.io/tree/master/neo-bess", align: right }
+    theme: spacelab
+    source_code: embed
+    vertical_layout: fill
+# nice themes: spacelab yeti cerulean
+# available themes: default, cosmo, bootstrap, cerulean, journal, flatly, readable, spacelab, united, lumen, paper, sandstone, simplex, yeti
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(knitr)
+library(kableExtra)
+library(fontawesome)
+```
+
+<style>
+div.note { background-color:#FBDFB4; border-radius: 10px; padding: 20px; margin: 0px 3px 20px}
+</style>
+
+<style>
+div.warning { background-color:#eeac9d; border-radius: 8px; padding: 10px; margin: 0px 3px 10px}
+</style>
+
+
+News {data-icon="fa-bullhorn"}
+=====================================  
+
+This is the new landing page and where we will make announcements for the course. Please check back often :)
+
+General Course News
+--------------------------------------------------
+
+### <font size="5">General Course News</font> 
+
+**Bat Night!** 1930 hours on Monday 20 Jan. 
+
+
+14 Jan
+
+* I reciecved Dryad links for plot-related data repositories. I have no idea yet what is in these repositories. If you are interested in exploring these datasets maybe we can help. 
+  + [Census data from 65 tree plots in Panama, 1994-2015](https://datadryad.org/stash/dataset/doi:10.15146/mdpr-pm59) 25MB
+  + [BCI 50-ha Plot Taxonomy](https://datadryad.org/stash/dataset/doi:10.15146/R3FH61) 196kb
+  + [Complete data from the Barro Colorado 50-ha plot: 423617 trees, 35 years](https://datadryad.org/stash/dataset/doi:10.15146/5xcp-0d46) 287MB
+
+### <font size="5">Website Updates</font> 
+
+19 Jan
+
+* added links to online Tools for Image Manipulation 
+
+
+17 Jan 
+
+* Updated Schedule. Added **Bat night**, 1930 hours. 
+* Added link to Blog site in References & Resources section
+* Added **Awesome Stuff** section to References & Resources section
+
+14 Jan
+
+* Added links to sites I showed you & instructions in how to find the source code in the Resources section. 
+
+* We talked about GitHub for collaboration & version control. In the upper right corner an icon that will direct you to the GitHub repo for this site. For those interested, I can do a small intro to GitHub. 
+
+8 Jan
+
+* Changed layout of Guidebook. All Prep pages are now under **Preparation** dropdown menu.
+* Added and updated **Schedule** pages. 
+
+
+WebPage Project News
+--------------------------------------------------
+
+### <font size="5">WebPage Project</font> 
+
+19 Jan
+
+* added links to online Tools for Image Manipulation on the **Resources** under *References & Resources*
+
+
+17 Jan
+
+* **All Groups**, please upload your project directories to the dropbox folder and make sure all the files are included. 
+
+14 Jan
+
+* We (all?) agreed that the first step in the webpage project was that each group would create a single page for their project
+
+* I will sit down with smaller groups of students to go over the details of how to make a web page. Please, please, please ask me questions if you are confused about something. 
+
+### <font size="5">Random Stuff</font> 
+
+Supplementary tables from [Scaling of insect metabolic rate is inconsistent with the nutrient supply network model](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2435.2007.01245.x).
+
+* [Appendix S1](chown_supp_table_1.txt). Metabolic rate data for eight species of size-polymorphic ants. Temperature refers to experimental temperature. All metabolic rates estimated using flow-through respirometry. 
+
+* [Appendix S2](chown_supp_table_2.txt). Metabolic rates and body masses of insects used in this study. Wing status: 1 = winged; 0 = no wings 
+
+
+Awesome [video](https://www.youtube.com/watch?v=dwHGCMwZwJU) of an *Atta* colony filled with cement. 
+
+
+1. Introduction {data-navmenu="Preparation"}
+=====================================  
+
+Introduction 1 
+--------------------------------------------------
+
+### <font size="5">Overview</font> 
+
+January 13--31 2020  
+Smithsonian Tropical Research Institute  
+Panama
+
+Welcome to NEO-BESS Panama 2020. As part of the course this year, you will each  create a stand-alone HTML webpage using open source platforms. Your page will contain a record of the science you conducted during the course, including interactive tables and figures. The goal is for each of you to document your work and package it all in an HTML page that will be published on-line. 
+
+First off, my name is Jarrod Scott. I am a postdoc at STRI and one of the course instructors. I will be the person in charge of the web project portion of the course. What that means first and foremost is that when you want to yell at someone, I am your guy. I am not a web developer or a coder, I am a biologist like you. I am always looking for better ways to organize, analyze, and communicate my science. I recently started using these tools to make web-based science products and my goal is to get you excited about these tools and help you find ways to use them in your own work. 
+
+<div class = "note">
+<font size="3">With a little practice the tools you learn in this course  can be used to create a range of document types, from a single .html or .pdf file, to multi-page web sites, to books, **presentations**, and even your **thesis or dissertation**.
+</font>
+</div>
+
+Some of you may have far more experience with these tools than I do. That's great--you can help me and help your classmates. If you think something I say doesn't make sense, please say something. I would rather do something the right way than be right about the way I am doing something.
+
+This guidebook will serve as a resource for you as you create your webpage project. As we go through the course, this page will be continually updated with new tips and tricks, useful resources, project goals, etc. You  will all have the opportunity to add stuff to this page so that other students in the course can benefit from what you learn. For now though we will keep it simple and just focus on some bare bones prep work. But please check back here periodically for updates. We will try to make it obvious when new material is added. 
+
+Introduction 2 
+--------------------------------------------------
+
+### <font size="5">Highlights</font> 
+
+
+We will  primarily  use [R Markdown](https://rmarkdown.rstudio.com/) to write the webpage content and  [R](https://www.r-project.org/) / [RStudio](https://rstudio.com/) to build the page. We appreciate that some of you may have no experience at all with these tools and that's OK. Part of the reason we are doing this is that we want you to walk away from this course with tools that you can use moving forward in your graduate career and beyond. I promise that at times it will be frustrating  but I also promise that it will be worth the effort. 
+
+It is worth noting that this guidebook was written using many of the tools you will use in your web project.
+
+<div class = "note">
+<font size="3">Please complete the following before arriving in Panama. See the subsequent document for more details.</font>
+</div>
+
+1) Read this document. It is best to go in order, at least the first time.
+2) Familiarize yourself with R Markdown. Go through [this material](https://rmarkdown.rstudio.com/lesson-1.html) from RStudio first  and then look at *Yihui Xie's* [book on R Markdown](https://bookdown.org/yihui/rmarkdown/). You can download this book as a [pdf](https://bookdown.org/yihui/rmarkdown/rmarkdown.pdf) in case you want to read it on the plane.
+3) Install R, RStudio, and required R packages. See the instructions in section **5. Installing Software**.  
+4) Look at this website for inspiration https://rmarkdown.rstudio.com/ especially the Gallery section.
+5) In your favorite search engine query this search term `R Markdown Cheatsheet`. Download some of the pdfs. These are invaluable.
+
+> **A note** on the format and use of this site. This site was constructed using [flexdashboard](https://rmarkdown.rstudio.com/flexdashboard/). Each page typically has two or more panels and each panel is like its own page. The information is organized left to right. Depending on your screen size, you may need to scroll individual panels to see the full content. 
+
+
+2. Rationale {data-navmenu="Preparation"}
+=====================================  
+
+<font size="4">OK lets justify some of what we will be doing right off the bat.</font>
+
+Rationale 1 
+--------------------------------------------------
+
+### <font size="5">Why should I  make a webpage?</font>
+
+
+#### <font size="5">Accessibility</font>
+
+Many journals and journal articles sit behind pay walls that most people can't access. This sucks, and while it is changing, for now this is the reality. We do our best to publish in open access journals but sometimes this is not possible. So a webpage allows you to share your science with a wider audience. 
+
+#### <font size="5">Information Inclusivity</font>
+
+A typical journal article is just a few pages but we all know  that a lot more goes into a study than what we usually see in print. Even with extensive Supplementary Material, authors are limited with what they can include in their publication. With a webpage you are largely freed from those limitations. A webpage gives you a venue to discuss all of the stuff that didn't make it into your publication and to tell a more complete story of your science. Do you have a gallery of photos from your fieldwork? What about a bunch of statistical tests you tried that didn't work? Or some personal thoughts on the nature of ant behavior? In most cases this  information would be inappropriate for a journal article but it is still *useful and interesting information* to share.
+
+#### <font size="5">Transparency & Reproducibility</font>
+
+Building on the ideas of Information Inclusivity, it is fair to say that an important obligation of all scientists is to make their studies transparent and reproducible. If you publish a study I should, with minimal effort, be able to find your data and employ the same analytical tools you used to reach the same conclusions. There should be no mystery. Sadly this is  often not the case. In my own field of microbial ecology, it can be very difficult to find raw data and and even harder to figure out  exactly how it was analyzed. In addition, without proper documentation, you may even forget how you did something. But if you start all of your projects with a webpage, where you document everything you do no matter how trivial, you can avoid these pitfalls and produce truly reproducible and transparent science.  
+
+Rationale 2 
+--------------------------------------------------
+
+### <font size="5">Why should I use R, RStudio, & R Markdown?</font>
+
+You all know there are many ways to make a website---Squarespace, Wordpress, Wix, and the list goes on. But none of these platforms offer the flexibility, accessibly, usability, and reproducibily like the combination of tools we will use. As with everything there are limitations, but I feel the benefits outweigh the drawbacks. 
+
+
+> Please note. This is not an R course. At least one of us (me) is not an expert in R and teaching R is beyond the scope of the course. However, building a website through the R environment is a great point of entry to the amazing suite of resources this platform offers.
+
+#### R
+
+R is both a software language and an environment for statistical computing and graphics. At some point, you will all need to need to embrace a programming environment to analyze your data  and  summarize your findings using figures, tables, etc. R is certainly not the only way to do this; however coupled with the ability to package everything in a website, I believe this environment offers a valuable suite of tools for your scientific needs. The benefits of R include;  **a**) it is free and open source, **b**) its  capabilities are extended through user-created packages, **c**) it has a huge community of users (which means it is well supported), **d**) it is powerful and flexible.
+
+#### RStudio
+
+RStudio is an integrated development environment ([IDE](https://en.wikipedia.org/wiki/Integrated_development_environment)) for R language. Take a moment to familiarize yourself with the idea of an IDE but basically RStudio provides a holistic environment to utilize the full potential of R, including creating websites and interactive  data products. 
+
+
+#### R Markdown
+
+R Markdown is really the bread and butter of what we will be doing.  R Markdown is a file format for making dynamic documents with R. R Markdown combines the syntax of Markdown with the language and an environment of R. R Markdown documents are written in [Markdown](https://en.wikipedia.org/wiki/Markdown)---a “lightweight” [markup language](https://en.wikipedia.org/wiki/Markup_language) (like HTML), that uses a relatively simple syntax to facilitate the *transformation* of human-readible text files into .html or .pdf documents. What this means is that rather than writing HTML and CSS code to make a website, you  write your content in Markdown, which is then translated (by RStudio in this case) to web content. R code is embedded within code chunks that RStudio can idetify as code. RStudio/R then runs the code and renders the output within the HTML file. 
+
+> Before we get to the R part we first need to take a look at the Markdown component. Go to Part 3 to see some example of Markdown text. 
+
+3. Markdown {data-navmenu="Preparation"}
+=====================================  
+
+Markdown 1 
+--------------------------------------------------
+
+### <font size="5">Markdown Syntax</font>
+
+<br/>
+
+Here is a simple  example of Markdown content. All of the text in the box below is interpreted as Markdown code.
+
+***
+
+```
+Headers lines start with hashtags (#) followed by a space and then header text.
+
+# This is a first level header
+
+## This is a second level header
+
+### And a third level header
+
+Here is some regular text. You write this just like you would any text. If you want to bold something, wrap the text in **double astericks** or if you want italics wrap the text in *single astericks*. 
+
+To make an unordered list start the line with a single asterick followed by a space and some text. You can also add a sublist by indenting and adding a plus (+) sign.
+
+* first list item
+* second list item
+  + sub-item 1 
+  + sub-item 2
+
+To make an ordered list start the line with a number followed by a space and some text. 
+
+1. ordered list
+2. item 2
+
+Here is the code for a simple table.
+
+Header1 | Header2
+------------- | -------------
+Table Cell | Cell 2
+Cell 3 | Cell 4 
+
+Embedding hyperlinks is also easy. Just wrap the display text in square brakets ([]) and the link in parentheses (()).
+
+* [R Markdown](https://rmarkdown.rstudio.com/)
+* [Github](www.github.com)
+* [Girih tiling](https://girihdesigner.com/)
+
+```
+
+Markdown 2
+--------------------------------------------------
+
+### <font size="5">Rendered as HTML</font>
+
+<br/>
+
+Now lets see what this looks like when it is render to HTML by RStudio. What you see below is how RStudio interprets the Markdown code. Take a moment to compare the code on the left with the output on the right.
+
+***
+
+Headers lines start with hash tags (#) followed by a space and then header text.
+
+<font size="7">This is a first level header</font>
+
+<font size="6">This is a second level header</font>
+
+<font size="5">And a third level header</font>
+
+Here is some regular text. You write this just like you would any text. If you want to bold something wrap the text in **double asterisks** or if you want italics wrap the text in *single asterisks*. 
+
+To make an unordered list start the line with a single asterisk followed by a space and some text. You can also add a sublist by indenting and adding a plus (+) sign.
+
+* first list item
+* second list item
+  + sub-item 1 
+  + sub-item 2
+
+To make an ordered list start the line with a number followed by a space and some text. 
+
+1. ordered list
+2. item 2
+
+Here is the code for a simple table.
+
+Header1 | Header2
+------------- | -------------
+Table Cell | Cell 2
+Cell 3 | Cell 4 
+
+Embedding hyperlinks is also easy. Just wrap the display text in square brakets (**\[\]**) and the link in parentheses (**()**).
+
+* [R Markdown](https://rmarkdown.rstudio.com/)
+* [Github](www.github.com)
+* [Girih tiling](https://girihdesigner.com/)
+
+
+
+4. R Markdown {data-navmenu="Preparation"}
+=====================================  
+
+R Markdown 1 
+--------------------------------------------------
+
+### <font size="5">Example R Markdown Code</font>
+
+Awesome. This really just scratches the surface of Markdown but hopefully you can see that with just a little knowledge of the syntax you can create nicely  formatted HTML text. 
+
+Now that we know a little about Markdown lets add the  R part. This is where the true power of this  whole concept comes into view. R Markdown is a an R package---a set of tools that are deeply embedded in RStudio. R Markdown  facilitates the construction of documents that combine text (written in Markdown), R code, and the output from the execution of that code.
+
+<div class = "note">
+<font size="3">R Markdown  integrates the concepts of [literate programming](https://en.wikipedia.org/wiki/Literate_programming) and [reproducible research](https://en.wikipedia.org/wiki/Reproducibility), which, in addition to explaining or documenting itself, also allows others (including an original investigator) to reproduce a data analysis or other research result.
+</font>
+</div>
+
+
+Lets see how this is done. We can use a built-in R package to demonstrate some functionality. Usually you  run R code in a special internal environment called a *code chunk*. The formatting of the chuck tells RStudio that this is R code and that it needs to be run as code and not only rendered as HTML  (we will go over this in detail later). Within a code chunk lines beginning with a hash tag (#) are comments for annotation purposes and will not be analyzed.
+
+#### An R code chunk written in R Markdown
+
+To initiate an R code in your document there is a specific syntax you must use. This is generally called a **code chunk**. The format of the code chunk is as follows:
+
+1) begin with three backticks (on a mac this is the upper left key), then open curly braket, then the name of the language (in this case R), followed by a closed curly braket, and finally a line break. This tells RStudio this is R code. OPTIONAL: you can also include *code chunk options*. We will discuss this more in class but it is definately worth reading about ahead of time. See [here](https://rmarkdown.rstudio.com/lesson-3.html) for a brief intro.
+
+2) On subsequent lines you write the R code like normal. Add a final line break
+
+3) You can add comments for annotation purposes by beginning the line with a hashtag. RStudio will not interpret this as code.  
+
+4) End with three backticks. 
+
+<pre><code>```{r chunk options}
+# First we load the R package ggplot2
+library(ggplot2)
+# Which contains a mock dataset called 'cars'
+# We can summarize the data in the datset
+# And we get a simple summary output of the data
+summary(cars)
+# And we plot say dist by speed
+qplot(speed, dist, data=cars) + geom_smooth()
+```</code></pre>
+````
+
+R Markdown 2
+--------------------------------------------------
+
+### <font size="5">Summary Output</font>
+
+This code chunk will first evaluate code `summary(cars)` and output a simple summary of the dataset. 
+
+```{r}
+library(ggplot2)
+summary(cars)
+```
+
+Next RStudio will evaluate the `qplot(speed, dist, data=cars) + geom_smooth()` code and generate a nice little plot. This is simply not possible in other website platforms that I know of. When you render a real document, the figure is embedded in the HTML file as code so  there is no extra figure file. If at some point you want to change the code slightly you can just re-render the file and your page is updated with a new figure.  
+
+### <font size="5">Graph Output</font>
+
+
+```{r}
+qplot(speed, dist, data=cars) + geom_smooth()
+````
+
+
+5. Installing Software {data-navmenu="Preparation"}
+=====================================  
+
+Installing Software 1 
+--------------------------------------------------
+
+### <font size="5">Install R</font>
+
+<br/>
+
+<div class = "warning">
+<font size="3">You must install R before anything else.
+</font>
+</div>
+
+1) Go to https://www.r-project.org/
+2) At the top of the page under Getting Started click on the [download R](http://cran.r-project.org/mirrors.html) link.
+3) Select a mirror site to download R. It doesn't matter which one. A mirror site is an exact duplicate of the main site and is just designed to relive web traffic. 
+4) If possible, you want to download and install a precompiled binary distribution. Select your OS at the top of the page under **Download and Install R**.  
+5) If you have a Mac OS X just click on the `.pkg` file to download and install. Other OS require additional steps. 
+6) Test your install. Open R and type `sessionInfo()`. If you don't get an error then the install is probably good. 
+
+
+### <font size="5">Install RStudio</font>
+
+<br/>
+
+<div class = "warning">
+<font size="3">You must install R before RStudio.
+</font>
+</div>
+
+
+1) Go to https://rstudio.com/ and hit [Download](https://rstudio.com/products/rstudio/download/).
+2) Scroll down and hit the **Download** button under RStudio Desktop Free.
+3) Choose you operating system and install RStudio.
+
+Installing Software 3
+--------------------------------------------------
+
+### <font size="5">Installing R Packages</font>   {data-height=1000}
+
+<br/>
+
+<div class = "warning">
+<font size="3">I use R instead of RStudio to install all my packages. I have found this prevents any conflicts with installation location. I suggest you do the same.
+</font>
+</div>
+
+
+R packages can be found in  several places including GitHub and The Comprehensive R Archive Network, or CRAN. On CRAN alone there are over 15,000 [packages](https://cran.r-project.org/web/packages/available_packages_by_name.html) available. You will need a few packages to get going with you web project and you will likely install several more as the need arises.
+
+I have no idea what comes prepackaged with R. So before you install any packages run the `library(PACKAGE_NAME)` command first. if you do not get an error that means the package is already installed. 
+Here is a list to start with:
+
+* `library(rmarkdown)` if you see `Error in library(rmarkdown) : there is no package called ‘rmarkdown’` then run `install.packages('rmarkdown')`. Depending on your R install, you may have to wrap the package name in single or double quotes when installing. Just play around with it.
+
+* `library(knitr)` or `install.packages('knitr')` if you get an error.
+
+* `library(DT)` or `install.packages('DT')`
+
+* `library(ggplot2)`  or `install.packages('ggplot2')`
+
+
+If you have problems with any of these step, we will try to help. But please know that at least one of us (me) knows nothing about Windows operating systems. We will be in a computationally remote area so please try to take care of any major issues before arriving :)
+
+
+### <font size="5">Other Installs</font>
+
+* A good text editor like [Atom](https://atom.io/), [BBEdit](http://www.barebones.com/products/bbedit/), [Sublime](https://www.sublimetext.com/), etc. Personally I do not pay for software (esp. a subscription) unless I absolutely have to. Many proprietary packages have free trials that don't ever seem to end. If I like something a lot I will buy it. 
+
+* A good Markdown editor like [MacDown](https://macdown.uranusjr.com/).
+
+Resources  {data-icon="fa-book"}
+=====================================  
+
+Resources 1
+--------------------------------------------------
+
+### <font size="5">Awesome stuff</font>
+
+#### Cast of *Atta* colony
+
+Check out this gnarly [video](https://www.youtube.com/watch?v=dwHGCMwZwJU) of an *Atta* colony filled with cement. 
+
+### <font size="5">Tips & Tricks</font>
+
+#### Getting Help
+
+When you need help the web is your friend. [Stackoverflow](https://stackoverflow.com/) is one of the best resources. If you have a problem, chances are pretty good it has been addressed on Stackoverflow. To learn more about a specific R package you can look at the help pages (each package should have one). In the R terminal or the `Console` window of RStudio type `?packageName` to see the help page. For example, try `?rmarkdown` to see the R markdown help menu.
+
+If you get stuck on a problem or want some advice on how to proceed you can always ask  one of the instructors or your classmates. Just make sure you have put in the legwork and have given the problem some thought. 
+
+#### Useful Code & other Tidbits
+
+We will use this space to add solutions that we come up with along the way. When you have something to contribute please provide a brief explaination of the problem and solution.
+
+* <font size="4">Render often</font> and <font size="4">run code chunks</font> as you write them. This will make it so much more straightforward to troubleshoot bugs in your code.
+
+Resources 2
+--------------------------------------------------
+
+### <font size="5">References & Resources</font> 
+
+We will use this space to add use reference and resources  that we come up with along the way. When you have something to contribute please provide a brief explaination of the resource.
+
+#### Tools for Image Manipulation
+
+* Online [photo editor](https://www.befunky.com/create/photo-editor/)
+* Online [image compression](https://www.websiteplanet.com/webtools/imagecompressor/)
+* Online [color wheel](https://www.canva.com/colors/color-wheel/)
+* [a few tips for R Markdown](https://holtzy.github.io/Pimp-my-rmd/)
+
+#### NEO-BESS Blog Site
+
+Here is the link for the [blog site](https://strineoigert.wordpress.com).
+
+#### Example Web Pages
+
+Here are some of the web projects I shared with you. Look for the `r fa("github", height = "25px")` GitHub icon on each of these pages for links to the R Markdown source code.
+
+* [projectDIGEST](https://projectdigest.github.io/) Website for our fish-gut microbiome paper.
+* [Single page HTML](https://istmobiome.github.io/DIGEST/Phyloseq_workflow.html) workflow and [source code](https://github.com/istmobiome/istmobiome.github.io/blob/master/DIGEST/Phyloseq_workflow.Rmd).
+* [Slide show](https://istmobiome.github.io/board-meeting-talk-01-05-2020_files/board-meeting-talk-01-05-2020.html#1) A super simple slide show I made using the [xaringan](https://github.com/yihui/xaringan) package. I mean, it's called *Presentation Ninja*. 
+* [The class resouce website](https://istmobiome.github.io/neo-bess/web-guide.html). Look in the upper right corner. 
+
+#### RStudio
+
+* Link to download RStudio. https://rstudio.com/products/rstudio/download/
+* Various RStudio cheatsheats. Available for download as pdfs.  https://rstudio.com/resources/cheatsheets/ 
+* `knitr` cheatsheet. https://cran.r-project.org/web/packages/knitr/vignettes/knitr-refcard.pdf 
+
+
+#### R Markdown
+
+* R Markdown Quick Tour https://rmarkdown.rstudio.com/authoring_quick_tour.html
+* A great intro to R Markdown. https://rmarkdown.rstudio.com/lesson-1.html 
+* The Definitive R Markdown Guide. https://bookdown.org/yihui/rmarkdown/
+* R Markdown formats. HTML is just the tip of the iceberg. https://rmarkdown.rstudio.com/formats.html
+
+
+
+#### Next-level web resources
+
+* blogdown: Creating more sophisticated Websites with R Markdown https://bookdown.org/yihui/blogdown/
+* Interneting Is Hard. An awesome free course on HTML and CSS for more advanced customization of your site. https://internetingishard.com/html-and-css/
+
+#### General resources
+
+* Freely available HTML, PDF, ePub, and Kindle books about R topics writen in the R Markdown package `bookdown` https://bookdown.org/
+
+
+Detailed Schedule {data-navmenu="Schedule" data-icon="fa-calendar"}
+=====================================  
+
+```{r schedule_d}
+attend <- read.csv("schedule_long.txt", header = TRUE, sep = "\t", check.names = FALSE)
+knitr::kable(attend) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive"))
+```
+
+
+Schedule  {data-navmenu="Schedule" data-icon="fa-calendar"}
+=====================================  
+
+```{r schedule_b}
+attend <- read.csv("schedule_brief.txt", header = TRUE, sep = "\t", check.names = FALSE)
+knitr::kable(attend) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive")) %>%
+  row_spec(c(3, 9, 18, 24, 25), bold = T, color = "white", background = "#0072B2")
+```
+
+

@@ -68,15 +68,13 @@ I study [microbial diversity](#pubs).  My approach is holistic, spanning [marine
 Current Appointment {data-concise=true}
 --------------------------------------------------------------------------------
 
-### STRI/Moore Foundation Postdoctoral Fellow
+### Research Associate
 
 Smithsonian Tropical Research Institute
 
 Panama
 
-2017 - 2022
-
-- Microbial ecology of coral reefs & mangrove ecosystems across the Isthmus of Panama. The Eastern Pacific & Western Atlantic.
+2022 - 
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -100,6 +98,16 @@ Austin, Texas USA
 
 Prior Research Positions {data-icon=compass}
 --------------------------------------------------------------------------------
+
+### STRI/Moore Foundation Postdoctoral Fellow
+
+Smithsonian Tropical Research Institute
+
+Panama
+
+2017 - 2022
+
+- Microbial ecology of coral reefs & mangrove ecosystems across the Isthmus of Panama. The Eastern Pacific & Western Atlantic.
 
 ### Postdoctoral Research Associate
 
@@ -378,13 +386,22 @@ From model organisms to ecosystems: scaling-up our understanding of host-microbe
 Web Products {data-icon=globe data-concise=true #web}
 --------------------------------------------------------------------------------
 
+### [R Markdowng Fielduide](https://stri-mcgill-neo.github.io/2022/)
+
+Web project guide book for 2022 STRI-McGill NEO Tropical Biology Field Course. 
+
+Panama
+
+2022
+
+
 ### [SWELTR](https://sweltr.github.io/high-temp/)
 
 Reproducible bioinformatic workflows for the study **S**oil **W**arming **E**xperiment in **L**owland **T**ropical **R**ainforest. 
 
 Barro Colorado Island, Panama
 
-2021
+2022
 
 ::: aside
 Reproducible Workflows
@@ -473,7 +490,6 @@ Website for course on using open-source software tools to create web-based repro
 Panama
 
 2020
-
 
 ### [Web Project Guide](https://istmobiome.github.io/neo-bess/web-guide.html)
 
