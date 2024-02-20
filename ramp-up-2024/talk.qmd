@@ -1,5 +1,5 @@
 ---
-title: "Open Scholarship  Workshop"
+title: "Open Scholarship Workshop"
 subtitle: "R, Markdown, & Quarto"
 format:
   revealjs: 
