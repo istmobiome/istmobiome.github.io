@@ -1,0 +1,348 @@
+---
+title: "Open Scholarship  Workshop"
+subtitle: "R, Markdown, & Quarto"
+format:
+  revealjs: 
+    theme: dark
+    preview-links: true
+    chalkboard: true
+bibliography: cite.bib
+standalone: true
+---
+
+```{r}
+#| eval: true
+#| echo: false
+
+pacman::p_load(tidyverse, fontawesome, scholar, rcrossref,
+               webdriver, rvest,
+               install = FALSE, update = FALSE)
+
+```
+
+# Open Scholarship
+
+Rationale and Definition
+
+## Motivation
+
+`r fa(name = "quote-left", fill = "steelblue", height = "36px")` More than 70% of researchers have tried and failed to reproduce another scientist's experiments, and more than half have failed to reproduce their own experiments. Those are some of the telling figures that emerged from Nature's survey of 1,576 researchers who took a brief online questionnaire on reproducibility in research. `r fa(name = "quote-right", fill = "steelblue", height = "36px")` [@baker20161][^1]
+
+[^1]: As of today, this article has been cited at least **`r cr_citation_count(doi = "10.1038/533452a")$count`** times. To get the number of citations for this article I used the function `cr_citation_count` from the [`rcrossref`](https://cran.r-project.org/web/packages/rcrossref/index.html) package. The function takes a Digital Object Identifier (DOI) as the input and searches CrossRef OpenURL to return the number of citations.
+
+## Some definitions {.smaller}
+
+According to this article in Science Translational Medicine, reproducibility …
+
+> `r fa(name = "quote-left", fill = "steelblue", height = "36px")` … \[is a\] set of procedures that permit the reader of a paper to see the entire processing trail from the raw data and code to figures and tables. `r fa(name = "quote-right", fill = "steelblue", height = "36px")` [@goodman2016does]
+
+Or the U.S. National Science Foundation (NSF) defines it this way …
+
+> `r fa(name = "quote-left", fill = "steelblue", height = "36px")` … refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator. `r fa(name = "quote-right", fill = "steelblue", height = "36px")` [@cacioppo2015social]
+
+## Main principles
+
+```{r}
+#| fig-align: center
+
+knitr::include_graphics("images/open.jpg")
+```
+
+# Examples
+
+## Publication Workflows {.smaller}
+
+Publication: [*Microbial diversity declines in warmed tropical soil and respiration rise exceed predictions as communities adapt*](https://www.nature.com/articles/s41564-022-01200-1){preview-link="false"}
+
+Workflow: [SWELTR](https://sweltr.github.io/high-temp/) created in the [Quarto](https://quarto.org/) framework.
+
+<hr>
+
+Publication: [*Rapid ecosystem-scale consequences of acute deoxygenation on a Caribbean reef.*](https://www.nature.com/articles/s41467-021-24777-3){preview-link="false"}
+
+Workflow: [Hypocolypse](https://hypocolypse.github.io/) created using [Distll](https://rstudio.github.io/distill/).
+
+<hr>
+
+Publication: [*Intestinal microbes as an axis of functional diversity among large marine consumers.*](https://royalsocietypublishing.org/doi/10.1098/rspb.2019.2367){preview-link="false"}
+
+Workflow: [ProjectDIGEST](https://projectdigest.github.io/) created using native R Markdown.
+
+::: footer
+All source code hosted on GitHub and freely available.
+:::
+
+## 
+
+```{r}
+#| fig-align: center
+
+knitr::include_graphics("images/statement.png")
+```
+
+## 
+
+```{r}
+#| fig-align: center
+
+knitr::include_graphics("images/metal_af.png")
+```
+
+## Other R Markdown examples {.smaller}
+
+[The Istmobiome Project](https://istmobiome.rbind.io/) Project site created with [blogdown](https://bookdown.org/yihui/blogdown/) and [Hugo](https://gohugo.io/).
+
+<hr>
+
+[Cacao Fermentation](https://istmobiome.github.io/cacao/talk.html#/) Presentation created using [reveal.js](https://github.com/hakimel/reveal.js).
+
+<hr>
+
+[How the Isthmus of Panama changed the world](https://istmobiome.github.io/the-isthmus/the-isthmus.html) Presentation created with the [xaringan](https://github.com/yihui/xaringan) package.
+
+<hr>
+
+[R Markdown Fieldguide](https://stri-mcgill-neo.github.io/2022/) R Markdown tutorial website for the 2022 STRI-McGill NEO field course. Made with the [Distill](https://rstudio.github.io/distill/) blog template.
+
+<hr>
+
+[Interactive fish phylogeny](https://istmobiome.rbind.io/project/betancur-r-fish-tree/) Workflow on database scraping and visualization.
+
+<hr>
+
+My [CV](https://istmobiome.github.io/jarrod/jarrod-cv.html) created using [pagedown](https://github.com/rstudio/pagedown).
+
+::: footer
+All source code hosted on GitHub and freely available.
+:::
+
+# Quarto
+
+An open-source scientific and technical publishing system
+
+## Rendering Process {.smaller}
+
+```{r}
+#| fig-align: center
+
+knitr::include_graphics("images/flow.jpg")
+```
+
+1.  Quarto document (`.qmd`) contains code and Markdown formatted text.
+2.  [`knitr`](https://yihui.org/knitr/) executes all the R code, knits the results together with Markdown text, and creates a new Markdown document.
+3.  The new Markdown document is then processed by [PanDoc](https://pandoc.org/){preview-link="false"}, which converts the Markdown syntax into HTML and CSS code. PanDoc is like a swiss-army knife for Markdown—it can covert many types of Markdown documents into a variety of other formats. All of these steps happen behind the scenes. As long as you have a properly formatted R Markdown document, these tools will take care of the rest.
+
+# Markdown
+
+## Defined
+
+[Markdown](https://www.markdownguide.org/) is a "*lightweight markup language with plain-text-formatting syntax.*"
+
+What this means is that Markdown is easy-to-write using any generic text editor and easy-to-read in its raw form.
+
+## Headings {.smaller}
+
+To create a heading, add pound signs (`#`) in front of a word or phrase. The number of pound signs you use should correspond to the heading level you want. There are 6 header levels. Level 1 is the largest and mostly used for titles. Level 6 is the smallest. **Always put a space between the number signs and the heading name.**
+
+| Markdown           | HTML                 |
+|--------------------|----------------------|
+| `# Header L1`      | `<h1>Header L1</h1>` |
+| `## Header L2`     | `<h2>Header L2</h2>` |
+| `### Header L3`    | `<h3>Header L3</h3>` |
+| `#### Header L4`   | `<h4>Header L4</h4>` |
+| `##### Header L5`  | `<h5>Header L5</h5>` |
+| `###### Header L6` | `<h6>Header L6</h6>` |
+
+## Emphasis {.smaller}
+
+Emphasis can be added by making text **bold** or *italic*.
+
+#### Bold
+
+Add two asterisks (`**`) before and after a word or phrase.
+
+| Markdown                 | HTML                                  | Rendered Output      |
+|----------------------|-------------------------------|-------------------|
+| Bold text \*\*rocks\*\*. | Bold text \<strong\>rocks\</strong\>. | Bold text **rocks**. |
+
+#### Italic
+
+Add one asterisk (`*`) before and after a word or phrase.
+
+| Markdown                     | HTML                                  | Rendered Output            |
+|----------------------|----------------------------|---------------------|
+| Italicized text is \*cool\*. | Italicized text is \<em\>cool\</em\>. | Italicized text is *cool*. |
+
+## 
+
+#### Bold and Italic {.smaller}
+
+To emphasize text with **bold** and *italics* at the same time, add three asterisks (`***`) .
+
+| Markdown                                   | HTML                                                             | Rendered Output                      |
+|----------------------|-------------------------------|-------------------|
+| This text is \*\*\*really important\*\*\*. | This text is \<em\>\<strong\>really important\</strong\>\</em\>. | This text is ***really important***. |
+
+## Lists
+
+You can organize items into **ordered** and **unordered** lists.
+
+## Ordered Lists {.smaller .scrollable}
+
+Add line items with numbers followed by periods. Numbers don’t have to be in numerical order. If list starts with 1 subsequent list items will be rendered in sequential order. Whatever number you start with becomes the smallest number in the list.
+
+| Markdown                                              | Rendered Output                                           |
+|-----------------------------------|-------------------------------------|
+| 1\. First item <br> 2. Second item <br> 3. Third item | 1\. First item <br> 2. Second item <br> 3. Third item<br> |
+| 1\. First item <br> 1. Second item <br> 1. Third item | 1\. First item <br> 2. Second item <br> 3. Third item<br> |
+| 1\. First item <br> 9. Second item <br> 2. Third item | 1\. First item <br> 2. Second item <br> 3. Third item<br> |
+| 5\. First item <br> 1. Second item <br> 9. Third item | 5\. First item <br> 6. Second item <br> 7. Third item<br> |
+
+## Unordered Lists {.smaller .scrollable}
+
+To create an unordered list, add a dash (`-`), an asterisk (`*`), or a plus sign (`+`) in front of line items followed by a space.
+
+| Markdown                                             | Rendered Output                                       |
+|------------------------------------|------------------------------------|
+| \- First item <br> - Second item <br> - Third item   | • First item <br> • Second item <br> • Third item<br> |
+| \* First item <br> \* Second item <br> \* Third item | • First item <br> • Second item <br> • Third item<br> |
+| \+ First item <br> + Second item <br> + Third item   | • First item <br> • Second item <br> • Third item<br> |
+
+## Adding a blockquote {.smaller}
+
+```         
+1. This is the first list item.
+2. Here's the second list item.
+
+     > A blockquote would look great below the second list item.
+
+3. And here's the third list item.
+```
+
+The rendered output looks like this:
+
+1.  This is the first list item.
+
+2.  Here's the second list item.
+
+    > A blockquote would look great below the second list item.
+
+3.  And here's the third list item.
+
+# Adding Code
+
+## Naming Things
+
+> Goal is to ensure your files are Machine and Human readable.
+
+This applies to:
+
+-   files
+-   directories
+-   variables
+-   tabular data (row and column names)
+
+## Do not use spaces to separate words
+
+Kebab case: Words delimited by a hyphen (`-`).
+
+```         
+file-one
+variable-two
+```
+
+Snake case: Words delimited by an underscore (`_`).
+
+```         
+file_one
+variable_two
+```
+
+Pascal case: Words delimited by capital letters.
+
+```         
+FileOne
+VariableTwo
+```
+
+Camel case: Words delimited by capital letters, except the initial word.
+
+```         
+fileOne
+variableTwo
+```
+
+## Special characters
+
+**Never** use *special characters* in your file name
+
+(e.g., `* # : \ / < > | " ? [ ] ; , = + & £ $` , and so on).
+
+Many symbols are prohibited and a lot of software will reject files that contain these symbols.
+
+Letters and numbers only.
+
+# In the evening
+
+## Code chunk anatomy
+
+```{r}
+#| fig-align: center
+
+knitr::include_graphics("images/chunk.jpg")
+```
+
+## Code chunk anatomy
+
+::: {layout="[[-1], [-1], [1], [-1]]"}
+```{r}
+#| fig-align: center
+
+knitr::include_graphics("images/flow.jpg")
+```
+:::
+
+## [MathJax](https://www.mathjax.org/) render equations to HTML
+
+::: panel-tabset
+### Code
+
+```{verbatim}
+
+$$
+\begin{cases}
+\dot{x}  = \sigma(y-x)  \\
+\dot{y} = \rho x - y - xz  \\
+\dot{z} = -\beta z + xy
+\end{cases}
+$$
+
+\begin{gather*}
+e^{i\pi} + 1 = 0
+\end{gather*}
+
+\begin{align}
+f(k) = {n \choose k} p^{k} (1-p)^{n-k}
+\end{align}
+```
+
+### Output
+
+$$
+\begin{cases}
+\dot{x}  = \sigma(y-x)  \\
+\dot{y} = \rho x - y - xz  \\
+\dot{z} = -\beta z + xy
+\end{cases}
+$$ \begin{gather*}
+e^{i\pi} + 1 = 0
+\end{gather*}
+
+```{=tex}
+\begin{align}
+f(k) = {n \choose k} p^{k} (1-p)^{n-k}
+\end{align}
+```
+:::
+
+##  {.references}
