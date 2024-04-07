@@ -285,6 +285,20 @@ Extensive surveys & excavations of Mayan archaeological sites in  lowland tropic
 
 Recent Teaching Experience {data-icon=chalkboard-teacher #teach}
 --------------------------------------------------------------------------------
+### Instructor
+
+STRI-McGill NEO Tropical Biology Field Course 
+
+Panama
+
+2024
+
+::: concise
+- Guide project design & implementation. 
+- Reproducible analytical workflows using R Markdown. 
+- Assist students with field work.
+- Natural history of neotropical marine & terrestrial ecosystems.
+:::
 
 ### Data Specialist & Project Coordinator
 
@@ -323,7 +337,7 @@ Panama
 Online course about creating web-based reproducible workflows using open source software tools and platforms. The course website can be found [here](https://stri-con.github.io/data-curation/). 
 
 
-### Course Instructor
+###  Instructor
 
 STRI-McGill NEO Tropical Biology Field Course 
 
@@ -652,6 +666,16 @@ Panama
 
 Peer Reviewed Publications {data-icon=file #pubs}
 --------------------------------------------------------------------------------
+
+### Contrasting drivers of abundant phage and prokaryotic communities revealed in diverse coastal ecosystems.
+
+[ISME Communications 3, 127 (2023)](https://doi.org/10.1038/s43705-023-00333-6) 
+
+N/A
+
+2023
+
+Weinheimer AR, Aylward FO,  Leray M, **Scott JJ**
 
 ### Microbial diversity declines in warmed tropical soil and respiration rise exceed predictions as communities adapt.
 
