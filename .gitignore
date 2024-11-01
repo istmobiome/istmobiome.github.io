@@ -1,9 +1,10 @@
+###############################
 ## TEMPORARY FILES TO IGNORE ##
-
+###############################
 hugo-academic/
 neo-bess_long_form/
 web_backup_*/
-
+#############################
 ## General files to ignore ##
 #############################
 # History files
